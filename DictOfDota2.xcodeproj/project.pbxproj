@@ -19,6 +19,7 @@
 		A17BF72B18F4C2450006D2E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17BF71318F4C2440006D2E7 /* UIKit.framework */; };
 		A17BF73318F4C2450006D2E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17BF73118F4C2450006D2E7 /* InfoPlist.strings */; };
 		A17BF73518F4C2450006D2E7 /* DictOfDota2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BF73418F4C2450006D2E7 /* DictOfDota2Tests.m */; };
+		A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18109B318F990AD001DD38D /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A17BF73018F4C2450006D2E7 /* DictOfDota2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DictOfDota2Tests-Info.plist"; sourceTree = "<group>"; };
 		A17BF73218F4C2450006D2E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A17BF73418F4C2450006D2E7 /* DictOfDota2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictOfDota2Tests.m; sourceTree = "<group>"; };
+		A18109B318F990AD001DD38D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				A17BF71E18F4C2440006D2E7 /* AppDelegate.h */,
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
+				A18109B318F990AD001DD38D /* MainStoryboard.storyboard */,
 				A17BF72118F4C2440006D2E7 /* Images.xcassets */,
 				A17BF71618F4C2440006D2E7 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
 				A17BF72218F4C2440006D2E7 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				A17BF73A18F4C2450006D2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A17BF73B18F4C2450006D2E7 /* Build configuration list for PBXNativeTarget "DictOfDota2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				A17BF73D18F4C2450006D2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
