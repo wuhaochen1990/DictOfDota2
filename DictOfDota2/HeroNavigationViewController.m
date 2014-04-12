@@ -10,6 +10,11 @@
 #import "HeroCell.h"
 #include "HeroCategory.h"
 @interface HeroNavigationViewController ()
+{
+    NSArray *strHeroImage;
+    NSArray *agiHeroImage;
+    NSArray *intHeroImage;
+}
 
 @end
 
@@ -27,8 +32,74 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
 }
+//collection data set
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 3;
+}
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    switch (section) {
+        case 0:
+            return [strHeroImage count];
+            break;
+        case 1:
+            return [strHeroImage count];
+            break;
+        case 2:
+            return [strHeroImage count];
+            break;
+        default:
+            break;
+    }
+    return 0;
+}
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    HeroCell *hero = [collectionView dequeueReusableCellWithReuseIdentifier:@"HeroID" forIndexPath:indexPath];
+    if (indexPath.section == 1) {
+        [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+    }
+    switch (indexPath.section) {
+        case 0:
+            [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            break;
+        case 1:
+            [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            break;
+        case 2:
+            [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            break;
+        default:
+            break;
+    }
+    
+    return hero;
+}
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    HeroCategory *header = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeroHeader" forIndexPath:indexPath];
+    switch (indexPath.section) {
+        case 0:
+            header.HeroCategoryLabel.text = @"Strength Hero";
+            break;
+        case 1:
+            header.HeroCategoryLabel.text = @"Agility Hero";
+            break;
+        case 2:
+            header.HeroCategoryLabel.text = @"Intelligence Hero";
+            break;
+        default:
+            break;
+    }
+    return header;
+}
+
+
+//end of collection data set
 
 - (void)didReceiveMemoryWarning
 {
