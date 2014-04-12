@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HeroNavigationViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UICollectionView *HeroCollection;
 
 @end

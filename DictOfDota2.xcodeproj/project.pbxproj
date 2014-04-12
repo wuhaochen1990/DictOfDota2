@@ -21,6 +21,8 @@
 		A17BF73518F4C2450006D2E7 /* DictOfDota2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BF73418F4C2450006D2E7 /* DictOfDota2Tests.m */; };
 		A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18109B318F990AD001DD38D /* MainStoryboard.storyboard */; };
 		A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18109B618F9930F001DD38D /* HeroNavigationViewController.m */; };
+		A18109BA18F995F7001DD38D /* HeroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18109B918F995F7001DD38D /* HeroCell.m */; };
+		A18109BD18F9986A001DD38D /* HeroCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A18109BC18F9986A001DD38D /* HeroCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A18109B318F990AD001DD38D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A18109B518F9930F001DD38D /* HeroNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroNavigationViewController.h; sourceTree = "<group>"; };
 		A18109B618F9930F001DD38D /* HeroNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroNavigationViewController.m; sourceTree = "<group>"; };
+		A18109B818F995F7001DD38D /* HeroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroCell.h; sourceTree = "<group>"; };
+		A18109B918F995F7001DD38D /* HeroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroCell.m; sourceTree = "<group>"; };
+		A18109BB18F9986A001DD38D /* HeroCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroCategory.h; sourceTree = "<group>"; };
+		A18109BC18F9986A001DD38D /* HeroCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,10 @@
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
 				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
 				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
+				A18109BB18F9986A001DD38D /* HeroCategory.h */,
+				A18109BC18F9986A001DD38D /* HeroCategory.m */,
+				A18109B818F995F7001DD38D /* HeroCell.h */,
+				A18109B918F995F7001DD38D /* HeroCell.m */,
 				A18109B318F990AD001DD38D /* MainStoryboard.storyboard */,
 				A17BF72118F4C2440006D2E7 /* Images.xcassets */,
 				A17BF71618F4C2440006D2E7 /* Supporting Files */,
@@ -251,6 +261,8 @@
 				A17BF72018F4C2440006D2E7 /* AppDelegate.m in Sources */,
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
 				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
+				A18109BD18F9986A001DD38D /* HeroCategory.m in Sources */,
+				A18109BA18F995F7001DD38D /* HeroCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

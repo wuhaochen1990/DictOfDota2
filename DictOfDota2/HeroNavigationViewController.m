@@ -7,7 +7,8 @@
 //
 
 #import "HeroNavigationViewController.h"
-
+#import "HeroCell.h"
+#include "HeroCategory.h"
 @interface HeroNavigationViewController ()
 
 @end
