@@ -32,6 +32,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //import hero image
+    
+    NSFileManager *fileManager;
+    fileManager = [NSFileManager defaultManager];
+    strHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/strength" error:nil];
     
     
 }
@@ -60,12 +65,11 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     HeroCell *hero = [collectionView dequeueReusableCellWithReuseIdentifier:@"HeroID" forIndexPath:indexPath];
-    if (indexPath.section == 1) {
-        [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
-    }
+    
     switch (indexPath.section) {
         case 0:
             [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            NSLog([strHeroImage objectAtIndex:indexPath.item]);
             break;
         case 1:
             [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
