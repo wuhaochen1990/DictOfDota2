@@ -14,6 +14,7 @@
     NSArray *strHeroImage;
     NSArray *agiHeroImage;
     NSArray *intHeroImage;
+    
 }
 
 @end
@@ -37,8 +38,8 @@
     NSFileManager *fileManager;
     fileManager = [NSFileManager defaultManager];
     strHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/strength" error:nil];
-    
-    
+    agiHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/agility" error:nil];
+    intHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/intelligence" error:nil];
 }
 //collection data set
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
@@ -52,10 +53,10 @@
             return [strHeroImage count];
             break;
         case 1:
-            return [strHeroImage count];
+            return [agiHeroImage count];
             break;
         case 2:
-            return [strHeroImage count];
+            return [intHeroImage count];
             break;
         default:
             break;
@@ -65,17 +66,27 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     HeroCell *hero = [collectionView dequeueReusableCellWithReuseIdentifier:@"HeroID" forIndexPath:indexPath];
-    
+    NSArray *s;
+    NSString *heroname;
     switch (indexPath.section) {
         case 0:
             [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
-            NSLog([strHeroImage objectAtIndex:indexPath.item]);
+            //NSLog([strHeroImage objectAtIndex:indexPath.item]);
+            s = [[strHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+            heroname = [s objectAtIndex:0];
+            [hero HeroName].text = heroname;
             break;
         case 1:
-            [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            [[hero HeroImage]setImage:[UIImage imageNamed:[agiHeroImage objectAtIndex:indexPath.item]]];
+            s = [[agiHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+            heroname = [s objectAtIndex:0];
+            [hero HeroName].text = heroname;
             break;
         case 2:
-            [[hero HeroImage]setImage:[UIImage imageNamed:[strHeroImage objectAtIndex:indexPath.item]]];
+            [[hero HeroImage]setImage:[UIImage imageNamed:[intHeroImage objectAtIndex:indexPath.item]]];
+            s = [[intHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+            heroname = [s objectAtIndex:0];
+            [hero HeroName].text = heroname;
             break;
         default:
             break;
