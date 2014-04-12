@@ -8,7 +8,8 @@
 
 #import "HeroNavigationViewController.h"
 #import "HeroCell.h"
-#include "HeroCategory.h"
+#import "HeroCategory.h"
+#import "HeroInfoViewController.h"
 @interface HeroNavigationViewController ()
 {
     NSArray *strHeroImage;
@@ -115,7 +116,43 @@
 
 
 //end of collection data set
+//prepare for the segue
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSLog(@"segue");
+    if ([[segue identifier] isEqualToString:@"goToHeroInfo"]) {
+        NSIndexPath *indexPath = [self.HeroCollection indexPathForCell:sender];
+        
+        NSArray *s;
+        NSString *heroname;
+        HeroInfoViewController *heroInfoVC;
+        
+        switch (indexPath.section) {
+            case 0:
+                s = [[strHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+                heroname = [s objectAtIndex:0];
+                heroInfoVC = [segue destinationViewController];
+                heroInfoVC.heroName = heroname;
+                break;
+            case 1:
+                s = [[agiHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+                heroname = [s objectAtIndex:0];
+                heroInfoVC = [segue destinationViewController];
+                heroInfoVC.heroName = heroname;
+                break;
+            case 2:
+                s = [[intHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];
+                heroname = [s objectAtIndex:0];
+                heroInfoVC = [segue destinationViewController];
+                heroInfoVC.heroName = heroname;
+                break;
+            default:
+                break;
+        }
+    }
+}
 
+//end of segue
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

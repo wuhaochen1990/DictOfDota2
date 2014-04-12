@@ -188,7 +188,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aH-O4-PPS">
                                                     <rect key="frame" x="0.0" y="29" width="90" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -198,6 +198,7 @@
                                         <connections>
                                             <outlet property="HeroImage" destination="n21-lZ-Wah" id="DuN-QD-tPL"/>
                                             <outlet property="HeroName" destination="8aH-O4-PPS" id="fgD-Ul-NlY"/>
+                                            <segue destination="g8b-LQ-HwX" kind="push" identifier="goToHeroInfo" id="hhk-6f-979"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -232,6 +233,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRC-b1-xkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1377" y="-987"/>
+        </scene>
+        <!--Hero Info View Controller-->
+        <scene sceneID="ysJ-mE-N64">
+            <objects>
+                <viewController id="g8b-LQ-HwX" customClass="HeroInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nv3-Dr-LwF"/>
+                        <viewControllerLayoutGuide type="bottom" id="eqB-gR-KuJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qbT-zH-qgo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qV9-Ez-fg5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UnD-Pe-ubv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779" y="-987"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8tp-Gx-Wlt">

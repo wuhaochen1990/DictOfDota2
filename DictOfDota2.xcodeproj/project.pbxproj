@@ -129,6 +129,7 @@
 		A1810A9518F9F061001DD38D /* Windrunner.png in Resources */ = {isa = PBXBuildFile; fileRef = A1810A7018F9F061001DD38D /* Windrunner.png */; };
 		A1810A9618F9F061001DD38D /* Witch_Doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = A1810A7118F9F061001DD38D /* Witch_Doctor.png */; };
 		A1810A9718F9F061001DD38D /* Zeus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1810A7218F9F061001DD38D /* Zeus.png */; };
+		A1810A9A18F9F71F001DD38D /* HeroInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +272,8 @@
 		A1810A7018F9F061001DD38D /* Windrunner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Windrunner.png; sourceTree = "<group>"; };
 		A1810A7118F9F061001DD38D /* Witch_Doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Witch_Doctor.png; sourceTree = "<group>"; };
 		A1810A7218F9F061001DD38D /* Zeus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zeus.png; sourceTree = "<group>"; };
+		A1810A9818F9F71F001DD38D /* HeroInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroInfoViewController.h; sourceTree = "<group>"; };
+		A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +339,8 @@
 				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
 				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
 				A18109BB18F9986A001DD38D /* HeroCategory.h */,
+				A1810A9818F9F71F001DD38D /* HeroInfoViewController.h */,
+				A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */,
 				A18109BC18F9986A001DD38D /* HeroCategory.m */,
 				A18109B818F995F7001DD38D /* HeroCell.h */,
 				A18109B918F995F7001DD38D /* HeroCell.m */,
@@ -722,6 +727,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1810A9A18F9F71F001DD38D /* HeroInfoViewController.m in Sources */,
 				A17BF72018F4C2440006D2E7 /* AppDelegate.m in Sources */,
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
 				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
