@@ -20,6 +20,7 @@
 		A17BF73318F4C2450006D2E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17BF73118F4C2450006D2E7 /* InfoPlist.strings */; };
 		A17BF73518F4C2450006D2E7 /* DictOfDota2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BF73418F4C2450006D2E7 /* DictOfDota2Tests.m */; };
 		A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18109B318F990AD001DD38D /* MainStoryboard.storyboard */; };
+		A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18109B618F9930F001DD38D /* HeroNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		A17BF73218F4C2450006D2E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A17BF73418F4C2450006D2E7 /* DictOfDota2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictOfDota2Tests.m; sourceTree = "<group>"; };
 		A18109B318F990AD001DD38D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A18109B518F9930F001DD38D /* HeroNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroNavigationViewController.h; sourceTree = "<group>"; };
+		A18109B618F9930F001DD38D /* HeroNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 			children = (
 				A17BF71E18F4C2440006D2E7 /* AppDelegate.h */,
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
+				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
+				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
 				A18109B318F990AD001DD38D /* MainStoryboard.storyboard */,
 				A17BF72118F4C2440006D2E7 /* Images.xcassets */,
 				A17BF71618F4C2440006D2E7 /* Supporting Files */,
@@ -245,6 +250,7 @@
 			files = (
 				A17BF72018F4C2440006D2E7 /* AppDelegate.m in Sources */,
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
+				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
