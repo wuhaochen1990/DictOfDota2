@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *HeroImage;
 @property (weak, nonatomic) IBOutlet UITableView *AbilityTable;
 @property (weak, nonatomic) IBOutlet UILabel *HeroDescription;
+@property (weak, nonatomic) IBOutlet UILabel *HeroDetail;
 - (IBAction)PlayAudio:(UIButton *)sender;
 
 @end

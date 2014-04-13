@@ -13,6 +13,7 @@
 {
     NSString *audioname;
     NSDictionary *descriptionDict;
+    NSDictionary *detailDict;
 }
 
 @end
@@ -67,6 +68,18 @@ AVAudioPlayer *heroAudio;
                         @"Chaos_Knight": [NSString stringWithFormat:@"混沌骑士"],
                         };
     [[self HeroDescription]setText:descriptionDict[self.heroName]];
+    //set the heroDetail
+    detailDict = @{
+                   @"Abaddon": [NSString stringWithFormat:@"Abaddon源于圣经启示录代表地狱的恶魔"],
+                   @"Alchemist": [NSString stringWithFormat:@"炼金术士"],
+                   @"Axe": [NSString stringWithFormat:@"斧王"],
+                   @"Beastmaster": [NSString stringWithFormat:@"兽王"],
+                   @"Brewmaster": [NSString stringWithFormat:@"熊猫酒仙"],
+                   @"Bristleback": [NSString stringWithFormat:@"刚背兽"],
+                   @"Centaur": [NSString stringWithFormat:@"半人马酋长"],
+                   @"Chaos_Knight": [NSString stringWithFormat:@"混沌骑士"],
+                        };
+    [[self HeroDetail]setText:detailDict[self.heroName]];
     
 }
 
