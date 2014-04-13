@@ -10,6 +10,9 @@
 
 
 @interface HeroInfoViewController ()
+{
+    NSString *audioname;
+}
 
 @end
 
@@ -29,6 +32,8 @@ AVAudioPlayer *heroAudio;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //set audio name
+    audioname = self.heroName;
     // set title
     NSArray *s;
     NSString *n = @"";
@@ -73,9 +78,10 @@ AVAudioPlayer *heroAudio;
 - (IBAction)PlayAudio:(UIButton *)sender {
     NSLog(@"hello audio");
     
+    //NSString *s = [NSString stringWithFormat:self.heroName];
     NSURL *audioURL = [NSURL fileURLWithPath:
                        [[NSBundle mainBundle]
-                        pathForResource:[self.heroName stringByAppendingString:@"Audio"]
+                        pathForResource:[audioname stringByAppendingString:@"Audio"]
                         ofType:@"mp3"]];
     heroAudio = [[AVAudioPlayer alloc] initWithContentsOfURL:audioURL error:nil];
     [heroAudio play];

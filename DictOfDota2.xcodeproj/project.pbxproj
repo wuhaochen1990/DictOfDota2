@@ -141,6 +141,33 @@
 		A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6518FA4E850069BF96 /* BristlebackAudio.mp3 */; };
 		A18D0A6E18FA4E850069BF96 /* CentaurAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6618FA4E850069BF96 /* CentaurAudio.mp3 */; };
 		A18D0A7218FA52CC0069BF96 /* Chaos_KnightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */; };
+		A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7318FAD1580069BF96 /* Doom_BringerAudio.mp3 */; };
+		A18D0A8F18FAD1580069BF96 /* Dragon_KnightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7418FAD1580069BF96 /* Dragon_KnightAudio.mp3 */; };
+		A18D0A9018FAD1580069BF96 /* Earth_SpiritAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7518FAD1580069BF96 /* Earth_SpiritAudio.mp3 */; };
+		A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7618FAD1580069BF96 /* Elder_TitanAudio.mp3 */; };
+		A18D0A9218FAD1580069BF96 /* HuskarAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7718FAD1580069BF96 /* HuskarAudio.mp3 */; };
+		A18D0A9318FAD1580069BF96 /* KunkkaAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7818FAD1580069BF96 /* KunkkaAudio.mp3 */; };
+		A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7918FAD1580069BF96 /* Legion_CommanderAudio.mp3 */; };
+		A18D0A9518FAD1580069BF96 /* Life_StealerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7A18FAD1580069BF96 /* Life_StealerAudio.mp3 */; };
+		A18D0A9618FAD1580069BF96 /* LycanAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7B18FAD1580069BF96 /* LycanAudio.mp3 */; };
+		A18D0A9718FAD1580069BF96 /* MagnataurAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7C18FAD1580069BF96 /* MagnataurAudio.mp3 */; };
+		A18D0A9818FAD1580069BF96 /* Night_StalkerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7D18FAD1580069BF96 /* Night_StalkerAudio.mp3 */; };
+		A18D0A9918FAD1580069BF96 /* OmniknightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7E18FAD1580069BF96 /* OmniknightAudio.mp3 */; };
+		A18D0A9A18FAD1580069BF96 /* PhoenixAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7F18FAD1580069BF96 /* PhoenixAudio.mp3 */; };
+		A18D0A9B18FAD1580069BF96 /* PudgeAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8018FAD1580069BF96 /* PudgeAudio.mp3 */; };
+		A18D0A9C18FAD1580069BF96 /* RattletrapAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8118FAD1580069BF96 /* RattletrapAudio.mp3 */; };
+		A18D0A9D18FAD1580069BF96 /* Sand_KingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8218FAD1580069BF96 /* Sand_KingAudio.mp3 */; };
+		A18D0A9E18FAD1580069BF96 /* ShredderAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8318FAD1580069BF96 /* ShredderAudio.mp3 */; };
+		A18D0A9F18FAD1580069BF96 /* Skeleton_KingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8418FAD1580069BF96 /* Skeleton_KingAudio.mp3 */; };
+		A18D0AA018FAD1580069BF96 /* SlardarAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8518FAD1580069BF96 /* SlardarAudio.mp3 */; };
+		A18D0AA118FAD1580069BF96 /* Spirit_BreakerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8618FAD1580069BF96 /* Spirit_BreakerAudio.mp3 */; };
+		A18D0AA218FAD1580069BF96 /* SvenAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8718FAD1580069BF96 /* SvenAudio.mp3 */; };
+		A18D0AA318FAD1580069BF96 /* TidehunterAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8818FAD1580069BF96 /* TidehunterAudio.mp3 */; };
+		A18D0AA418FAD1580069BF96 /* TinyAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8918FAD1580069BF96 /* TinyAudio.mp3 */; };
+		A18D0AA518FAD1580069BF96 /* TreantAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8A18FAD1580069BF96 /* TreantAudio.mp3 */; };
+		A18D0AA618FAD1580069BF96 /* TuskAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8B18FAD1580069BF96 /* TuskAudio.mp3 */; };
+		A18D0AA718FAD1580069BF96 /* UndyingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8C18FAD1580069BF96 /* UndyingAudio.mp3 */; };
+		A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8D18FAD1580069BF96 /* WispAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,6 +323,33 @@
 		A18D0A6518FA4E850069BF96 /* BristlebackAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BristlebackAudio.mp3; sourceTree = "<group>"; };
 		A18D0A6618FA4E850069BF96 /* CentaurAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CentaurAudio.mp3; sourceTree = "<group>"; };
 		A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chaos_KnightAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7318FAD1580069BF96 /* Doom_BringerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Doom_BringerAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7418FAD1580069BF96 /* Dragon_KnightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dragon_KnightAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7518FAD1580069BF96 /* Earth_SpiritAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Earth_SpiritAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7618FAD1580069BF96 /* Elder_TitanAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elder_TitanAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7718FAD1580069BF96 /* HuskarAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HuskarAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7818FAD1580069BF96 /* KunkkaAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KunkkaAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7918FAD1580069BF96 /* Legion_CommanderAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Legion_CommanderAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7A18FAD1580069BF96 /* Life_StealerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Life_StealerAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7B18FAD1580069BF96 /* LycanAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LycanAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7C18FAD1580069BF96 /* MagnataurAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MagnataurAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7D18FAD1580069BF96 /* Night_StalkerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Night_StalkerAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7E18FAD1580069BF96 /* OmniknightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OmniknightAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7F18FAD1580069BF96 /* PhoenixAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhoenixAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8018FAD1580069BF96 /* PudgeAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PudgeAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8118FAD1580069BF96 /* RattletrapAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RattletrapAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8218FAD1580069BF96 /* Sand_KingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sand_KingAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8318FAD1580069BF96 /* ShredderAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShredderAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8418FAD1580069BF96 /* Skeleton_KingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Skeleton_KingAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8518FAD1580069BF96 /* SlardarAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SlardarAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8618FAD1580069BF96 /* Spirit_BreakerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spirit_BreakerAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8718FAD1580069BF96 /* SvenAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SvenAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8818FAD1580069BF96 /* TidehunterAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TidehunterAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8918FAD1580069BF96 /* TinyAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TinyAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8A18FAD1580069BF96 /* TreantAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TreantAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8B18FAD1580069BF96 /* TuskAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TuskAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8C18FAD1580069BF96 /* UndyingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UndyingAudio.mp3; sourceTree = "<group>"; };
+		A18D0A8D18FAD1580069BF96 /* WispAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WispAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,6 +624,33 @@
 		A18D0A5C18FA4A2B0069BF96 /* hero */ = {
 			isa = PBXGroup;
 			children = (
+				A18D0A7318FAD1580069BF96 /* Doom_BringerAudio.mp3 */,
+				A18D0A7418FAD1580069BF96 /* Dragon_KnightAudio.mp3 */,
+				A18D0A7518FAD1580069BF96 /* Earth_SpiritAudio.mp3 */,
+				A18D0A7618FAD1580069BF96 /* Elder_TitanAudio.mp3 */,
+				A18D0A7718FAD1580069BF96 /* HuskarAudio.mp3 */,
+				A18D0A7818FAD1580069BF96 /* KunkkaAudio.mp3 */,
+				A18D0A7918FAD1580069BF96 /* Legion_CommanderAudio.mp3 */,
+				A18D0A7A18FAD1580069BF96 /* Life_StealerAudio.mp3 */,
+				A18D0A7B18FAD1580069BF96 /* LycanAudio.mp3 */,
+				A18D0A7C18FAD1580069BF96 /* MagnataurAudio.mp3 */,
+				A18D0A7D18FAD1580069BF96 /* Night_StalkerAudio.mp3 */,
+				A18D0A7E18FAD1580069BF96 /* OmniknightAudio.mp3 */,
+				A18D0A7F18FAD1580069BF96 /* PhoenixAudio.mp3 */,
+				A18D0A8018FAD1580069BF96 /* PudgeAudio.mp3 */,
+				A18D0A8118FAD1580069BF96 /* RattletrapAudio.mp3 */,
+				A18D0A8218FAD1580069BF96 /* Sand_KingAudio.mp3 */,
+				A18D0A8318FAD1580069BF96 /* ShredderAudio.mp3 */,
+				A18D0A8418FAD1580069BF96 /* Skeleton_KingAudio.mp3 */,
+				A18D0A8518FAD1580069BF96 /* SlardarAudio.mp3 */,
+				A18D0A8618FAD1580069BF96 /* Spirit_BreakerAudio.mp3 */,
+				A18D0A8718FAD1580069BF96 /* SvenAudio.mp3 */,
+				A18D0A8818FAD1580069BF96 /* TidehunterAudio.mp3 */,
+				A18D0A8918FAD1580069BF96 /* TinyAudio.mp3 */,
+				A18D0A8A18FAD1580069BF96 /* TreantAudio.mp3 */,
+				A18D0A8B18FAD1580069BF96 /* TuskAudio.mp3 */,
+				A18D0A8C18FAD1580069BF96 /* UndyingAudio.mp3 */,
+				A18D0A8D18FAD1580069BF96 /* WispAudio.mp3 */,
 				A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */,
 				A18D0A6118FA4E850069BF96 /* AlchemistAudio.mp3 */,
 				A18D0A6218FA4E850069BF96 /* AxeAudio.mp3 */,
@@ -662,14 +743,19 @@
 				A1810A3118F9F059001DD38D /* Clinkz.png in Resources */,
 				A1810A0218F99DA7001DD38D /* Sven.png in Resources */,
 				A18D0A6C18FA4E850069BF96 /* BrewmasterAudio.mp3 in Resources */,
+				A18D0AA618FAD1580069BF96 /* TuskAudio.mp3 in Resources */,
 				A18109FA18F99DA7001DD38D /* Phoenix.png in Resources */,
+				A18D0AA018FAD1580069BF96 /* SlardarAudio.mp3 in Resources */,
 				A1810A4618F9F059001DD38D /* Templar_Assassin.png in Resources */,
+				A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */,
 				A1810A0718F99DA7001DD38D /* Undying.png in Resources */,
 				A1810A8718F9F061001DD38D /* Obsidian_Destroyer.png in Resources */,
 				A18109E718F99DA7001DD38D /* Axe.png in Resources */,
+				A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */,
 				A1810A9618F9F061001DD38D /* Witch_Doctor.png in Resources */,
 				A1810A8018F9F061001DD38D /* Jakiro.png in Resources */,
 				A1810A3B18F9F059001DD38D /* Mirana.png in Resources */,
+				A18D0A8F18FAD1580069BF96 /* Dragon_KnightAudio.mp3 in Resources */,
 				A1810A9218F9F061001DD38D /* Tinker.png in Resources */,
 				A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */,
 				A1810A3018F9F059001DD38D /* Broodmother.png in Resources */,
@@ -678,6 +764,7 @@
 				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
 				A18109EB18F99DA7001DD38D /* Centaur.png in Resources */,
 				A1810A8318F9F061001DD38D /* Lich.png in Resources */,
+				A18D0A9F18FAD1580069BF96 /* Skeleton_KingAudio.mp3 in Resources */,
 				A18D0A7218FA52CC0069BF96 /* Chaos_KnightAudio.mp3 in Resources */,
 				A18109E618F99DA7001DD38D /* Alchemist.png in Resources */,
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
@@ -686,10 +773,12 @@
 				A1810A7818F9F061001DD38D /* Dark_Seer.png in Resources */,
 				A1810A4018F9F059001DD38D /* Phantom_Assassin.png in Resources */,
 				A1810A3E18F9F059001DD38D /* Nevermore.png in Resources */,
+				A18D0A9918FAD1580069BF96 /* OmniknightAudio.mp3 in Resources */,
 				A18D0A6A18FA4E850069BF96 /* AxeAudio.mp3 in Resources */,
 				A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */,
 				A1810A4B18F9F059001DD38D /* Venomancer.png in Resources */,
 				A18109F318F99DA7001DD38D /* Kunkka.png in Resources */,
+				A18D0AA518FAD1580069BF96 /* TreantAudio.mp3 in Resources */,
 				A1810A8118F9F061001DD38D /* Keeper_of_the_Light.png in Resources */,
 				A18109F218F99DA7001DD38D /* Huskar.png in Resources */,
 				A1810A2D18F9F059001DD38D /* Antimage.png in Resources */,
@@ -697,18 +786,23 @@
 				A1810A8418F9F061001DD38D /* Lina.png in Resources */,
 				A1810A4518F9F059001DD38D /* Spectre.png in Resources */,
 				A1810A9418F9F061001DD38D /* Warlock.png in Resources */,
+				A18D0A9E18FAD1580069BF96 /* ShredderAudio.mp3 in Resources */,
+				A18D0AA718FAD1580069BF96 /* UndyingAudio.mp3 in Resources */,
 				A1810A4118F9F059001DD38D /* Phantom_Lancer.png in Resources */,
 				A18109FE18F99DA7001DD38D /* Shredder.png in Resources */,
 				A18109F918F99DA7001DD38D /* Omniknight.png in Resources */,
 				A1810A0018F99DA7001DD38D /* Slardar.png in Resources */,
 				A1810A3718F9F059001DD38D /* Lone_Druid.png in Resources */,
 				A1810A8C18F9F061001DD38D /* Rubick.png in Resources */,
+				A18D0A9C18FAD1580069BF96 /* RattletrapAudio.mp3 in Resources */,
 				A1810A7618F9F061001DD38D /* Chen.png in Resources */,
 				A1810A3A18F9F059001DD38D /* Meepo.png in Resources */,
 				A18109EE18F99DA7001DD38D /* Dragon_Knight.png in Resources */,
 				A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
 				A1810A0518F99DA7001DD38D /* Treant.png in Resources */,
+				A18D0A9618FAD1580069BF96 /* LycanAudio.mp3 in Resources */,
+				A18D0AA318FAD1580069BF96 /* TidehunterAudio.mp3 in Resources */,
 				A1810A4A18F9F059001DD38D /* Vengefulspirit.png in Resources */,
 				A1810A9118F9F061001DD38D /* Storm_Spirit.png in Resources */,
 				A17BF72218F4C2440006D2E7 /* Images.xcassets in Resources */,
@@ -722,14 +816,18 @@
 				A1810A8B18F9F061001DD38D /* queenofpain.png in Resources */,
 				A1810A3D18F9F059001DD38D /* Naga_Siren.png in Resources */,
 				A1810A7A18F9F061001DD38D /* Death_Prophet.png in Resources */,
+				A18D0A9318FAD1580069BF96 /* KunkkaAudio.mp3 in Resources */,
 				A1810A7E18F9F061001DD38D /* Furion.png in Resources */,
 				A1810A4218F9F059001DD38D /* Razor.png in Resources */,
+				A18D0A9D18FAD1580069BF96 /* Sand_KingAudio.mp3 in Resources */,
 				A1810A2F18F9F059001DD38D /* Bounty_Hunter.png in Resources */,
 				A1810A7918F9F061001DD38D /* Dazzle.png in Resources */,
 				A1810A0318F99DA7001DD38D /* Tidehunter.png in Resources */,
 				A1810A8518F9F061001DD38D /* Lion.png in Resources */,
 				A1810A4318F9F059001DD38D /* Slark.png in Resources */,
+				A18D0A9518FAD1580069BF96 /* Life_StealerAudio.mp3 in Resources */,
 				A1810A4918F9F059001DD38D /* Ursa.png in Resources */,
+				A18D0A9B18FAD1580069BF96 /* PudgeAudio.mp3 in Resources */,
 				A1810A3418F9F059001DD38D /* Faceless_Void.png in Resources */,
 				A1810A3818F9F059001DD38D /* Luna.png in Resources */,
 				A1810A4D18F9F059001DD38D /* Weaver.png in Resources */,
@@ -741,11 +839,15 @@
 				A18109F418F99DA7001DD38D /* Legion_Commander.png in Resources */,
 				A1810A0618F99DA7001DD38D /* Tusk.png in Resources */,
 				A1810A8918F9F061001DD38D /* Puck.png in Resources */,
+				A18D0A9718FAD1580069BF96 /* MagnataurAudio.mp3 in Resources */,
 				A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */,
+				A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A18D0A6918FA4E850069BF96 /* AlchemistAudio.mp3 in Resources */,
 				A18109E518F99DA7001DD38D /* Abaddon.png in Resources */,
+				A18D0AA418FAD1580069BF96 /* TinyAudio.mp3 in Resources */,
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
+				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A18109F718F99DA7001DD38D /* Magnataur.png in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */,
@@ -763,20 +865,26 @@
 				A1810A3218F9F059001DD38D /* Drow_Ranger.png in Resources */,
 				A1810A9318F9F061001DD38D /* Visage.png in Resources */,
 				A1810A7C18F9F061001DD38D /* Enchantress.png in Resources */,
+				A18D0A9818FAD1580069BF96 /* Night_StalkerAudio.mp3 in Resources */,
+				A18D0AA218FAD1580069BF96 /* SvenAudio.mp3 in Resources */,
 				A18D0A6B18FA4E850069BF96 /* BeastmasterAudio.mp3 in Resources */,
 				A18D0A5818FA48B10069BF96 /* Play.png in Resources */,
+				A18D0A9018FAD1580069BF96 /* Earth_SpiritAudio.mp3 in Resources */,
 				A1810A8E18F9F061001DD38D /* Shadow_Shaman.png in Resources */,
+				A18D0AA118FAD1580069BF96 /* Spirit_BreakerAudio.mp3 in Resources */,
 				A1810A8F18F9F061001DD38D /* Silencer.png in Resources */,
 				A1810A2E18F9F059001DD38D /* Bloodseeker.png in Resources */,
 				A1810A8A18F9F061001DD38D /* Pugna.png in Resources */,
 				A18109FB18F99DA7001DD38D /* Pudge.png in Resources */,
 				A1810A7B18F9F061001DD38D /* Disruptor.png in Resources */,
+				A18D0A9218FAD1580069BF96 /* HuskarAudio.mp3 in Resources */,
 				A1810A0418F99DA7001DD38D /* Tiny.png in Resources */,
 				A1810A4C18F9F059001DD38D /* Viper.png in Resources */,
 				A1810A7318F9F061001DD38D /* Ancient_Apparition.png in Resources */,
 				A18109ED18F99DA7001DD38D /* Doom_Bringer.png in Resources */,
 				A1810A3C18F9F059001DD38D /* Morphling.png in Resources */,
 				A18109E818F99DA7001DD38D /* Beastmaster.png in Resources */,
+				A18D0A9A18FAD1580069BF96 /* PhoenixAudio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
