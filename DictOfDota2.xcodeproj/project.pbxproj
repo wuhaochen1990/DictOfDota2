@@ -140,8 +140,7 @@
 		A18D0A6C18FA4E850069BF96 /* BrewmasterAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6418FA4E850069BF96 /* BrewmasterAudio.mp3 */; };
 		A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6518FA4E850069BF96 /* BristlebackAudio.mp3 */; };
 		A18D0A6E18FA4E850069BF96 /* CentaurAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6618FA4E850069BF96 /* CentaurAudio.mp3 */; };
-		A18D0A6F18FA4E850069BF96 /* Chaos_KnightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6718FA4E850069BF96 /* Chaos_KnightAudio.mp3 */; };
-		A18D0A7018FA4E850069BF96 /* Doom_BringerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A6818FA4E850069BF96 /* Doom_BringerAudio.mp3 */; };
+		A18D0A7218FA52CC0069BF96 /* Chaos_KnightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,8 +295,7 @@
 		A18D0A6418FA4E850069BF96 /* BrewmasterAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BrewmasterAudio.mp3; sourceTree = "<group>"; };
 		A18D0A6518FA4E850069BF96 /* BristlebackAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BristlebackAudio.mp3; sourceTree = "<group>"; };
 		A18D0A6618FA4E850069BF96 /* CentaurAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CentaurAudio.mp3; sourceTree = "<group>"; };
-		A18D0A6718FA4E850069BF96 /* Chaos_KnightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chaos_KnightAudio.mp3; sourceTree = "<group>"; };
-		A18D0A6818FA4E850069BF96 /* Doom_BringerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Doom_BringerAudio.mp3; sourceTree = "<group>"; };
+		A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chaos_KnightAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -572,14 +570,13 @@
 		A18D0A5C18FA4A2B0069BF96 /* hero */ = {
 			isa = PBXGroup;
 			children = (
+				A18D0A7118FA52CC0069BF96 /* Chaos_KnightAudio.mp3 */,
 				A18D0A6118FA4E850069BF96 /* AlchemistAudio.mp3 */,
 				A18D0A6218FA4E850069BF96 /* AxeAudio.mp3 */,
 				A18D0A6318FA4E850069BF96 /* BeastmasterAudio.mp3 */,
 				A18D0A6418FA4E850069BF96 /* BrewmasterAudio.mp3 */,
 				A18D0A6518FA4E850069BF96 /* BristlebackAudio.mp3 */,
 				A18D0A6618FA4E850069BF96 /* CentaurAudio.mp3 */,
-				A18D0A6718FA4E850069BF96 /* Chaos_KnightAudio.mp3 */,
-				A18D0A6818FA4E850069BF96 /* Doom_BringerAudio.mp3 */,
 				A18D0A5F18FA4A550069BF96 /* EarthshakerAudio.mp3 */,
 				A18D0A5D18FA4A3C0069BF96 /* AbaddonAudio.mp3 */,
 			);
@@ -681,7 +678,7 @@
 				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
 				A18109EB18F99DA7001DD38D /* Centaur.png in Resources */,
 				A1810A8318F9F061001DD38D /* Lich.png in Resources */,
-				A18D0A6F18FA4E850069BF96 /* Chaos_KnightAudio.mp3 in Resources */,
+				A18D0A7218FA52CC0069BF96 /* Chaos_KnightAudio.mp3 in Resources */,
 				A18109E618F99DA7001DD38D /* Alchemist.png in Resources */,
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
@@ -745,7 +742,6 @@
 				A1810A0618F99DA7001DD38D /* Tusk.png in Resources */,
 				A1810A8918F9F061001DD38D /* Puck.png in Resources */,
 				A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */,
-				A18D0A7018FA4E850069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A18D0A6918FA4E850069BF96 /* AlchemistAudio.mp3 in Resources */,
 				A18109E518F99DA7001DD38D /* Abaddon.png in Resources */,
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,

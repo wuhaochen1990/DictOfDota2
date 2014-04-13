@@ -29,7 +29,6 @@ AVAudioPlayer *heroAudio;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(self.heroName);
     // set title
     NSArray *s;
     NSString *n = @"";
@@ -48,11 +47,9 @@ AVAudioPlayer *heroAudio;
     }
     //end of set title
     NSLog(@"end of title");
-    NSLog(self.heroName);
     //set the hero image
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
     //
-    NSLog(self.heroName);
     
 }
 
@@ -75,7 +72,7 @@ AVAudioPlayer *heroAudio;
 
 - (IBAction)PlayAudio:(UIButton *)sender {
     NSLog(@"hello audio");
-    NSLog(self.heroName);
+    
     NSURL *audioURL = [NSURL fileURLWithPath:
                        [[NSBundle mainBundle]
                         pathForResource:[self.heroName stringByAppendingString:@"Audio"]
