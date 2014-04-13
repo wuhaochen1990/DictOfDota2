@@ -284,6 +284,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="qV9-Ez-fg5"/>
                     <connections>
+                        <outlet property="HeroDescription" destination="K1F-A5-nvq" id="pUi-fh-Uci"/>
                         <outlet property="HeroImage" destination="GLI-I9-V4v" id="ddY-fF-bhx"/>
                     </connections>
                 </viewController>

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) NSString *heroName;
 @property (weak, nonatomic) IBOutlet UIImageView *HeroImage;
 @property (weak, nonatomic) IBOutlet UITableView *AbilityTable;
+@property (weak, nonatomic) IBOutlet UILabel *HeroDescription;
 - (IBAction)PlayAudio:(UIButton *)sender;
 
 @end

@@ -12,6 +12,7 @@
 @interface HeroInfoViewController ()
 {
     NSString *audioname;
+    NSDictionary *descriptionDict;
 }
 
 @end
@@ -19,6 +20,7 @@
 @implementation HeroInfoViewController
 @synthesize heroName;
 AVAudioPlayer *heroAudio;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,7 +40,6 @@ AVAudioPlayer *heroAudio;
     NSArray *s;
     NSString *n = @"";
     if ([self.heroName rangeOfString:@"_"].location == NSNotFound) {
-        NSLog(@"hello");
         self.title = self.heroName;
     }else{
         NSLog(@"hello2");
@@ -54,7 +55,11 @@ AVAudioPlayer *heroAudio;
     NSLog(@"end of title");
     //set the hero image
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
-    //
+    //set the description
+    descriptionDict = @{
+                        @"Abaddon":[NSString stringWithFormat:@"hello"],
+                        };
+    [[self HeroDescription]setText:descriptionDict[self.heroName]];
     
 }
 
