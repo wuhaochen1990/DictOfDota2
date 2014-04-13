@@ -133,7 +133,6 @@
                 heroname = [s objectAtIndex:0];
                 heroInfoVC = [segue destinationViewController];
                 heroInfoVC.heroName = heroname;
-                NSLog(heroname);
                 break;
             case 1:
                 s = [[agiHeroImage objectAtIndex:indexPath.item] componentsSeparatedByString:@"."];

@@ -8,12 +8,14 @@
 
 #import "HeroInfoViewController.h"
 
+
 @interface HeroInfoViewController ()
 
 @end
 
 @implementation HeroInfoViewController
 @synthesize heroName;
+AVAudioPlayer *heroAudio;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,9 +48,7 @@
     //end of set title
     //set the hero image
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
-    
-    //end of set hero image
-    
+    //    
     
 }
 
@@ -69,4 +69,14 @@
 }
 */
 
+- (IBAction)PlayAudio:(UIButton *)sender {
+    NSLog(@"hello audio");
+    NSURL *audioURL = [NSURL fileURLWithPath:
+                       [[NSBundle mainBundle]
+                        pathForResource:[self.heroName stringByAppendingString:@"Audio"]
+                        ofType:@"mp3"]];
+    heroAudio = [[AVAudioPlayer alloc] initWithContentsOfURL:audioURL error:nil];
+    [heroAudio play];
+    
+}
 @end

@@ -130,6 +130,10 @@
 		A1810A9618F9F061001DD38D /* Witch_Doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = A1810A7118F9F061001DD38D /* Witch_Doctor.png */; };
 		A1810A9718F9F061001DD38D /* Zeus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1810A7218F9F061001DD38D /* Zeus.png */; };
 		A1810A9A18F9F71F001DD38D /* HeroInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */; };
+		A18D0A5818FA48B10069BF96 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A5718FA48B10069BF96 /* Play.png */; };
+		A18D0A5A18FA49610069BF96 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18D0A5918FA49610069BF96 /* AVFoundation.framework */; };
+		A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A5D18FA4A3C0069BF96 /* AbaddonAudio.mp3 */; };
+		A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A5F18FA4A550069BF96 /* EarthshakerAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +278,10 @@
 		A1810A7218F9F061001DD38D /* Zeus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zeus.png; sourceTree = "<group>"; };
 		A1810A9818F9F71F001DD38D /* HeroInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroInfoViewController.h; sourceTree = "<group>"; };
 		A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroInfoViewController.m; sourceTree = "<group>"; };
+		A18D0A5718FA48B10069BF96 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		A18D0A5918FA49610069BF96 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A18D0A5D18FA4A3C0069BF96 /* AbaddonAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AbaddonAudio.mp3; sourceTree = "<group>"; };
+		A18D0A5F18FA4A550069BF96 /* EarthshakerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EarthshakerAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +289,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18D0A5A18FA49610069BF96 /* AVFoundation.framework in Frameworks */,
 				A17BF71218F4C2440006D2E7 /* CoreGraphics.framework in Frameworks */,
 				A17BF71418F4C2440006D2E7 /* UIKit.framework in Frameworks */,
 				A17BF71018F4C2440006D2E7 /* Foundation.framework in Frameworks */,
@@ -322,6 +331,7 @@
 		A17BF70E18F4C2440006D2E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A18D0A5918FA49610069BF96 /* AVFoundation.framework */,
 				A17BF70F18F4C2440006D2E7 /* Foundation.framework */,
 				A17BF71118F4C2440006D2E7 /* CoreGraphics.framework */,
 				A17BF71318F4C2440006D2E7 /* UIKit.framework */,
@@ -333,6 +343,7 @@
 		A17BF71518F4C2440006D2E7 /* DictOfDota2 */ = {
 			isa = PBXGroup;
 			children = (
+				A18D0A5B18FA4A1F0069BF96 /* audio */,
 				A18109BE18F99D89001DD38D /* images */,
 				A17BF71E18F4C2440006D2E7 /* AppDelegate.h */,
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
@@ -383,6 +394,7 @@
 		A18109BE18F99D89001DD38D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A18D0A5618FA48940069BF96 /* utility */,
 				A18109BF18F99D90001DD38D /* hero */,
 			);
 			name = images;
@@ -525,6 +537,31 @@
 			name = int;
 			sourceTree = "<group>";
 		};
+		A18D0A5618FA48940069BF96 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A18D0A5718FA48B10069BF96 /* Play.png */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		A18D0A5B18FA4A1F0069BF96 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				A18D0A5C18FA4A2B0069BF96 /* hero */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		A18D0A5C18FA4A2B0069BF96 /* hero */ = {
+			isa = PBXGroup;
+			children = (
+				A18D0A5F18FA4A550069BF96 /* EarthshakerAudio.mp3 */,
+				A18D0A5D18FA4A3C0069BF96 /* AbaddonAudio.mp3 */,
+			);
+			name = hero;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -612,6 +649,7 @@
 				A1810A8018F9F061001DD38D /* Jakiro.png in Resources */,
 				A1810A3B18F9F059001DD38D /* Mirana.png in Resources */,
 				A1810A9218F9F061001DD38D /* Tinker.png in Resources */,
+				A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */,
 				A1810A3018F9F059001DD38D /* Broodmother.png in Resources */,
 				A18109EC18F99DA7001DD38D /* Chaos_Knight.png in Resources */,
 				A18109FF18F99DA7001DD38D /* Skeleton_King.png in Resources */,
@@ -621,6 +659,7 @@
 				A18109E618F99DA7001DD38D /* Alchemist.png in Resources */,
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
+				A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */,
 				A1810A7818F9F061001DD38D /* Dark_Seer.png in Resources */,
 				A1810A4018F9F059001DD38D /* Phantom_Assassin.png in Resources */,
 				A1810A3E18F9F059001DD38D /* Nevermore.png in Resources */,
@@ -697,6 +736,7 @@
 				A1810A3218F9F059001DD38D /* Drow_Ranger.png in Resources */,
 				A1810A9318F9F061001DD38D /* Visage.png in Resources */,
 				A1810A7C18F9F061001DD38D /* Enchantress.png in Resources */,
+				A18D0A5818FA48B10069BF96 /* Play.png in Resources */,
 				A1810A8E18F9F061001DD38D /* Shadow_Shaman.png in Resources */,
 				A1810A8F18F9F061001DD38D /* Silencer.png in Resources */,
 				A1810A2E18F9F059001DD38D /* Bloodseeker.png in Resources */,
