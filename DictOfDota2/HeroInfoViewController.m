@@ -57,7 +57,14 @@ AVAudioPlayer *heroAudio;
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
     //set the description
     descriptionDict = @{
-                        @"Abaddon":[NSString stringWithFormat:@"hello"],
+                        @"Abaddon": [NSString stringWithFormat:@"亚巴顿"],
+                        @"Alchemist": [NSString stringWithFormat:@"炼金术士"],
+                        @"Axe": [NSString stringWithFormat:@"斧王"],
+                        @"Beastmaster": [NSString stringWithFormat:@"兽王"],
+                        @"Brewmaster": [NSString stringWithFormat:@"熊猫酒仙"],
+                        @"Bristleback": [NSString stringWithFormat:@"刚背兽"],
+                        @"Centaur": [NSString stringWithFormat:@"半人马酋长"],
+                        @"Chaos_Knight": [NSString stringWithFormat:@"混沌骑士"],
                         };
     [[self HeroDescription]setText:descriptionDict[self.heroName]];
     
