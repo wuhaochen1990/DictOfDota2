@@ -27,15 +27,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.title = self.heroName;
-    NSLog(heroName);
+    // set title
+    NSArray *s;
+    NSString *n = @"";
+    if ([self.heroName rangeOfString:@"_"].location == NSNotFound) {
+        NSLog(@"hello");
+        self.title = self.heroName;
+    }else{
+        NSLog(@"hello2");
+        s=[self.heroName componentsSeparatedByString:@"_"];
+        
+        for (id name in s) {
+            n = [n stringByAppendingString:name];
+            n = [n stringByAppendingString:@" "];
+        }
+        self.title = n;
+    }
+    //end of set title
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // 
 }
 
 /*
