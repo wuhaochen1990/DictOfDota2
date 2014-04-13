@@ -266,6 +266,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="qV9-Ez-fg5"/>
+                    <connections>
+                        <outlet property="HeroImage" destination="GLI-I9-V4v" id="ddY-fF-bhx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UnD-Pe-ubv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

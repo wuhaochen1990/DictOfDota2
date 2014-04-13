@@ -44,6 +44,10 @@
         self.title = n;
     }
     //end of set title
+    //set the hero image
+    [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
+    
+    //end of set hero image
     
     
 }

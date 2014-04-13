@@ -10,4 +10,5 @@
 
 @interface HeroInfoViewController : UIViewController
 @property (weak, nonatomic) NSString *heroName;
+@property (weak, nonatomic) IBOutlet UIImageView *HeroImage;
 @end
