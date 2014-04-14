@@ -135,8 +135,6 @@ AVAudioPlayer *heroAudio;
 }
 
 
-
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
