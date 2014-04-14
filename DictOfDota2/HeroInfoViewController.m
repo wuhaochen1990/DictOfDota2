@@ -109,10 +109,10 @@ AVAudioPlayer *heroAudio;
     }
     //set the detail of ability
     abilityDetail = @{
-                      @"Mist Coil": [NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
-                      @"Aphotic Shield":[NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
-                      @"Frostmourne": [NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
-                      @"Borrowed time":[NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
+                      @"Mist Coil": [NSString stringWithFormat:@"迷雾缠绕\nMist－薄雾 coil－盘绕"],
+                      @"Aphotic Shield":[NSString stringWithFormat:@"无光之盾\naphotic－无光的 shield－盾"],
+                      @"Frostmourne": [NSString stringWithFormat:@"魔霭诅咒\n没错，这就是霜之哀伤"],
+                      @"Borrowed time":[NSString stringWithFormat:@"回光返照\n借来的时间表示即将死亡了"],
 
                       };
 
@@ -129,7 +129,6 @@ AVAudioPlayer *heroAudio;
     [abilityTableCell.AbilityImage setImage:[UIImage imageNamed:[abilityImage objectAtIndex:indexPath.row]]];
     [abilityTableCell.AbilityName setText:[abilityName objectAtIndex:indexPath.row]];
     NSString *ability =[abilityName objectAtIndex:indexPath.row];
-    NSLog(ability);
     [abilityTableCell.AbilityDetail setText:abilityDetail[ability]];
     
     return abilityTableCell;
