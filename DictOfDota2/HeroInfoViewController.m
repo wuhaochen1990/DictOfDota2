@@ -7,6 +7,7 @@
 //
 
 #import "HeroInfoViewController.h"
+#import "AbilityTableViewCell.h"
 
 
 @interface HeroInfoViewController ()
@@ -14,6 +15,8 @@
     NSString *audioname;
     NSDictionary *descriptionDict;
     NSDictionary *detailDict;
+    NSArray *abilityImage;
+    
 }
 
 @end
@@ -80,8 +83,33 @@ AVAudioPlayer *heroAudio;
                    @"Chaos_Knight": [NSString stringWithFormat:@"chaos－混乱\nknight－骑士"],
                         };
     [[self HeroDetail]setText:detailDict[self.heroName]];
+    //set the ability image
+    NSFileManager *fileManager;
+    fileManager = [NSFileManager defaultManager];
+    NSString *abilityPath = @"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/ability/";
+    abilityImage = [fileManager contentsOfDirectoryAtPath:[abilityPath stringByAppendingString:self.heroName] error:nil];
+    
+    
     
 }
+//set the table of ability
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [abilityImage count];
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    AbilityTableViewCell *abilityTableCell = [tableView dequeueReusableCellWithIdentifier:@"AbilityID"];
+    [abilityTableCell.AbilityImage setImage:[UIImage imageNamed:[abilityImage objectAtIndex:indexPath.row]]];
+    
+    
+    
+    return abilityTableCell;
+}
+
+
+
 
 - (void)didReceiveMemoryWarning
 {

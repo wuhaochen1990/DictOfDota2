@@ -168,6 +168,11 @@
 		A18D0AA618FAD1580069BF96 /* TuskAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8B18FAD1580069BF96 /* TuskAudio.mp3 */; };
 		A18D0AA718FAD1580069BF96 /* UndyingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8C18FAD1580069BF96 /* UndyingAudio.mp3 */; };
 		A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18D0A8D18FAD1580069BF96 /* WispAudio.mp3 */; };
+		A1A12B6418FC4B4D002F5702 /* AbilityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A12B6318FC4B4D002F5702 /* AbilityTableViewCell.m */; };
+		A1A12B6B18FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6718FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png */; };
+		A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6818FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png */; };
+		A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6918FC5CB0002F5702 /* Abaddon_3_Frostmourne.png */; };
+		A1A12B6E18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6A18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -350,6 +355,12 @@
 		A18D0A8B18FAD1580069BF96 /* TuskAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TuskAudio.mp3; sourceTree = "<group>"; };
 		A18D0A8C18FAD1580069BF96 /* UndyingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UndyingAudio.mp3; sourceTree = "<group>"; };
 		A18D0A8D18FAD1580069BF96 /* WispAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WispAudio.mp3; sourceTree = "<group>"; };
+		A1A12B6218FC4B4D002F5702 /* AbilityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbilityTableViewCell.h; sourceTree = "<group>"; };
+		A1A12B6318FC4B4D002F5702 /* AbilityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbilityTableViewCell.m; sourceTree = "<group>"; };
+		A1A12B6718FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_1_Mist_Coil.png; sourceTree = "<group>"; };
+		A1A12B6818FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_2_Aphotic_Shield.png; sourceTree = "<group>"; };
+		A1A12B6918FC5CB0002F5702 /* Abaddon_3_Frostmourne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_3_Frostmourne.png; sourceTree = "<group>"; };
+		A1A12B6A18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_4_Borrowed_time.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +433,8 @@
 				A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */,
 				A18109BC18F9986A001DD38D /* HeroCategory.m */,
 				A18109B818F995F7001DD38D /* HeroCell.h */,
+				A1A12B6218FC4B4D002F5702 /* AbilityTableViewCell.h */,
+				A1A12B6318FC4B4D002F5702 /* AbilityTableViewCell.m */,
 				A18109B918F995F7001DD38D /* HeroCell.m */,
 				A18109B318F990AD001DD38D /* MainStoryboard.storyboard */,
 				A17BF72118F4C2440006D2E7 /* Images.xcassets */,
@@ -462,6 +475,7 @@
 		A18109BE18F99D89001DD38D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A1A12B6518FC5C9B002F5702 /* ability */,
 				A18D0A5618FA48940069BF96 /* utility */,
 				A18109BF18F99D90001DD38D /* hero */,
 			);
@@ -664,6 +678,25 @@
 			name = hero;
 			sourceTree = "<group>";
 		};
+		A1A12B6518FC5C9B002F5702 /* ability */ = {
+			isa = PBXGroup;
+			children = (
+				A1A12B6618FC5CA2002F5702 /* Abaddon */,
+			);
+			name = ability;
+			sourceTree = "<group>";
+		};
+		A1A12B6618FC5CA2002F5702 /* Abaddon */ = {
+			isa = PBXGroup;
+			children = (
+				A1A12B6718FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png */,
+				A1A12B6818FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png */,
+				A1A12B6918FC5CB0002F5702 /* Abaddon_3_Frostmourne.png */,
+				A1A12B6A18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png */,
+			);
+			name = Abaddon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -827,6 +860,7 @@
 				A1810A4318F9F059001DD38D /* Slark.png in Resources */,
 				A18D0A9518FAD1580069BF96 /* Life_StealerAudio.mp3 in Resources */,
 				A1810A4918F9F059001DD38D /* Ursa.png in Resources */,
+				A1A12B6B18FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png in Resources */,
 				A18D0A9B18FAD1580069BF96 /* PudgeAudio.mp3 in Resources */,
 				A1810A3418F9F059001DD38D /* Faceless_Void.png in Resources */,
 				A1810A3818F9F059001DD38D /* Luna.png in Resources */,
@@ -841,11 +875,14 @@
 				A1810A8918F9F061001DD38D /* Puck.png in Resources */,
 				A18D0A9718FAD1580069BF96 /* MagnataurAudio.mp3 in Resources */,
 				A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */,
+				A1A12B6E18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png in Resources */,
 				A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A18D0A6918FA4E850069BF96 /* AlchemistAudio.mp3 in Resources */,
 				A18109E518F99DA7001DD38D /* Abaddon.png in Resources */,
 				A18D0AA418FAD1580069BF96 /* TinyAudio.mp3 in Resources */,
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,
+				A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */,
+				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A18109F718F99DA7001DD38D /* Magnataur.png in Resources */,
@@ -908,6 +945,7 @@
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
 				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
 				A18109BD18F9986A001DD38D /* HeroCategory.m in Sources */,
+				A1A12B6418FC4B4D002F5702 /* AbilityTableViewCell.m in Sources */,
 				A18109BA18F995F7001DD38D /* HeroCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
