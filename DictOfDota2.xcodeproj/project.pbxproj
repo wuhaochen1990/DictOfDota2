@@ -173,6 +173,9 @@
 		A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6818FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png */; };
 		A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6918FC5CB0002F5702 /* Abaddon_3_Frostmourne.png */; };
 		A1A12B6E18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B6A18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png */; };
+		A1A12B7118FCA585002F5702 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7018FCA585002F5702 /* logo.png */; };
+		A1A12B7318FCA82A002F5702 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7218FCA82A002F5702 /* logo2.png */; };
+		A1A12B7718FCAAC1002F5702 /* Rarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7618FCAAC1002F5702 /* Rarrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,6 +364,9 @@
 		A1A12B6818FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_2_Aphotic_Shield.png; sourceTree = "<group>"; };
 		A1A12B6918FC5CB0002F5702 /* Abaddon_3_Frostmourne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_3_Frostmourne.png; sourceTree = "<group>"; };
 		A1A12B6A18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abaddon_4_Borrowed_time.png; sourceTree = "<group>"; };
+		A1A12B7018FCA585002F5702 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A1A12B7218FCA82A002F5702 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		A1A12B7618FCAAC1002F5702 /* Rarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rarrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +481,7 @@
 		A18109BE18F99D89001DD38D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A1A12B6F18FCA54F002F5702 /* icon */,
 				A1A12B6518FC5C9B002F5702 /* ability */,
 				A18D0A5618FA48940069BF96 /* utility */,
 				A18109BF18F99D90001DD38D /* hero */,
@@ -697,6 +704,16 @@
 			name = Abaddon;
 			sourceTree = "<group>";
 		};
+		A1A12B6F18FCA54F002F5702 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				A1A12B7618FCAAC1002F5702 /* Rarrow.png */,
+				A1A12B7218FCA82A002F5702 /* logo2.png */,
+				A1A12B7018FCA585002F5702 /* logo.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -800,6 +817,7 @@
 				A18D0A9F18FAD1580069BF96 /* Skeleton_KingAudio.mp3 in Resources */,
 				A18D0A7218FA52CC0069BF96 /* Chaos_KnightAudio.mp3 in Resources */,
 				A18109E618F99DA7001DD38D /* Alchemist.png in Resources */,
+				A1A12B7718FCAAC1002F5702 /* Rarrow.png in Resources */,
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
 				A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */,
@@ -825,6 +843,7 @@
 				A18109FE18F99DA7001DD38D /* Shredder.png in Resources */,
 				A18109F918F99DA7001DD38D /* Omniknight.png in Resources */,
 				A1810A0018F99DA7001DD38D /* Slardar.png in Resources */,
+				A1A12B7118FCA585002F5702 /* logo.png in Resources */,
 				A1810A3718F9F059001DD38D /* Lone_Druid.png in Resources */,
 				A1810A8C18F9F061001DD38D /* Rubick.png in Resources */,
 				A18D0A9C18FAD1580069BF96 /* RattletrapAudio.mp3 in Resources */,
@@ -834,6 +853,7 @@
 				A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
 				A1810A0518F99DA7001DD38D /* Treant.png in Resources */,
+				A1A12B7318FCA82A002F5702 /* logo2.png in Resources */,
 				A18D0A9618FAD1580069BF96 /* LycanAudio.mp3 in Resources */,
 				A18D0AA318FAD1580069BF96 /* TidehunterAudio.mp3 in Resources */,
 				A1810A4A18F9F059001DD38D /* Vengefulspirit.png in Resources */,
