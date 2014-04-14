@@ -16,6 +16,8 @@
     NSDictionary *descriptionDict;
     NSDictionary *detailDict;
     NSArray *abilityImage;
+    NSMutableArray *abilityName;
+    NSDictionary *abilityDetail;
     
 }
 
@@ -88,9 +90,32 @@ AVAudioPlayer *heroAudio;
     fileManager = [NSFileManager defaultManager];
     NSString *abilityPath = @"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/ability/";
     abilityImage = [fileManager contentsOfDirectoryAtPath:[abilityPath stringByAppendingString:self.heroName] error:nil];
-    
-    
-    
+    //set the ability name array
+    abilityName = [[NSMutableArray alloc]init];
+    for (id s in abilityImage) {
+        NSArray *tmp = [[[s componentsSeparatedByString:@"."] objectAtIndex:0] componentsSeparatedByString:@"_"];
+        NSString *name = @"";
+        int i = 0;
+        while (![[tmp objectAtIndex:i] intValue]) {
+            i++;
+        }
+        for (i++; i<tmp.count; i++) {
+            name = [name stringByAppendingString:[tmp objectAtIndex:i]];
+            if (i != (tmp.count-1)) {
+                name = [name stringByAppendingString:@" "];
+            }
+        }
+        [abilityName addObject:name];
+    }
+    //set the detail of ability
+    abilityDetail = @{
+                      @"Mist Coil": [NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
+                      @"Aphotic Shield":[NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
+                      @"Frostmourne": [NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
+                      @"Borrowed time":[NSString stringWithFormat:@"Mist is mist\ncoil is coil"],
+
+                      };
+
 }
 //set the table of ability
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -102,8 +127,10 @@ AVAudioPlayer *heroAudio;
 {
     AbilityTableViewCell *abilityTableCell = [tableView dequeueReusableCellWithIdentifier:@"AbilityID"];
     [abilityTableCell.AbilityImage setImage:[UIImage imageNamed:[abilityImage objectAtIndex:indexPath.row]]];
-    
-    
+    [abilityTableCell.AbilityName setText:[abilityName objectAtIndex:indexPath.row]];
+    NSString *ability =[abilityName objectAtIndex:indexPath.row];
+    NSLog(ability);
+    [abilityTableCell.AbilityDetail setText:abilityDetail[ability]];
     
     return abilityTableCell;
 }
