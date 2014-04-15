@@ -41,7 +41,6 @@
 		A18109F418F99DA7001DD38D /* Legion_Commander.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D018F99DA7001DD38D /* Legion_Commander.png */; };
 		A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D118F99DA7001DD38D /* Life_Stealer.png */; };
 		A18109F618F99DA7001DD38D /* Lycan.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D218F99DA7001DD38D /* Lycan.png */; };
-		A18109F718F99DA7001DD38D /* Magnataur.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D318F99DA7001DD38D /* Magnataur.png */; };
 		A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D418F99DA7001DD38D /* Night_Stalker.png */; };
 		A18109F918F99DA7001DD38D /* Omniknight.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D518F99DA7001DD38D /* Omniknight.png */; };
 		A18109FA18F99DA7001DD38D /* Phoenix.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D618F99DA7001DD38D /* Phoenix.png */; };
@@ -178,6 +177,7 @@
 		A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */; };
 		A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */; };
 		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
+		A1E491C118FD779F00E400F7 /* Magnus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C018FD779F00E400F7 /* Magnus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,7 +232,6 @@
 		A18109D018F99DA7001DD38D /* Legion_Commander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Legion_Commander.png; sourceTree = "<group>"; };
 		A18109D118F99DA7001DD38D /* Life_Stealer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Life_Stealer.png; sourceTree = "<group>"; };
 		A18109D218F99DA7001DD38D /* Lycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lycan.png; sourceTree = "<group>"; };
-		A18109D318F99DA7001DD38D /* Magnataur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnataur.png; sourceTree = "<group>"; };
 		A18109D418F99DA7001DD38D /* Night_Stalker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Night_Stalker.png; sourceTree = "<group>"; };
 		A18109D518F99DA7001DD38D /* Omniknight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Omniknight.png; sourceTree = "<group>"; };
 		A18109D618F99DA7001DD38D /* Phoenix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phoenix.png; sourceTree = "<group>"; };
@@ -372,6 +371,7 @@
 		A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_of_Pain.png; sourceTree = "<group>"; };
 		A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skywrath_Mage.png; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
+		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -522,6 +522,7 @@
 				A1E491BE18FD772200E400F7 /* Timbersaw.png */,
 				A18109C918F99DA7001DD38D /* Doom_Bringer.png */,
 				A18109CA18F99DA7001DD38D /* Dragon_Knight.png */,
+				A1E491C018FD779F00E400F7 /* Magnus.png */,
 				A18109CB18F99DA7001DD38D /* Earth_Spirit.png */,
 				A18109CC18F99DA7001DD38D /* Earthshaker.png */,
 				A18109CD18F99DA7001DD38D /* Elder_Titan.png */,
@@ -530,7 +531,6 @@
 				A18109D018F99DA7001DD38D /* Legion_Commander.png */,
 				A18109D118F99DA7001DD38D /* Life_Stealer.png */,
 				A18109D218F99DA7001DD38D /* Lycan.png */,
-				A18109D318F99DA7001DD38D /* Magnataur.png */,
 				A18109D418F99DA7001DD38D /* Night_Stalker.png */,
 				A18109D518F99DA7001DD38D /* Omniknight.png */,
 				A18109D618F99DA7001DD38D /* Phoenix.png */,
@@ -913,7 +913,6 @@
 				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
-				A18109F718F99DA7001DD38D /* Magnataur.png in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */,
 				A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */,
@@ -940,6 +939,7 @@
 				A18D0AA118FAD1580069BF96 /* Spirit_BreakerAudio.mp3 in Resources */,
 				A1810A8F18F9F061001DD38D /* Silencer.png in Resources */,
 				A1810A2E18F9F059001DD38D /* Bloodseeker.png in Resources */,
+				A1E491C118FD779F00E400F7 /* Magnus.png in Resources */,
 				A1810A8A18F9F061001DD38D /* Pugna.png in Resources */,
 				A18109FB18F99DA7001DD38D /* Pudge.png in Resources */,
 				A1810A7B18F9F061001DD38D /* Disruptor.png in Resources */,
