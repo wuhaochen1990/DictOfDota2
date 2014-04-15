@@ -47,7 +47,6 @@
 		A18109FB18F99DA7001DD38D /* Pudge.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D718F99DA7001DD38D /* Pudge.png */; };
 		A18109FC18F99DA7001DD38D /* Rattletrap.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D818F99DA7001DD38D /* Rattletrap.png */; };
 		A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D918F99DA7001DD38D /* Sand_King.png */; };
-		A18109FF18F99DA7001DD38D /* Skeleton_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DB18F99DA7001DD38D /* Skeleton_King.png */; };
 		A1810A0018F99DA7001DD38D /* Slardar.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DC18F99DA7001DD38D /* Slardar.png */; };
 		A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */; };
 		A1810A0218F99DA7001DD38D /* Sven.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DE18F99DA7001DD38D /* Sven.png */; };
@@ -178,6 +177,7 @@
 		A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */; };
 		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
 		A1E491C118FD779F00E400F7 /* Magnus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C018FD779F00E400F7 /* Magnus.png */; };
+		A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C218FD780600E400F7 /* Wraith_King.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,7 +238,6 @@
 		A18109D718F99DA7001DD38D /* Pudge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge.png; sourceTree = "<group>"; };
 		A18109D818F99DA7001DD38D /* Rattletrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap.png; sourceTree = "<group>"; };
 		A18109D918F99DA7001DD38D /* Sand_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sand_King.png; sourceTree = "<group>"; };
-		A18109DB18F99DA7001DD38D /* Skeleton_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skeleton_King.png; sourceTree = "<group>"; };
 		A18109DC18F99DA7001DD38D /* Slardar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar.png; sourceTree = "<group>"; };
 		A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker.png; sourceTree = "<group>"; };
 		A18109DE18F99DA7001DD38D /* Sven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sven.png; sourceTree = "<group>"; };
@@ -372,6 +371,7 @@
 		A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skywrath_Mage.png; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
+		A1E491C218FD780600E400F7 /* Wraith_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,12 +532,12 @@
 				A18109D118F99DA7001DD38D /* Life_Stealer.png */,
 				A18109D218F99DA7001DD38D /* Lycan.png */,
 				A18109D418F99DA7001DD38D /* Night_Stalker.png */,
+				A1E491C218FD780600E400F7 /* Wraith_King.png */,
 				A18109D518F99DA7001DD38D /* Omniknight.png */,
 				A18109D618F99DA7001DD38D /* Phoenix.png */,
 				A18109D718F99DA7001DD38D /* Pudge.png */,
 				A18109D818F99DA7001DD38D /* Rattletrap.png */,
 				A18109D918F99DA7001DD38D /* Sand_King.png */,
-				A18109DB18F99DA7001DD38D /* Skeleton_King.png */,
 				A18109DC18F99DA7001DD38D /* Slardar.png */,
 				A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */,
 				A18109DE18F99DA7001DD38D /* Sven.png */,
@@ -820,7 +820,6 @@
 				A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */,
 				A1810A3018F9F059001DD38D /* Broodmother.png in Resources */,
 				A18109EC18F99DA7001DD38D /* Chaos_Knight.png in Resources */,
-				A18109FF18F99DA7001DD38D /* Skeleton_King.png in Resources */,
 				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
 				A18109EB18F99DA7001DD38D /* Centaur.png in Resources */,
 				A1810A8318F9F061001DD38D /* Lich.png in Resources */,
@@ -875,6 +874,7 @@
 				A1810A3618F9F059001DD38D /* Juggernaut.png in Resources */,
 				A1810A8D18F9F061001DD38D /* Shadow_Demon.png in Resources */,
 				A1810A3D18F9F059001DD38D /* Naga_Siren.png in Resources */,
+				A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */,
 				A1810A7A18F9F061001DD38D /* Death_Prophet.png in Resources */,
 				A18D0A9318FAD1580069BF96 /* KunkkaAudio.mp3 in Resources */,
 				A1810A7E18F9F061001DD38D /* Furion.png in Resources */,
