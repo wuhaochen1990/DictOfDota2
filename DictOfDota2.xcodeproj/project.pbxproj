@@ -176,6 +176,8 @@
 		A1A12B7718FCAAC1002F5702 /* Rarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7618FCAAC1002F5702 /* Rarrow.png */; };
 		A1A12B7918FCAD82002F5702 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A12B7818FCAD82002F5702 /* iAd.framework */; };
 		A1A12B7C18FCADDC002F5702 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */; };
+		A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */; };
+		A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -368,6 +370,8 @@
 		A1A12B7818FCAD82002F5702 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A1A12B7A18FCADDC002F5702 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
 		A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_of_Pain.png; sourceTree = "<group>"; };
+		A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skywrath_Mage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -604,6 +608,8 @@
 				A1810A5918F9F061001DD38D /* Furion.png */,
 				A1810A5A18F9F061001DD38D /* Invoker.png */,
 				A1810A5B18F9F061001DD38D /* Jakiro.png */,
+				A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */,
+				A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */,
 				A1810A5C18F9F061001DD38D /* Keeper_of_the_Light.png */,
 				A1810A5D18F9F061001DD38D /* Leshrac.png */,
 				A1810A5E18F9F061001DD38D /* Lich.png */,
@@ -902,6 +908,7 @@
 				A18109E518F99DA7001DD38D /* Abaddon.png in Resources */,
 				A18D0AA418FAD1580069BF96 /* TinyAudio.mp3 in Resources */,
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,
+				A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */,
 				A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */,
 				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
@@ -909,6 +916,7 @@
 				A18109F718F99DA7001DD38D /* Magnataur.png in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */,
+				A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */,
 				A1810A4818F9F059001DD38D /* Troll_Warlord.png in Resources */,
 				A1810A7718F9F061001DD38D /* Crystal_Maiden.png in Resources */,
 				A1810A8818F9F061001DD38D /* Ogre_Magi.png in Resources */,
