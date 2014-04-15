@@ -176,6 +176,8 @@
 		A1A12B7118FCA585002F5702 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7018FCA585002F5702 /* logo.png */; };
 		A1A12B7318FCA82A002F5702 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7218FCA82A002F5702 /* logo2.png */; };
 		A1A12B7718FCAAC1002F5702 /* Rarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B7618FCAAC1002F5702 /* Rarrow.png */; };
+		A1A12B7918FCAD82002F5702 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A12B7818FCAD82002F5702 /* iAd.framework */; };
+		A1A12B7C18FCADDC002F5702 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -367,6 +369,9 @@
 		A1A12B7018FCA585002F5702 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		A1A12B7218FCA82A002F5702 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		A1A12B7618FCAAC1002F5702 /* Rarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rarrow.png; sourceTree = "<group>"; };
+		A1A12B7818FCAD82002F5702 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A1A12B7A18FCADDC002F5702 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +379,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A12B7918FCAD82002F5702 /* iAd.framework in Frameworks */,
 				A18D0A5A18FA49610069BF96 /* AVFoundation.framework in Frameworks */,
 				A17BF71218F4C2440006D2E7 /* CoreGraphics.framework in Frameworks */,
 				A17BF71418F4C2440006D2E7 /* UIKit.framework in Frameworks */,
@@ -416,6 +422,7 @@
 		A17BF70E18F4C2440006D2E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1A12B7818FCAD82002F5702 /* iAd.framework */,
 				A18D0A5918FA49610069BF96 /* AVFoundation.framework */,
 				A17BF70F18F4C2440006D2E7 /* Foundation.framework */,
 				A17BF71118F4C2440006D2E7 /* CoreGraphics.framework */,
@@ -434,6 +441,8 @@
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
 				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
 				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
+				A1A12B7A18FCADDC002F5702 /* MainNavigationViewController.h */,
+				A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */,
 				A18109BB18F9986A001DD38D /* HeroCategory.h */,
 				A1810A9818F9F71F001DD38D /* HeroInfoViewController.h */,
 				A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */,
@@ -965,6 +974,7 @@
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
 				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
 				A18109BD18F9986A001DD38D /* HeroCategory.m in Sources */,
+				A1A12B7C18FCADDC002F5702 /* MainNavigationViewController.m in Sources */,
 				A1A12B6418FC4B4D002F5702 /* AbilityTableViewCell.m in Sources */,
 				A18109BA18F995F7001DD38D /* HeroCell.m in Sources */,
 			);
