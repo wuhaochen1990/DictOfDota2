@@ -309,6 +309,11 @@ AVAudioPlayer *heroAudio;
                       @"Aphotic Shield":[NSString stringWithFormat:@"无光之盾\naphotic－无光的 shield－盾"],
                       @"Frostmourne": [NSString stringWithFormat:@"魔霭诅咒\n没错，这就是霜之哀伤"],
                       @"Borrowed time":[NSString stringWithFormat:@"回光返照\n借来的时间表示即将死亡了"],
+                      @"Acid Spray": [NSString stringWithFormat:@"酸性喷雾\nacid－酸 spray－喷射"],
+                      @"Unstable Concoction": [NSString stringWithFormat:@"不稳定化合物\nunstable－不稳定 concoction－混合物"],
+                      @"Greevil's Greed": [NSString stringWithFormat:@"贪魔的贪婪\ngreevil－贪魔 greed－贪婪"],
+                      @"Chemical Rage": [NSString stringWithFormat:@"化学狂暴\nchemical－化学的 rage－暴怒"],
+                      @"Unstable Concoction Throw": [NSString stringWithFormat:@"投掷不稳定化合物\nthrow－投掷"],
 
                       };
 

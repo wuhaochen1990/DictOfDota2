@@ -248,6 +248,11 @@
 		A1E4924D18FDBBF700E400F7 /* WindrunnerAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1E4920718FDBBF700E400F7 /* WindrunnerAudio.mp3 */; };
 		A1E4924E18FDBBF700E400F7 /* Witch_DoctorAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1E4920818FDBBF700E400F7 /* Witch_DoctorAudio.mp3 */; };
 		A1E4924F18FDBBF700E400F7 /* ZeusAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1E4920918FDBBF700E400F7 /* ZeusAudio.mp3 */; };
+		A1E4925618FDBE0A00E400F7 /* Alchemist_1_Acid_Spray.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925118FDBE0A00E400F7 /* Alchemist_1_Acid_Spray.png */; };
+		A1E4925718FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925218FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png */; };
+		A1E4925818FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925318FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png */; };
+		A1E4925918FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925418FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png */; };
+		A1E4925C18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -512,6 +517,11 @@
 		A1E4920718FDBBF700E400F7 /* WindrunnerAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WindrunnerAudio.mp3; sourceTree = "<group>"; };
 		A1E4920818FDBBF700E400F7 /* Witch_DoctorAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Witch_DoctorAudio.mp3; sourceTree = "<group>"; };
 		A1E4920918FDBBF700E400F7 /* ZeusAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ZeusAudio.mp3; sourceTree = "<group>"; };
+		A1E4925118FDBE0A00E400F7 /* Alchemist_1_Acid_Spray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_1_Acid_Spray.png; sourceTree = "<group>"; };
+		A1E4925218FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_2_Unstable_Concoction.png; sourceTree = "<group>"; };
+		A1E4925318FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alchemist_3_Greevil's_Greed.png"; sourceTree = "<group>"; };
+		A1E4925418FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_4_Chemical_Rage.png; sourceTree = "<group>"; };
+		A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_5_Unstable_Concoction_Throw.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -907,6 +917,7 @@
 		A1A12B6518FC5C9B002F5702 /* ability */ = {
 			isa = PBXGroup;
 			children = (
+				A1E4925018FDBDF900E400F7 /* Alchemist */,
 				A1A12B6618FC5CA2002F5702 /* Abaddon */,
 			);
 			name = ability;
@@ -931,6 +942,18 @@
 				A1A12B7018FCA585002F5702 /* logo.png */,
 			);
 			name = icon;
+			sourceTree = "<group>";
+		};
+		A1E4925018FDBDF900E400F7 /* Alchemist */ = {
+			isa = PBXGroup;
+			children = (
+				A1E4925118FDBE0A00E400F7 /* Alchemist_1_Acid_Spray.png */,
+				A1E4925218FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png */,
+				A1E4925318FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png */,
+				A1E4925418FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png */,
+				A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */,
+			);
+			name = Alchemist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1111,6 +1134,7 @@
 				A1E4921818FDBBF700E400F7 /* Drow_RangerAudio.mp3 in Resources */,
 				A18109E918F99DA7001DD38D /* Brewmaster.png in Resources */,
 				A18109F618F99DA7001DD38D /* Lycan.png in Resources */,
+				A1E4925818FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png in Resources */,
 				A1810A3618F9F059001DD38D /* Juggernaut.png in Resources */,
 				A1E4921A18FDBBF700E400F7 /* EnchantressAudio.mp3 in Resources */,
 				A1810A8D18F9F061001DD38D /* Shadow_Demon.png in Resources */,
@@ -1127,6 +1151,7 @@
 				A1810A7918F9F061001DD38D /* Dazzle.png in Resources */,
 				A1E4922F18FDBBF700E400F7 /* NevermoreAudio.mp3 in Resources */,
 				A1810A0318F99DA7001DD38D /* Tidehunter.png in Resources */,
+				A1E4925C18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png in Resources */,
 				A1E4924718FDBBF700E400F7 /* VengefulspiritAudio.mp3 in Resources */,
 				A1810A8518F9F061001DD38D /* Lion.png in Resources */,
 				A1810A4318F9F059001DD38D /* Slark.png in Resources */,
@@ -1157,6 +1182,7 @@
 				A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */,
 				A1E4921518FDBBF700E400F7 /* DazzleAudio.mp3 in Resources */,
 				A1A12B6E18FC5CB0002F5702 /* Abaddon_4_Borrowed_time.png in Resources */,
+				A1E4925618FDBE0A00E400F7 /* Alchemist_1_Acid_Spray.png in Resources */,
 				A1E4924F18FDBBF700E400F7 /* ZeusAudio.mp3 in Resources */,
 				A1E4922A18FDBBF700E400F7 /* MeepoAudio.mp3 in Resources */,
 				A1E4924E18FDBBF700E400F7 /* Witch_DoctorAudio.mp3 in Resources */,
@@ -1172,11 +1198,13 @@
 				A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */,
 				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
+				A1E4925918FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png in Resources */,
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A1E4920B18FDBBF700E400F7 /* AntimageAudio.mp3 in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */,
 				A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */,
+				A1E4925718FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png in Resources */,
 				A1810A4818F9F059001DD38D /* Troll_Warlord.png in Resources */,
 				A1810A7718F9F061001DD38D /* Crystal_Maiden.png in Resources */,
 				A1810A8818F9F061001DD38D /* Ogre_Magi.png in Resources */,
