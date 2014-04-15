@@ -249,7 +249,7 @@ AVAudioPlayer *heroAudio;
                    @"Crystal_Maiden": [NSString stringWithFormat:@"cystal－水晶\nmaiden－处女，少女"],
                    @"Dark_Seer": [NSString stringWithFormat:@"dark－黑暗\nseer－预言家，先知"],
                    @"Dazzle": [NSString stringWithFormat:@"音译－戴泽"],
-                   @"Death_Prophet": [NSString stringWithFormat:@"death－死亡\prophet－先知"],
+                   @"Death_Prophet": [NSString stringWithFormat:@"death－死亡\nprophet－先知"],
                    @"Disruptor": [NSString stringWithFormat:@"直译－干扰者"],
                    @"Enchantress": [NSString stringWithFormat:@"enchant－使迷惑"],
                    @"Enigma": [NSString stringWithFormat:@"直译－谜团"],
