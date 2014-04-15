@@ -314,6 +314,11 @@ AVAudioPlayer *heroAudio;
                       @"Greevil's Greed": [NSString stringWithFormat:@"贪魔的贪婪\ngreevil－贪魔 greed－贪婪"],
                       @"Chemical Rage": [NSString stringWithFormat:@"化学狂暴\nchemical－化学的 rage－暴怒"],
                       @"Unstable Concoction Throw": [NSString stringWithFormat:@"投掷不稳定化合物\nthrow－投掷"],
+                      @"Berserker's Call": [NSString stringWithFormat:@"狂战士的怒吼\nbberserker－狂暴战士 call－怒吼"],
+                      @"Battle Hunger": [NSString stringWithFormat:@"战争饥渴\nbattle－战争 hunger－饥渴"],
+                      @"Counter Helix": [NSString stringWithFormat:@"反击螺旋\ncounter－反 helix－螺旋"],
+                      @"Culling Blade": [NSString stringWithFormat:@"淘汰之刃\nculling－从大批货物中剔除次品 blade－刀刃"],
+                      
 
                       };
 

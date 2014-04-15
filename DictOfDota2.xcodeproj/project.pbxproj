@@ -253,6 +253,10 @@
 		A1E4925818FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925318FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png */; };
 		A1E4925918FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925418FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png */; };
 		A1E4925C18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */; };
+		A1E4926218FDC23700E400F7 /* Axe_1_Berserker's_Call.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925E18FDC23700E400F7 /* Axe_1_Berserker's_Call.png */; };
+		A1E4926318FDC23700E400F7 /* Axe_4_Culling_Blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925F18FDC23700E400F7 /* Axe_4_Culling_Blade.png */; };
+		A1E4926418FDC23700E400F7 /* Axe_2_Battle_Hunger.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4926018FDC23700E400F7 /* Axe_2_Battle_Hunger.png */; };
+		A1E4926518FDC23700E400F7 /* Axe_3_Counter_Helix.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4926118FDC23700E400F7 /* Axe_3_Counter_Helix.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -522,6 +526,10 @@
 		A1E4925318FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alchemist_3_Greevil's_Greed.png"; sourceTree = "<group>"; };
 		A1E4925418FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_4_Chemical_Rage.png; sourceTree = "<group>"; };
 		A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alchemist_5_Unstable_Concoction_Throw.png; sourceTree = "<group>"; };
+		A1E4925E18FDC23700E400F7 /* Axe_1_Berserker's_Call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Axe_1_Berserker's_Call.png"; sourceTree = "<group>"; };
+		A1E4925F18FDC23700E400F7 /* Axe_4_Culling_Blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_4_Culling_Blade.png; sourceTree = "<group>"; };
+		A1E4926018FDC23700E400F7 /* Axe_2_Battle_Hunger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_2_Battle_Hunger.png; sourceTree = "<group>"; };
+		A1E4926118FDC23700E400F7 /* Axe_3_Counter_Helix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_3_Counter_Helix.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -917,6 +925,7 @@
 		A1A12B6518FC5C9B002F5702 /* ability */ = {
 			isa = PBXGroup;
 			children = (
+				A1E4925D18FDC22E00E400F7 /* Axe */,
 				A1E4925018FDBDF900E400F7 /* Alchemist */,
 				A1A12B6618FC5CA2002F5702 /* Abaddon */,
 			);
@@ -954,6 +963,17 @@
 				A1E4925B18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png */,
 			);
 			name = Alchemist;
+			sourceTree = "<group>";
+		};
+		A1E4925D18FDC22E00E400F7 /* Axe */ = {
+			isa = PBXGroup;
+			children = (
+				A1E4925E18FDC23700E400F7 /* Axe_1_Berserker's_Call.png */,
+				A1E4925F18FDC23700E400F7 /* Axe_4_Culling_Blade.png */,
+				A1E4926018FDC23700E400F7 /* Axe_2_Battle_Hunger.png */,
+				A1E4926118FDC23700E400F7 /* Axe_3_Counter_Helix.png */,
+			);
+			name = Axe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1033,6 +1053,7 @@
 			files = (
 				A1810A7518F9F061001DD38D /* Batrider.png in Resources */,
 				A1E4924818FDBBF700E400F7 /* VenomancerAudio.mp3 in Resources */,
+				A1E4926518FDC23700E400F7 /* Axe_3_Counter_Helix.png in Resources */,
 				A1810A3118F9F059001DD38D /* Clinkz.png in Resources */,
 				A1810A0218F99DA7001DD38D /* Sven.png in Resources */,
 				A18D0A6C18FA4E850069BF96 /* BrewmasterAudio.mp3 in Resources */,
@@ -1043,6 +1064,7 @@
 				A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */,
 				A1E4921018FDBBF700E400F7 /* BroodmotherAudio.mp3 in Resources */,
 				A1810A0718F99DA7001DD38D /* Undying.png in Resources */,
+				A1E4926218FDC23700E400F7 /* Axe_1_Berserker's_Call.png in Resources */,
 				A1E4924918FDBBF700E400F7 /* ViperAudio.mp3 in Resources */,
 				A1E4922618FDBBF700E400F7 /* LionAudio.mp3 in Resources */,
 				A1E4923818FDBBF700E400F7 /* RazorAudio.mp3 in Resources */,
@@ -1082,6 +1104,7 @@
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
 				A1E4924418FDBBF700E400F7 /* TinkerAudio.mp3 in Resources */,
+				A1E4926418FDC23700E400F7 /* Axe_2_Battle_Hunger.png in Resources */,
 				A1E4924318FDBBF700E400F7 /* TerrorbladeAudio.mp3 in Resources */,
 				A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */,
 				A1810A7818F9F061001DD38D /* Dark_Seer.png in Resources */,
@@ -1259,6 +1282,7 @@
 				A1810A3C18F9F059001DD38D /* Morphling.png in Resources */,
 				A18109E818F99DA7001DD38D /* Beastmaster.png in Resources */,
 				A18D0A9A18FAD1580069BF96 /* PhoenixAudio.mp3 in Resources */,
+				A1E4926318FDC23700E400F7 /* Axe_4_Culling_Blade.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
