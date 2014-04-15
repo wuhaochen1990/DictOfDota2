@@ -48,7 +48,6 @@
 		A18109FB18F99DA7001DD38D /* Pudge.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D718F99DA7001DD38D /* Pudge.png */; };
 		A18109FC18F99DA7001DD38D /* Rattletrap.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D818F99DA7001DD38D /* Rattletrap.png */; };
 		A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109D918F99DA7001DD38D /* Sand_King.png */; };
-		A18109FE18F99DA7001DD38D /* Shredder.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DA18F99DA7001DD38D /* Shredder.png */; };
 		A18109FF18F99DA7001DD38D /* Skeleton_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DB18F99DA7001DD38D /* Skeleton_King.png */; };
 		A1810A0018F99DA7001DD38D /* Slardar.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DC18F99DA7001DD38D /* Slardar.png */; };
 		A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */ = {isa = PBXBuildFile; fileRef = A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */; };
@@ -178,6 +177,7 @@
 		A1A12B7C18FCADDC002F5702 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */; };
 		A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */; };
 		A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */; };
+		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,7 +239,6 @@
 		A18109D718F99DA7001DD38D /* Pudge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge.png; sourceTree = "<group>"; };
 		A18109D818F99DA7001DD38D /* Rattletrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap.png; sourceTree = "<group>"; };
 		A18109D918F99DA7001DD38D /* Sand_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sand_King.png; sourceTree = "<group>"; };
-		A18109DA18F99DA7001DD38D /* Shredder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shredder.png; sourceTree = "<group>"; };
 		A18109DB18F99DA7001DD38D /* Skeleton_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skeleton_King.png; sourceTree = "<group>"; };
 		A18109DC18F99DA7001DD38D /* Slardar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar.png; sourceTree = "<group>"; };
 		A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker.png; sourceTree = "<group>"; };
@@ -372,6 +371,7 @@
 		A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 		A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_of_Pain.png; sourceTree = "<group>"; };
 		A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skywrath_Mage.png; sourceTree = "<group>"; };
+		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,6 +519,7 @@
 				A18109C618F99DA7001DD38D /* Bristleback.png */,
 				A18109C718F99DA7001DD38D /* Centaur.png */,
 				A18109C818F99DA7001DD38D /* Chaos_Knight.png */,
+				A1E491BE18FD772200E400F7 /* Timbersaw.png */,
 				A18109C918F99DA7001DD38D /* Doom_Bringer.png */,
 				A18109CA18F99DA7001DD38D /* Dragon_Knight.png */,
 				A18109CB18F99DA7001DD38D /* Earth_Spirit.png */,
@@ -536,7 +537,6 @@
 				A18109D718F99DA7001DD38D /* Pudge.png */,
 				A18109D818F99DA7001DD38D /* Rattletrap.png */,
 				A18109D918F99DA7001DD38D /* Sand_King.png */,
-				A18109DA18F99DA7001DD38D /* Shredder.png */,
 				A18109DB18F99DA7001DD38D /* Skeleton_King.png */,
 				A18109DC18F99DA7001DD38D /* Slardar.png */,
 				A18109DD18F99DA7001DD38D /* Spirit_Breaker.png */,
@@ -808,6 +808,7 @@
 				A1810A4618F9F059001DD38D /* Templar_Assassin.png in Resources */,
 				A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */,
 				A1810A0718F99DA7001DD38D /* Undying.png in Resources */,
+				A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */,
 				A1810A8718F9F061001DD38D /* Obsidian_Destroyer.png in Resources */,
 				A18109E718F99DA7001DD38D /* Axe.png in Resources */,
 				A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */,
@@ -849,7 +850,6 @@
 				A18D0A9E18FAD1580069BF96 /* ShredderAudio.mp3 in Resources */,
 				A18D0AA718FAD1580069BF96 /* UndyingAudio.mp3 in Resources */,
 				A1810A4118F9F059001DD38D /* Phantom_Lancer.png in Resources */,
-				A18109FE18F99DA7001DD38D /* Shredder.png in Resources */,
 				A18109F918F99DA7001DD38D /* Omniknight.png in Resources */,
 				A1810A0018F99DA7001DD38D /* Slardar.png in Resources */,
 				A1A12B7118FCA585002F5702 /* logo.png in Resources */,
