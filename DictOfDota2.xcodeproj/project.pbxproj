@@ -175,6 +175,11 @@
 		A1A12B7C18FCADDC002F5702 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */; };
 		A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */; };
 		A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */; };
+		A1CA12F918FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F418FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png */; };
+		A1CA12FA18FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F518FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png */; };
+		A1CA12FB18FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F618FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png */; };
+		A1CA12FC18FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F718FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png */; };
+		A1CA12FD18FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F818FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png */; };
 		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
 		A1E491C118FD779F00E400F7 /* Magnus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C018FD779F00E400F7 /* Magnus.png */; };
 		A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C218FD780600E400F7 /* Wraith_King.png */; };
@@ -448,6 +453,11 @@
 		A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 		A1A12B8118FCC3E8002F5702 /* Queen_of_Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_of_Pain.png; sourceTree = "<group>"; };
 		A1A12B8218FCC3E8002F5702 /* Skywrath_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skywrath_Mage.png; sourceTree = "<group>"; };
+		A1CA12F418FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_1_Wild_Axes.png; sourceTree = "<group>"; };
+		A1CA12F518FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_2_Call_of_the_Wild_Hawk.png; sourceTree = "<group>"; };
+		A1CA12F618FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_3_Call_of_the_Wild_Boar.png; sourceTree = "<group>"; };
+		A1CA12F718FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_4_Inner_Beast.png; sourceTree = "<group>"; };
+		A1CA12F818FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_5_Primal_Roar.png; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
 		A1E491C218FD780600E400F7 /* Wraith_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King.png; sourceTree = "<group>"; };
@@ -925,6 +935,7 @@
 		A1A12B6518FC5C9B002F5702 /* ability */ = {
 			isa = PBXGroup;
 			children = (
+				A1CA12F318FDD04A00120EC0 /* Beastmaster */,
 				A1E4925D18FDC22E00E400F7 /* Axe */,
 				A1E4925018FDBDF900E400F7 /* Alchemist */,
 				A1A12B6618FC5CA2002F5702 /* Abaddon */,
@@ -951,6 +962,18 @@
 				A1A12B7018FCA585002F5702 /* logo.png */,
 			);
 			name = icon;
+			sourceTree = "<group>";
+		};
+		A1CA12F318FDD04A00120EC0 /* Beastmaster */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA12F418FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png */,
+				A1CA12F518FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png */,
+				A1CA12F618FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png */,
+				A1CA12F718FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png */,
+				A1CA12F818FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png */,
+			);
+			name = Beastmaster;
 			sourceTree = "<group>";
 		};
 		A1E4925018FDBDF900E400F7 /* Alchemist */ = {
@@ -1115,6 +1138,7 @@
 				A1810A3E18F9F059001DD38D /* Nevermore.png in Resources */,
 				A18D0A9918FAD1580069BF96 /* OmniknightAudio.mp3 in Resources */,
 				A18D0A6A18FA4E850069BF96 /* AxeAudio.mp3 in Resources */,
+				A1CA12FA18FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png in Resources */,
 				A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */,
 				A1810A4B18F9F059001DD38D /* Venomancer.png in Resources */,
 				A18109F318F99DA7001DD38D /* Kunkka.png in Resources */,
@@ -1144,6 +1168,7 @@
 				A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
 				A1E4922C18FDBBF700E400F7 /* MorphlingAudio.mp3 in Resources */,
+				A1CA12FD18FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png in Resources */,
 				A1810A0518F99DA7001DD38D /* Treant.png in Resources */,
 				A1A12B7318FCA82A002F5702 /* logo2.png in Resources */,
 				A1E4921118FDBBF700E400F7 /* ChenAudio.mp3 in Resources */,
@@ -1224,11 +1249,13 @@
 				A1E4925918FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png in Resources */,
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A1E4920B18FDBBF700E400F7 /* AntimageAudio.mp3 in Resources */,
+				A1CA12FB18FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A1810A0118F99DA7001DD38D /* Spirit_Breaker.png in Resources */,
 				A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */,
 				A1E4925718FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png in Resources */,
 				A1810A4818F9F059001DD38D /* Troll_Warlord.png in Resources */,
+				A1CA12F918FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png in Resources */,
 				A1810A7718F9F061001DD38D /* Crystal_Maiden.png in Resources */,
 				A1810A8818F9F061001DD38D /* Ogre_Magi.png in Resources */,
 				A1810A7D18F9F061001DD38D /* Enigma.png in Resources */,
@@ -1275,6 +1302,7 @@
 				A18D0A9218FAD1580069BF96 /* HuskarAudio.mp3 in Resources */,
 				A1E4923A18FDBBF700E400F7 /* Shadow_DemonAudio.mp3 in Resources */,
 				A1810A0418F99DA7001DD38D /* Tiny.png in Resources */,
+				A1CA12FC18FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png in Resources */,
 				A1E4922218FDBBF700E400F7 /* Keeper_of_the_LightAudio.mp3 in Resources */,
 				A1810A4C18F9F059001DD38D /* Viper.png in Resources */,
 				A1810A7318F9F061001DD38D /* Ancient_Apparition.png in Resources */,

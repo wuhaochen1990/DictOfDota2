@@ -318,7 +318,11 @@ AVAudioPlayer *heroAudio;
                       @"Battle Hunger": [NSString stringWithFormat:@"战争饥渴\nbattle－战争 hunger－饥渴"],
                       @"Counter Helix": [NSString stringWithFormat:@"反击螺旋\ncounter－反 helix－螺旋"],
                       @"Culling Blade": [NSString stringWithFormat:@"淘汰之刃\nculling－从大批货物中剔除次品 blade－刀刃"],
-                      
+                      @"Wild Axes": [NSString stringWithFormat:@"野性之斧\nwild－野性 axe－斧头"],
+                      @"Call of the Wild Hawk": [NSString stringWithFormat:@"野性召唤战鹰\ncall－召唤 hawk－鹰"],
+                      @"Call of the Wild Boar": [NSString stringWithFormat:@"野性召唤野猪\ncall－召唤 boar－野猪"],
+                      @"Inner Beast": [NSString stringWithFormat:@"野性之心\ninner－内在的 beast－野兽"],
+                      @"Primal Roar": [NSString stringWithFormat:@"原始咆哮\nprimal－原始 roar－咆哮"],
 
                       };
 
