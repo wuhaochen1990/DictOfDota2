@@ -370,6 +370,16 @@ AVAudioPlayer *heroAudio;
                       @"X Marks the Spot": [NSString stringWithFormat:@"X标记\nmark－标记 spot－地点"],
                       @"Ghostship": [NSString stringWithFormat:@"幽灵船\nghost－幽灵 ship－船"],
                       @"X Marks Return": [NSString stringWithFormat:@"送回"],
+                      @"Overwhelming Odds": [NSString stringWithFormat:@"压倒性优势\noverwhelming－压倒性 odds－胜算"],
+                      @"Press the Attack": [NSString stringWithFormat:@"强攻\npress－强压 attack－进攻"],
+                      @"Moment of Courage": [NSString stringWithFormat:@"勇气之霎\nmoment－瞬间 courage－勇气"],
+                      @"Duel": [NSString stringWithFormat:@"决斗\nduel－决斗，战斗"],
+                      @"Rage": [NSString stringWithFormat:@"狂暴\nrage－狂怒"],
+                      @"Feast": [NSString stringWithFormat:@"盛宴\nfeast－筵席"],
+                      @"Open Wounds": [NSString stringWithFormat:@"撕裂伤口\nwounds－伤口"],
+                      @"Infest": [NSString stringWithFormat:@"感染\ninfest－寄生"],
+                      @"Consume": [NSString stringWithFormat:@"吞噬\nconsume－消费，耗尽生命"],
+                      
 
 
                       };
