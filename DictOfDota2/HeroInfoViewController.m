@@ -323,6 +323,15 @@ AVAudioPlayer *heroAudio;
                       @"Call of the Wild Boar": [NSString stringWithFormat:@"野性召唤野猪\ncall－召唤 boar－野猪"],
                       @"Inner Beast": [NSString stringWithFormat:@"野性之心\ninner－内在的 beast－野兽"],
                       @"Primal Roar": [NSString stringWithFormat:@"原始咆哮\nprimal－原始 roar－咆哮"],
+                      @"Thunder Clap": [NSString stringWithFormat:@"雷霆一击\nthunder－雷霆 clap－击掌"],
+                      @"Drunken Haze": [NSString stringWithFormat:@"醉酒云雾\ndrunken－喝醉了 haze－薄雾"],
+                      @"Drunken Brawler": [NSString stringWithFormat:@"醉拳\nbrawler－争吵"],
+                      @"Primal Split": [NSString stringWithFormat:@"元素分离\nprimal－原始 split－分离"],
+                      @"Viscous Nasal Goo": [NSString stringWithFormat:@"粘稠鼻液\nviscous－粘性nasal－鼻goo－粘性物"],
+                      @"Quill Spray": [NSString stringWithFormat:@"刺针扫射\nquill－刚毛，刺射 spray－喷射"],
+                      @"Bristleback": [NSString stringWithFormat:@"刚毛后背\n冠名的技能"],
+                      @"Warpath": [NSString stringWithFormat:@"战意\nwar－战争 path－路径"],
+
 
                       };
 
