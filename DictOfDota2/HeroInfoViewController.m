@@ -379,6 +379,32 @@ AVAudioPlayer *heroAudio;
                       @"Open Wounds": [NSString stringWithFormat:@"撕裂伤口\nwounds－伤口"],
                       @"Infest": [NSString stringWithFormat:@"感染\ninfest－寄生"],
                       @"Consume": [NSString stringWithFormat:@"吞噬\nconsume－消费，耗尽生命"],
+                      @"Summon Wolves": [NSString stringWithFormat:@"召狼\nsummon－召唤 wolf－狼"],
+                      @"Howl": [NSString stringWithFormat:@"嗥叫\nhowl－狼嗥"],
+                      @"Feral Impulse": [NSString stringWithFormat:@"野性驱使\nferal－野生的，凶猛的 impulse－推动"],
+                      @"Shapeshift": [NSString stringWithFormat:@"变形\nshape－形状 shift－变换"],
+                      @"Shockwave": [NSString stringWithFormat:@"震荡波\nshock－震荡 wave－波"],
+                      @"Empower": [NSString stringWithFormat:@"授予力量\nempower－给力量"],
+                      @"Skewer": [NSString stringWithFormat:@"巨角冲撞\nskewer－刺穿"],
+                      @"Reverse Polarity": [NSString stringWithFormat:@"两极反转\nreverse反转 polarity－两极"],
+                      @"Void": [NSString stringWithFormat:@"虚空\n和虚空假面一个词"],
+                      @"Crippling Fear": [NSString stringWithFormat:@"伤残恐惧\ncripple－残废 fear－恐惧"],
+                      @"Hunter in the Night": [NSString stringWithFormat:@"夜晚中的狩猎者\nhunter－猎人"],
+                      @"Darkness": [NSString stringWithFormat:@"黑暗时间\ndark－黑暗的"],
+                      @"Purification": [NSString stringWithFormat:@"洗礼\npure－纯洁 purify－使纯洁"],
+                      @"Repel": [NSString stringWithFormat:@"驱逐\nrepel－击退"],
+                      @"Degen Aura": [NSString stringWithFormat:@"退化光环\ndegen－degeneration退化 aura－光环"],
+                      @"Guardian Angel": [NSString stringWithFormat:@"守护天使\nguardian－守护者 angel－天使"],
+                      @"Icarus Dive": [NSString stringWithFormat:@"凤凰冲击\nIcarus－源于希腊神话飞向太阳而死"],
+                      @"Fire Spirits": [NSString stringWithFormat:@"烈火精灵\nfire－火 spirit－灵"],
+                      @"Sun Ray": [NSString stringWithFormat:@"烈日炙烤\nsun－太阳 ray－放射光线"],
+                      @"Supernova": [NSString stringWithFormat:@"超新星\nsupernova－凤凰终结现生命获得重生"],
+                      @"Launch Fire Spirit": [NSString stringWithFormat:@"发动烈火精灵\nlaunch－发射"],
+                      @"Icarus Dive Stop": [NSString stringWithFormat:@"终止凤凰冲击"],
+                      @"Sun Ray Stop": [NSString stringWithFormat:@"终止烈日炙烤"],
+                      @"Sun Ray Toggle Move": [NSString stringWithFormat:@"切换移动状态\ntoggle－触发"],
+                      
+
                       
 
 
