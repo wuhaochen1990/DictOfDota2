@@ -60,7 +60,9 @@ AVAudioPlayer *heroAudio;
     //end of set title
     NSLog(@"end of title");
     //set the hero image
+    
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
+    
     //set the description
     descriptionDict = @{
                         @"Abaddon": [NSString stringWithFormat:@"亚巴顿"],
@@ -278,7 +280,7 @@ AVAudioPlayer *heroAudio;
                    @"Warlock": [NSString stringWithFormat:@"直译－术士"],
                    @"Windrunner": [NSString stringWithFormat:@"直译－风行者"],
                    @"Witch_Doctor": [NSString stringWithFormat:@"直译－巫医"],
-                   @"Zeus": [NSString stringWithFormat:@"音译－宙斯\n源于希腊神话众神之王"],
+                   @"Zeus": [NSString stringWithFormat:@"音译－宙斯\n希腊神话众神之王"],
                         };
     [[self HeroDetail]setText:detailDict[self.heroName]];
     //set the ability image

@@ -92,7 +92,7 @@
         default:
             break;
     }
-    
+    [hero.layer setCornerRadius:3.0f];
     return hero;
 }
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
