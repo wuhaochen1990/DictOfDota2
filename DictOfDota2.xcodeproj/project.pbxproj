@@ -342,6 +342,66 @@
 		A1E4926318FDC23700E400F7 /* Axe_4_Culling_Blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4925F18FDC23700E400F7 /* Axe_4_Culling_Blade.png */; };
 		A1E4926418FDC23700E400F7 /* Axe_2_Battle_Hunger.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4926018FDC23700E400F7 /* Axe_2_Battle_Hunger.png */; };
 		A1E4926518FDC23700E400F7 /* Axe_3_Counter_Helix.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E4926118FDC23700E400F7 /* Axe_3_Counter_Helix.png */; };
+		A1ED43BB19084BBC00748BEB /* Pudge_1_Meat_Hook.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43B719084BBC00748BEB /* Pudge_1_Meat_Hook.png */; };
+		A1ED43BC19084BBC00748BEB /* Pudge_2_Rot.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43B819084BBC00748BEB /* Pudge_2_Rot.png */; };
+		A1ED43BD19084BBC00748BEB /* Pudge_3_Flesh_Heap.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43B919084BBC00748BEB /* Pudge_3_Flesh_Heap.png */; };
+		A1ED43BE19084BBC00748BEB /* Pudge_4_Dismember.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43BA19084BBC00748BEB /* Pudge_4_Dismember.png */; };
+		A1ED43C419084CFB00748BEB /* Rattletrap_1_Battery_Assault.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43C019084CFB00748BEB /* Rattletrap_1_Battery_Assault.png */; };
+		A1ED43C519084CFB00748BEB /* Rattletrap_2_Power_Cogs.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43C119084CFB00748BEB /* Rattletrap_2_Power_Cogs.png */; };
+		A1ED43C619084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43C219084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png */; };
+		A1ED43C719084CFB00748BEB /* Rattletrap_4_Hookshot.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43C319084CFB00748BEB /* Rattletrap_4_Hookshot.png */; };
+		A1ED43CD19084E5400748BEB /* Sandking_1_Burrowstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43C919084E5400748BEB /* Sandking_1_Burrowstrike.png */; };
+		A1ED43CE19084E5400748BEB /* Sandking_2_Sand_Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43CA19084E5400748BEB /* Sandking_2_Sand_Storm.png */; };
+		A1ED43CF19084E5400748BEB /* Sandking_3_Caustic_Finale.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43CB19084E5400748BEB /* Sandking_3_Caustic_Finale.png */; };
+		A1ED43D019084E5400748BEB /* Sandking_4_Epicenter.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43CC19084E5400748BEB /* Sandking_4_Epicenter.png */; };
+		A1ED43D619084F8900748BEB /* Slardar_1_Sprint.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43D219084F8900748BEB /* Slardar_1_Sprint.png */; };
+		A1ED43D719084F8900748BEB /* Slardar_2_Slithereen_Crush.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43D319084F8900748BEB /* Slardar_2_Slithereen_Crush.png */; };
+		A1ED43D819084F8900748BEB /* Slardar_3_Bash.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43D419084F8900748BEB /* Slardar_3_Bash.png */; };
+		A1ED43D919084F8900748BEB /* Slardar_4_Amplify_Damage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43D519084F8900748BEB /* Slardar_4_Amplify_Damage.png */; };
+		A1ED43DF1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43DB1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png */; };
+		A1ED43E01908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43DC1908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png */; };
+		A1ED43E11908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43DD1908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png */; };
+		A1ED43E21908512D00748BEB /* Spirit_Breaker_4_Nether_Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43DE1908512D00748BEB /* Spirit_Breaker_4_Nether_Strike.png */; };
+		A1ED43E81908525A00748BEB /* Sven_1_Storm_Bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43E41908525A00748BEB /* Sven_1_Storm_Bolt.png */; };
+		A1ED43E91908525A00748BEB /* Sven_2_Great_Cleave.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43E51908525A00748BEB /* Sven_2_Great_Cleave.png */; };
+		A1ED43EA1908525A00748BEB /* Sven_3_Warcry.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43E61908525A00748BEB /* Sven_3_Warcry.png */; };
+		A1ED43EB1908525A00748BEB /* Sven_4_Gods_Strength.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43E71908525A00748BEB /* Sven_4_Gods_Strength.png */; };
+		A1ED43F11908538400748BEB /* Tidehunter_1_Gush.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43ED1908538400748BEB /* Tidehunter_1_Gush.png */; };
+		A1ED43F21908538400748BEB /* Tidehunter_2_Kraken_Shell.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43EE1908538400748BEB /* Tidehunter_2_Kraken_Shell.png */; };
+		A1ED43F31908538400748BEB /* Tidehunter_3_Anchor_Smash.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43EF1908538400748BEB /* Tidehunter_3_Anchor_Smash.png */; };
+		A1ED43F41908538400748BEB /* Tidehunter_4_Ravage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43F01908538400748BEB /* Tidehunter_4_Ravage.png */; };
+		A1ED43FB1908550200748BEB /* Timbersaw_1_Whirling_Death.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43F61908550200748BEB /* Timbersaw_1_Whirling_Death.png */; };
+		A1ED43FC1908550200748BEB /* Timbersaw_2_Timber_Chain.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43F71908550200748BEB /* Timbersaw_2_Timber_Chain.png */; };
+		A1ED43FD1908550200748BEB /* Timbersaw_3_Reactive_Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43F81908550200748BEB /* Timbersaw_3_Reactive_Armor.png */; };
+		A1ED43FE1908550200748BEB /* Timbersaw_4_Chakram.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43F91908550200748BEB /* Timbersaw_4_Chakram.png */; };
+		A1ED43FF1908550200748BEB /* Timbersaw_5_Return_Chakram.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED43FA1908550200748BEB /* Timbersaw_5_Return_Chakram.png */; };
+		A1ED44051908569900748BEB /* Tiny_1_Avalanche.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED44011908569900748BEB /* Tiny_1_Avalanche.png */; };
+		A1ED44061908569900748BEB /* Tiny_2_Toss.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED44021908569900748BEB /* Tiny_2_Toss.png */; };
+		A1ED44071908569900748BEB /* Tiny_3_Craggy_Exterior.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED44031908569900748BEB /* Tiny_3_Craggy_Exterior.png */; };
+		A1ED44081908569900748BEB /* Tiny_4_Grow.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED44041908569900748BEB /* Tiny_4_Grow.png */; };
+		A1ED440E190857A600748BEB /* Treant_1_Natures_Guise.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED440A190857A600748BEB /* Treant_1_Natures_Guise.png */; };
+		A1ED440F190857A600748BEB /* Treant_2_Leech_Seed.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED440B190857A600748BEB /* Treant_2_Leech_Seed.png */; };
+		A1ED4410190857A600748BEB /* Treant_3_Living_Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED440C190857A600748BEB /* Treant_3_Living_Armor.png */; };
+		A1ED4411190857A600748BEB /* Treant_4_Overgrowth.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED440D190857A600748BEB /* Treant_4_Overgrowth.png */; };
+		A1ED4417190858B300748BEB /* Tusk_1_Ice_Shards.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED4413190858B300748BEB /* Tusk_1_Ice_Shards.png */; };
+		A1ED4418190858B300748BEB /* Tusk_2_Snowball.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED4414190858B300748BEB /* Tusk_2_Snowball.png */; };
+		A1ED4419190858B300748BEB /* Tusk_3_Frozen_Sigil.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED4415190858B300748BEB /* Tusk_3_Frozen_Sigil.png */; };
+		A1ED441A190858B300748BEB /* Tusk_4_Walrus_Punch.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED4416190858B300748BEB /* Tusk_4_Walrus_Punch.png */; };
+		A1ED4420190859B700748BEB /* Undying_1_Decay.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED441C190859B700748BEB /* Undying_1_Decay.png */; };
+		A1ED4421190859B700748BEB /* Undying_2_Soul_Rip.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED441D190859B700748BEB /* Undying_2_Soul_Rip.png */; };
+		A1ED4422190859B700748BEB /* Undying_3_Tombstone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED441E190859B700748BEB /* Undying_3_Tombstone.png */; };
+		A1ED4423190859B700748BEB /* Undying_4_Flesh_Golem.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED441F190859B700748BEB /* Undying_4_Flesh_Golem.png */; };
+		A1ED442C19085AF100748BEB /* Wisp_1_Tether.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442519085AF100748BEB /* Wisp_1_Tether.png */; };
+		A1ED442D19085AF100748BEB /* Wisp_2_Tether_Break.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442619085AF100748BEB /* Wisp_2_Tether_Break.png */; };
+		A1ED442E19085AF100748BEB /* Wisp_3_Spirits.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442719085AF100748BEB /* Wisp_3_Spirits.png */; };
+		A1ED442F19085AF100748BEB /* Wisp_4_Overcharge.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442819085AF100748BEB /* Wisp_4_Overcharge.png */; };
+		A1ED443019085AF100748BEB /* Wisp_5_Relocate.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442919085AF100748BEB /* Wisp_5_Relocate.png */; };
+		A1ED443119085AF100748BEB /* Wisp_6_Spirits_In.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442A19085AF100748BEB /* Wisp_6_Spirits_In.png */; };
+		A1ED443219085AF100748BEB /* Wisp_7_Spirits_Out.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED442B19085AF100748BEB /* Wisp_7_Spirits_Out.png */; };
+		A1ED443819085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED443419085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png */; };
+		A1ED443919085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED443519085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png */; };
+		A1ED443A19085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED443619085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png */; };
+		A1ED443B19085C9C00748BEB /* Wraith_King_4_Reincarnation.png in Resources */ = {isa = PBXBuildFile; fileRef = A1ED443719085C9C00748BEB /* Wraith_King_4_Reincarnation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -700,6 +760,66 @@
 		A1E4925F18FDC23700E400F7 /* Axe_4_Culling_Blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_4_Culling_Blade.png; sourceTree = "<group>"; };
 		A1E4926018FDC23700E400F7 /* Axe_2_Battle_Hunger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_2_Battle_Hunger.png; sourceTree = "<group>"; };
 		A1E4926118FDC23700E400F7 /* Axe_3_Counter_Helix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axe_3_Counter_Helix.png; sourceTree = "<group>"; };
+		A1ED43B719084BBC00748BEB /* Pudge_1_Meat_Hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge_1_Meat_Hook.png; sourceTree = "<group>"; };
+		A1ED43B819084BBC00748BEB /* Pudge_2_Rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge_2_Rot.png; sourceTree = "<group>"; };
+		A1ED43B919084BBC00748BEB /* Pudge_3_Flesh_Heap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge_3_Flesh_Heap.png; sourceTree = "<group>"; };
+		A1ED43BA19084BBC00748BEB /* Pudge_4_Dismember.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pudge_4_Dismember.png; sourceTree = "<group>"; };
+		A1ED43C019084CFB00748BEB /* Rattletrap_1_Battery_Assault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap_1_Battery_Assault.png; sourceTree = "<group>"; };
+		A1ED43C119084CFB00748BEB /* Rattletrap_2_Power_Cogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap_2_Power_Cogs.png; sourceTree = "<group>"; };
+		A1ED43C219084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap_3_Rocket_Flare.png; sourceTree = "<group>"; };
+		A1ED43C319084CFB00748BEB /* Rattletrap_4_Hookshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rattletrap_4_Hookshot.png; sourceTree = "<group>"; };
+		A1ED43C919084E5400748BEB /* Sandking_1_Burrowstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sandking_1_Burrowstrike.png; sourceTree = "<group>"; };
+		A1ED43CA19084E5400748BEB /* Sandking_2_Sand_Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sandking_2_Sand_Storm.png; sourceTree = "<group>"; };
+		A1ED43CB19084E5400748BEB /* Sandking_3_Caustic_Finale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sandking_3_Caustic_Finale.png; sourceTree = "<group>"; };
+		A1ED43CC19084E5400748BEB /* Sandking_4_Epicenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sandking_4_Epicenter.png; sourceTree = "<group>"; };
+		A1ED43D219084F8900748BEB /* Slardar_1_Sprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar_1_Sprint.png; sourceTree = "<group>"; };
+		A1ED43D319084F8900748BEB /* Slardar_2_Slithereen_Crush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar_2_Slithereen_Crush.png; sourceTree = "<group>"; };
+		A1ED43D419084F8900748BEB /* Slardar_3_Bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar_3_Bash.png; sourceTree = "<group>"; };
+		A1ED43D519084F8900748BEB /* Slardar_4_Amplify_Damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slardar_4_Amplify_Damage.png; sourceTree = "<group>"; };
+		A1ED43DB1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker_1_Charge_of_Darkness.png; sourceTree = "<group>"; };
+		A1ED43DC1908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker_2_Empowering_Haste.png; sourceTree = "<group>"; };
+		A1ED43DD1908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker_3_Greater_Bash.png; sourceTree = "<group>"; };
+		A1ED43DE1908512D00748BEB /* Spirit_Breaker_4_Nether_Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spirit_Breaker_4_Nether_Strike.png; sourceTree = "<group>"; };
+		A1ED43E41908525A00748BEB /* Sven_1_Storm_Bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sven_1_Storm_Bolt.png; sourceTree = "<group>"; };
+		A1ED43E51908525A00748BEB /* Sven_2_Great_Cleave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sven_2_Great_Cleave.png; sourceTree = "<group>"; };
+		A1ED43E61908525A00748BEB /* Sven_3_Warcry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sven_3_Warcry.png; sourceTree = "<group>"; };
+		A1ED43E71908525A00748BEB /* Sven_4_Gods_Strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sven_4_Gods_Strength.png; sourceTree = "<group>"; };
+		A1ED43ED1908538400748BEB /* Tidehunter_1_Gush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidehunter_1_Gush.png; sourceTree = "<group>"; };
+		A1ED43EE1908538400748BEB /* Tidehunter_2_Kraken_Shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidehunter_2_Kraken_Shell.png; sourceTree = "<group>"; };
+		A1ED43EF1908538400748BEB /* Tidehunter_3_Anchor_Smash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidehunter_3_Anchor_Smash.png; sourceTree = "<group>"; };
+		A1ED43F01908538400748BEB /* Tidehunter_4_Ravage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidehunter_4_Ravage.png; sourceTree = "<group>"; };
+		A1ED43F61908550200748BEB /* Timbersaw_1_Whirling_Death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw_1_Whirling_Death.png; sourceTree = "<group>"; };
+		A1ED43F71908550200748BEB /* Timbersaw_2_Timber_Chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw_2_Timber_Chain.png; sourceTree = "<group>"; };
+		A1ED43F81908550200748BEB /* Timbersaw_3_Reactive_Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw_3_Reactive_Armor.png; sourceTree = "<group>"; };
+		A1ED43F91908550200748BEB /* Timbersaw_4_Chakram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw_4_Chakram.png; sourceTree = "<group>"; };
+		A1ED43FA1908550200748BEB /* Timbersaw_5_Return_Chakram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw_5_Return_Chakram.png; sourceTree = "<group>"; };
+		A1ED44011908569900748BEB /* Tiny_1_Avalanche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiny_1_Avalanche.png; sourceTree = "<group>"; };
+		A1ED44021908569900748BEB /* Tiny_2_Toss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiny_2_Toss.png; sourceTree = "<group>"; };
+		A1ED44031908569900748BEB /* Tiny_3_Craggy_Exterior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiny_3_Craggy_Exterior.png; sourceTree = "<group>"; };
+		A1ED44041908569900748BEB /* Tiny_4_Grow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiny_4_Grow.png; sourceTree = "<group>"; };
+		A1ED440A190857A600748BEB /* Treant_1_Natures_Guise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treant_1_Natures_Guise.png; sourceTree = "<group>"; };
+		A1ED440B190857A600748BEB /* Treant_2_Leech_Seed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treant_2_Leech_Seed.png; sourceTree = "<group>"; };
+		A1ED440C190857A600748BEB /* Treant_3_Living_Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treant_3_Living_Armor.png; sourceTree = "<group>"; };
+		A1ED440D190857A600748BEB /* Treant_4_Overgrowth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treant_4_Overgrowth.png; sourceTree = "<group>"; };
+		A1ED4413190858B300748BEB /* Tusk_1_Ice_Shards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tusk_1_Ice_Shards.png; sourceTree = "<group>"; };
+		A1ED4414190858B300748BEB /* Tusk_2_Snowball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tusk_2_Snowball.png; sourceTree = "<group>"; };
+		A1ED4415190858B300748BEB /* Tusk_3_Frozen_Sigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tusk_3_Frozen_Sigil.png; sourceTree = "<group>"; };
+		A1ED4416190858B300748BEB /* Tusk_4_Walrus_Punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tusk_4_Walrus_Punch.png; sourceTree = "<group>"; };
+		A1ED441C190859B700748BEB /* Undying_1_Decay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undying_1_Decay.png; sourceTree = "<group>"; };
+		A1ED441D190859B700748BEB /* Undying_2_Soul_Rip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undying_2_Soul_Rip.png; sourceTree = "<group>"; };
+		A1ED441E190859B700748BEB /* Undying_3_Tombstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undying_3_Tombstone.png; sourceTree = "<group>"; };
+		A1ED441F190859B700748BEB /* Undying_4_Flesh_Golem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undying_4_Flesh_Golem.png; sourceTree = "<group>"; };
+		A1ED442519085AF100748BEB /* Wisp_1_Tether.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_1_Tether.png; sourceTree = "<group>"; };
+		A1ED442619085AF100748BEB /* Wisp_2_Tether_Break.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_2_Tether_Break.png; sourceTree = "<group>"; };
+		A1ED442719085AF100748BEB /* Wisp_3_Spirits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_3_Spirits.png; sourceTree = "<group>"; };
+		A1ED442819085AF100748BEB /* Wisp_4_Overcharge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_4_Overcharge.png; sourceTree = "<group>"; };
+		A1ED442919085AF100748BEB /* Wisp_5_Relocate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_5_Relocate.png; sourceTree = "<group>"; };
+		A1ED442A19085AF100748BEB /* Wisp_6_Spirits_In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_6_Spirits_In.png; sourceTree = "<group>"; };
+		A1ED442B19085AF100748BEB /* Wisp_7_Spirits_Out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisp_7_Spirits_Out.png; sourceTree = "<group>"; };
+		A1ED443419085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King_1_Hellfire_Blast.png; sourceTree = "<group>"; };
+		A1ED443519085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King_2_Vampiric_Aura.png; sourceTree = "<group>"; };
+		A1ED443619085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King_3_Mortal_Strike.png; sourceTree = "<group>"; };
+		A1ED443719085C9C00748BEB /* Wraith_King_4_Reincarnation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King_4_Reincarnation.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1095,6 +1215,20 @@
 		A1A12B6518FC5C9B002F5702 /* ability */ = {
 			isa = PBXGroup;
 			children = (
+				A1ED443319085BE700748BEB /* Wraith_King */,
+				A1ED442419085A7300748BEB /* Wisp */,
+				A1ED441B1908596B00748BEB /* Undying */,
+				A1ED44121908584600748BEB /* Tusk */,
+				A1ED44091908574B00748BEB /* Treant */,
+				A1ED44001908563D00748BEB /* Tiny */,
+				A1ED43F51908543700748BEB /* Timbersaw */,
+				A1ED43EC1908531800748BEB /* Tidehunter */,
+				A1ED43E3190851FB00748BEB /* Sven */,
+				A1ED43DA190850B600748BEB /* Spirit_Breaker */,
+				A1ED43D119084F3800748BEB /* Slardar */,
+				A1ED43C819084DE200748BEB /* Sand_King */,
+				A1ED43BF19084C9600748BEB /* Rattletrap */,
+				A1ED43B619084BB000748BEB /* Pudge */,
 				A1A34012190228D0004698C8 /* Phoenix */,
 				A1A3400919022786004698C8 /* Omniknight */,
 				A1A34000190226B9004698C8 /* Night_Stalker */,
@@ -1383,6 +1517,164 @@
 			name = Axe;
 			sourceTree = "<group>";
 		};
+		A1ED43B619084BB000748BEB /* Pudge */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43B719084BBC00748BEB /* Pudge_1_Meat_Hook.png */,
+				A1ED43B819084BBC00748BEB /* Pudge_2_Rot.png */,
+				A1ED43B919084BBC00748BEB /* Pudge_3_Flesh_Heap.png */,
+				A1ED43BA19084BBC00748BEB /* Pudge_4_Dismember.png */,
+			);
+			name = Pudge;
+			sourceTree = "<group>";
+		};
+		A1ED43BF19084C9600748BEB /* Rattletrap */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43C019084CFB00748BEB /* Rattletrap_1_Battery_Assault.png */,
+				A1ED43C119084CFB00748BEB /* Rattletrap_2_Power_Cogs.png */,
+				A1ED43C219084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png */,
+				A1ED43C319084CFB00748BEB /* Rattletrap_4_Hookshot.png */,
+			);
+			name = Rattletrap;
+			sourceTree = "<group>";
+		};
+		A1ED43C819084DE200748BEB /* Sand_King */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43C919084E5400748BEB /* Sandking_1_Burrowstrike.png */,
+				A1ED43CA19084E5400748BEB /* Sandking_2_Sand_Storm.png */,
+				A1ED43CB19084E5400748BEB /* Sandking_3_Caustic_Finale.png */,
+				A1ED43CC19084E5400748BEB /* Sandking_4_Epicenter.png */,
+			);
+			name = Sand_King;
+			sourceTree = "<group>";
+		};
+		A1ED43D119084F3800748BEB /* Slardar */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43D219084F8900748BEB /* Slardar_1_Sprint.png */,
+				A1ED43D319084F8900748BEB /* Slardar_2_Slithereen_Crush.png */,
+				A1ED43D419084F8900748BEB /* Slardar_3_Bash.png */,
+				A1ED43D519084F8900748BEB /* Slardar_4_Amplify_Damage.png */,
+			);
+			name = Slardar;
+			sourceTree = "<group>";
+		};
+		A1ED43DA190850B600748BEB /* Spirit_Breaker */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43DB1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png */,
+				A1ED43DC1908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png */,
+				A1ED43DD1908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png */,
+				A1ED43DE1908512D00748BEB /* Spirit_Breaker_4_Nether_Strike.png */,
+			);
+			name = Spirit_Breaker;
+			sourceTree = "<group>";
+		};
+		A1ED43E3190851FB00748BEB /* Sven */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43E41908525A00748BEB /* Sven_1_Storm_Bolt.png */,
+				A1ED43E51908525A00748BEB /* Sven_2_Great_Cleave.png */,
+				A1ED43E61908525A00748BEB /* Sven_3_Warcry.png */,
+				A1ED43E71908525A00748BEB /* Sven_4_Gods_Strength.png */,
+			);
+			name = Sven;
+			sourceTree = "<group>";
+		};
+		A1ED43EC1908531800748BEB /* Tidehunter */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43ED1908538400748BEB /* Tidehunter_1_Gush.png */,
+				A1ED43EE1908538400748BEB /* Tidehunter_2_Kraken_Shell.png */,
+				A1ED43EF1908538400748BEB /* Tidehunter_3_Anchor_Smash.png */,
+				A1ED43F01908538400748BEB /* Tidehunter_4_Ravage.png */,
+			);
+			name = Tidehunter;
+			sourceTree = "<group>";
+		};
+		A1ED43F51908543700748BEB /* Timbersaw */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED43F61908550200748BEB /* Timbersaw_1_Whirling_Death.png */,
+				A1ED43F71908550200748BEB /* Timbersaw_2_Timber_Chain.png */,
+				A1ED43F81908550200748BEB /* Timbersaw_3_Reactive_Armor.png */,
+				A1ED43F91908550200748BEB /* Timbersaw_4_Chakram.png */,
+				A1ED43FA1908550200748BEB /* Timbersaw_5_Return_Chakram.png */,
+			);
+			name = Timbersaw;
+			sourceTree = "<group>";
+		};
+		A1ED44001908563D00748BEB /* Tiny */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED44011908569900748BEB /* Tiny_1_Avalanche.png */,
+				A1ED44021908569900748BEB /* Tiny_2_Toss.png */,
+				A1ED44031908569900748BEB /* Tiny_3_Craggy_Exterior.png */,
+				A1ED44041908569900748BEB /* Tiny_4_Grow.png */,
+			);
+			name = Tiny;
+			sourceTree = "<group>";
+		};
+		A1ED44091908574B00748BEB /* Treant */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED440A190857A600748BEB /* Treant_1_Natures_Guise.png */,
+				A1ED440B190857A600748BEB /* Treant_2_Leech_Seed.png */,
+				A1ED440C190857A600748BEB /* Treant_3_Living_Armor.png */,
+				A1ED440D190857A600748BEB /* Treant_4_Overgrowth.png */,
+			);
+			name = Treant;
+			sourceTree = "<group>";
+		};
+		A1ED44121908584600748BEB /* Tusk */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED4413190858B300748BEB /* Tusk_1_Ice_Shards.png */,
+				A1ED4414190858B300748BEB /* Tusk_2_Snowball.png */,
+				A1ED4415190858B300748BEB /* Tusk_3_Frozen_Sigil.png */,
+				A1ED4416190858B300748BEB /* Tusk_4_Walrus_Punch.png */,
+			);
+			name = Tusk;
+			sourceTree = "<group>";
+		};
+		A1ED441B1908596B00748BEB /* Undying */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED441C190859B700748BEB /* Undying_1_Decay.png */,
+				A1ED441D190859B700748BEB /* Undying_2_Soul_Rip.png */,
+				A1ED441E190859B700748BEB /* Undying_3_Tombstone.png */,
+				A1ED441F190859B700748BEB /* Undying_4_Flesh_Golem.png */,
+			);
+			name = Undying;
+			sourceTree = "<group>";
+		};
+		A1ED442419085A7300748BEB /* Wisp */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED442519085AF100748BEB /* Wisp_1_Tether.png */,
+				A1ED442619085AF100748BEB /* Wisp_2_Tether_Break.png */,
+				A1ED442719085AF100748BEB /* Wisp_3_Spirits.png */,
+				A1ED442819085AF100748BEB /* Wisp_4_Overcharge.png */,
+				A1ED442919085AF100748BEB /* Wisp_5_Relocate.png */,
+				A1ED442A19085AF100748BEB /* Wisp_6_Spirits_In.png */,
+				A1ED442B19085AF100748BEB /* Wisp_7_Spirits_Out.png */,
+			);
+			name = Wisp;
+			sourceTree = "<group>";
+		};
+		A1ED443319085BE700748BEB /* Wraith_King */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED443419085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png */,
+				A1ED443519085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png */,
+				A1ED443619085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png */,
+				A1ED443719085C9C00748BEB /* Wraith_King_4_Reincarnation.png */,
+			);
+			name = Wraith_King;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1463,21 +1755,27 @@
 				A1E4924818FDBBF700E400F7 /* VenomancerAudio.mp3 in Resources */,
 				A1E4926518FDC23700E400F7 /* Axe_3_Counter_Helix.png in Resources */,
 				A1810A3118F9F059001DD38D /* Clinkz.png in Resources */,
+				A1ED43FB1908550200748BEB /* Timbersaw_1_Whirling_Death.png in Resources */,
 				A1A33FE11901A144004698C8 /* Legion_Commander_3_Moment_of_Courage.png in Resources */,
 				A1810A0218F99DA7001DD38D /* Sven.png in Resources */,
+				A1ED441A190858B300748BEB /* Tusk_4_Walrus_Punch.png in Resources */,
 				A18D0A6C18FA4E850069BF96 /* BrewmasterAudio.mp3 in Resources */,
 				A18D0AA618FAD1580069BF96 /* TuskAudio.mp3 in Resources */,
+				A1ED43C619084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png in Resources */,
 				A18109FA18F99DA7001DD38D /* Phoenix.png in Resources */,
 				A1A33FC119019B33004698C8 /* Elder_Titan_3_Natural_Order.png in Resources */,
 				A1A33FB6190199AE004698C8 /* Earthshaker_2_Enchant_Totem.png in Resources */,
 				A18D0AA018FAD1580069BF96 /* SlardarAudio.mp3 in Resources */,
 				A1810A4618F9F059001DD38D /* Templar_Assassin.png in Resources */,
 				A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */,
+				A1ED4422190859B700748BEB /* Undying_3_Tombstone.png in Resources */,
 				A1E4921018FDBBF700E400F7 /* BroodmotherAudio.mp3 in Resources */,
 				A1810A0718F99DA7001DD38D /* Undying.png in Resources */,
 				A1E4926218FDC23700E400F7 /* Axe_1_Berserker's_Call.png in Resources */,
 				A1E4924918FDBBF700E400F7 /* ViperAudio.mp3 in Resources */,
 				A1E4922618FDBBF700E400F7 /* LionAudio.mp3 in Resources */,
+				A1ED43D619084F8900748BEB /* Slardar_1_Sprint.png in Resources */,
+				A1ED442F19085AF100748BEB /* Wisp_4_Overcharge.png in Resources */,
 				A1E4923818FDBBF700E400F7 /* RazorAudio.mp3 in Resources */,
 				A1A3401C19022977004698C8 /* Phoenix_2_Fire_Spirits.png in Resources */,
 				A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */,
@@ -1485,6 +1783,7 @@
 				A1E4920E18FDBBF700E400F7 /* BloodseekerAudio.mp3 in Resources */,
 				A1810A8718F9F061001DD38D /* Obsidian_Destroyer.png in Resources */,
 				A1A33FC919019CBF004698C8 /* Huskar_1_Inner_Vitality.png in Resources */,
+				A1ED443B19085C9C00748BEB /* Wraith_King_4_Reincarnation.png in Resources */,
 				A18109E718F99DA7001DD38D /* Axe.png in Resources */,
 				A1A34008190226CB004698C8 /* Night_Stalker_4_Darkness.png in Resources */,
 				A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */,
@@ -1501,27 +1800,35 @@
 				A18D0A8F18FAD1580069BF96 /* Dragon_KnightAudio.mp3 in Resources */,
 				A1A34005190226CB004698C8 /* Night_Stalker_1_Void.png in Resources */,
 				A1A33FD619019E27004698C8 /* Kunkka_4_Ghostship.png in Resources */,
+				A1ED43EA1908525A00748BEB /* Sven_3_Warcry.png in Resources */,
 				A1810A9218F9F061001DD38D /* Tinker.png in Resources */,
 				A1A33FB7190199AE004698C8 /* Earthshaker_3_Aftershock.png in Resources */,
 				A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */,
 				A1E4921418FDBBF700E400F7 /* Dark_SeerAudio.mp3 in Resources */,
+				A1ED443819085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png in Resources */,
 				A1810A3018F9F059001DD38D /* Broodmother.png in Resources */,
 				A1E4924218FDBBF700E400F7 /* Templar_AssassinAudio.mp3 in Resources */,
 				A18109EC18F99DA7001DD38D /* Chaos_Knight.png in Resources */,
+				A1ED443919085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png in Resources */,
 				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
 				A1E4921D18FDBBF700E400F7 /* FurionAudio.mp3 in Resources */,
+				A1ED43E21908512D00748BEB /* Spirit_Breaker_4_Nether_Strike.png in Resources */,
 				A1E4923C18FDBBF700E400F7 /* SilencerAudio.mp3 in Resources */,
 				A1E4922118FDBBF700E400F7 /* JuggernautAudio.mp3 in Resources */,
+				A1ED442D19085AF100748BEB /* Wisp_2_Tether_Break.png in Resources */,
 				A1E4923218FDBBF700E400F7 /* Ogre_MagiAudio.mp3 in Resources */,
 				A1E4920C18FDBBF700E400F7 /* BaneAudio.mp3 in Resources */,
 				A1E4922B18FDBBF700E400F7 /* MiranaAudio.mp3 in Resources */,
 				A1A33FF619021E60004698C8 /* Lycan_4_Shapeshift.png in Resources */,
 				A18109EB18F99DA7001DD38D /* Centaur.png in Resources */,
 				A1A3402119022977004698C8 /* Phoenix_7_Sun_Ray_Stop.png in Resources */,
+				A1ED43F11908538400748BEB /* Tidehunter_1_Gush.png in Resources */,
 				A1A34006190226CB004698C8 /* Night_Stalker_2_Crippling_Fear.png in Resources */,
 				A1A33F7619018CF9004698C8 /* Brewmaster_3_Drunken_Brawler.png in Resources */,
+				A1ED4410190857A600748BEB /* Treant_3_Living_Armor.png in Resources */,
 				A1810A8318F9F061001DD38D /* Lich.png in Resources */,
 				A18D0A9F18FAD1580069BF96 /* Skeleton_KingAudio.mp3 in Resources */,
+				A1ED43FE1908550200748BEB /* Timbersaw_4_Chakram.png in Resources */,
 				A1A33F7F19018F1F004698C8 /* Bristleback_3_Bristleback.png in Resources */,
 				A1E4922018FDBBF700E400F7 /* JakiroAudio.mp3 in Resources */,
 				A1A34007190226CB004698C8 /* Night_Stalker_3_Hunter_in_the_Night.png in Resources */,
@@ -1534,21 +1841,28 @@
 				A18109FD18F99DA7001DD38D /* Sand_King.png in Resources */,
 				A1A33FFF19022560004698C8 /* Magnataur_4_Reverse_Polarity.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
+				A1ED43C719084CFB00748BEB /* Rattletrap_4_Hookshot.png in Resources */,
 				A1E4924418FDBBF700E400F7 /* TinkerAudio.mp3 in Resources */,
+				A1ED43F31908538400748BEB /* Tidehunter_3_Anchor_Smash.png in Resources */,
 				A1E4926418FDC23700E400F7 /* Axe_2_Battle_Hunger.png in Resources */,
 				A1E4924318FDBBF700E400F7 /* TerrorbladeAudio.mp3 in Resources */,
 				A1A33FD319019E27004698C8 /* Kunkka_1_Torrent.png in Resources */,
 				A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */,
+				A1ED43D719084F8900748BEB /* Slardar_2_Slithereen_Crush.png in Resources */,
 				A1810A7818F9F061001DD38D /* Dark_Seer.png in Resources */,
+				A1ED442C19085AF100748BEB /* Wisp_1_Tether.png in Resources */,
 				A1E4923518FDBBF700E400F7 /* PuckAudio.mp3 in Resources */,
 				A1E4921318FDBBF700E400F7 /* Crystal_MaidenAudio.mp3 in Resources */,
+				A1ED44071908569900748BEB /* Tiny_3_Craggy_Exterior.png in Resources */,
 				A1810A4018F9F059001DD38D /* Phantom_Assassin.png in Resources */,
 				A1A3400F190227EB004698C8 /* Omniknight_2_Repel.png in Resources */,
 				A1E4923F18FDBBF700E400F7 /* SniperAudio.mp3 in Resources */,
 				A1A33FD519019E27004698C8 /* Kunkka_3_X_Marks_the_Spot.png in Resources */,
 				A1810A3E18F9F059001DD38D /* Nevermore.png in Resources */,
+				A1ED4420190859B700748BEB /* Undying_1_Decay.png in Resources */,
 				A18D0A9918FAD1580069BF96 /* OmniknightAudio.mp3 in Resources */,
 				A18D0A6A18FA4E850069BF96 /* AxeAudio.mp3 in Resources */,
+				A1ED43F21908538400748BEB /* Tidehunter_2_Kraken_Shell.png in Resources */,
 				A1CA12FA18FDD1A400120EC0 /* Beastmaster_2_Call_of_the_Wild_Hawk.png in Resources */,
 				A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */,
 				A1A33F8619019303004698C8 /* Centaur_1_Hoof_Stomp.png in Resources */,
@@ -1561,6 +1875,7 @@
 				A1A33FF419021E60004698C8 /* Lycan_2_Howl.png in Resources */,
 				A1A33FA219019719004698C8 /* Dragon_Knight_2_Dragon_Tail.png in Resources */,
 				A18109F218F99DA7001DD38D /* Huskar.png in Resources */,
+				A1ED43FF1908550200748BEB /* Timbersaw_5_Return_Chakram.png in Resources */,
 				A1810A2D18F9F059001DD38D /* Antimage.png in Resources */,
 				A18109F018F99DA7001DD38D /* Earthshaker.png in Resources */,
 				A1E4923D18FDBBF700E400F7 /* Skywrath_MageAudio.mp3 in Resources */,
@@ -1573,21 +1888,27 @@
 				A1A33FA119019719004698C8 /* Dragon_Knight_1_Breathe_Fire.png in Resources */,
 				A1810A4118F9F059001DD38D /* Phantom_Lancer.png in Resources */,
 				A18109F918F99DA7001DD38D /* Omniknight.png in Resources */,
+				A1ED44061908569900748BEB /* Tiny_2_Toss.png in Resources */,
 				A1A33F8719019303004698C8 /* Centaur_2_Double_Edge.png in Resources */,
 				A1810A0018F99DA7001DD38D /* Slardar.png in Resources */,
+				A1ED44081908569900748BEB /* Tiny_4_Grow.png in Resources */,
 				A1A12B7118FCA585002F5702 /* logo.png in Resources */,
 				A1810A3718F9F059001DD38D /* Lone_Druid.png in Resources */,
 				A1810A8C18F9F061001DD38D /* Rubick.png in Resources */,
 				A1A34010190227EB004698C8 /* Omniknight_3_Degen_Aura.png in Resources */,
 				A1E4924618FDBBF700E400F7 /* UrsaAudio.mp3 in Resources */,
 				A1A3400E190227EB004698C8 /* Omniknight_1_Purification.png in Resources */,
+				A1ED443019085AF100748BEB /* Wisp_5_Relocate.png in Resources */,
 				A18D0A9C18FAD1580069BF96 /* RattletrapAudio.mp3 in Resources */,
 				A1810A7618F9F061001DD38D /* Chen.png in Resources */,
+				A1ED43F41908538400748BEB /* Tidehunter_4_Ravage.png in Resources */,
 				A1810A3A18F9F059001DD38D /* Meepo.png in Resources */,
 				A18109EE18F99DA7001DD38D /* Dragon_Knight.png in Resources */,
 				A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
+				A1ED43FC1908550200748BEB /* Timbersaw_2_Timber_Chain.png in Resources */,
 				A1A3402219022977004698C8 /* Phoenix_8_Sun_Ray_Toggle_Move.png in Resources */,
+				A1ED443119085AF100748BEB /* Wisp_6_Spirits_In.png in Resources */,
 				A1E4922C18FDBBF700E400F7 /* MorphlingAudio.mp3 in Resources */,
 				A1CA12FD18FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png in Resources */,
 				A1A33FD419019E27004698C8 /* Kunkka_2_Tidebringer.png in Resources */,
@@ -1600,11 +1921,15 @@
 				A1A33FEA1901A2C4004698C8 /* Life_Stealer_2_Feast.png in Resources */,
 				A18D0AA318FAD1580069BF96 /* TidehunterAudio.mp3 in Resources */,
 				A1810A4A18F9F059001DD38D /* Vengefulspirit.png in Resources */,
+				A1ED443A19085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png in Resources */,
 				A1810A9118F9F061001DD38D /* Storm_Spirit.png in Resources */,
 				A1A33FBF19019B33004698C8 /* Elder_Titan_1_Echo_Stomp.png in Resources */,
 				A17BF72218F4C2440006D2E7 /* Images.xcassets in Resources */,
 				A1810A8218F9F061001DD38D /* Leshrac.png in Resources */,
+				A1ED443219085AF100748BEB /* Wisp_7_Spirits_Out.png in Resources */,
 				A18109FC18F99DA7001DD38D /* Rattletrap.png in Resources */,
+				A1ED43BE19084BBC00748BEB /* Pudge_4_Dismember.png in Resources */,
+				A1ED4419190858B300748BEB /* Tusk_3_Frozen_Sigil.png in Resources */,
 				A1E4921818FDBBF700E400F7 /* Drow_RangerAudio.mp3 in Resources */,
 				A18109E918F99DA7001DD38D /* Brewmaster.png in Resources */,
 				A1A33FAE1901983A004698C8 /* Earth_Spirit_4_Stone_Caller.png in Resources */,
@@ -1615,6 +1940,7 @@
 				A1810A8D18F9F061001DD38D /* Shadow_Demon.png in Resources */,
 				A1810A3D18F9F059001DD38D /* Naga_Siren.png in Resources */,
 				A1A34011190227EB004698C8 /* Omniknight_4_Guardian_Angel.png in Resources */,
+				A1ED43D919084F8900748BEB /* Slardar_4_Amplify_Damage.png in Resources */,
 				A1A33F9B190195F5004698C8 /* Doom_Bringer_4_Doom.png in Resources */,
 				A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */,
 				A1E4921E18FDBBF700E400F7 /* GyrocopterAudio.mp3 in Resources */,
@@ -1637,13 +1963,17 @@
 				A1A33F7719018CF9004698C8 /* Brewmaster_4_Primal_Split.png in Resources */,
 				A1A33FA419019719004698C8 /* Dragon_Knight_4_Elder_Dragon_Form.png in Resources */,
 				A1810A8518F9F061001DD38D /* Lion.png in Resources */,
+				A1ED442E19085AF100748BEB /* Wisp_3_Spirits.png in Resources */,
 				A1A33FAD1901983A004698C8 /* Earth_Spirit_3_Geomagnetic_Grip.png in Resources */,
 				A1810A4318F9F059001DD38D /* Slark.png in Resources */,
 				A1E4924A18FDBBF700E400F7 /* VisageAudio.mp3 in Resources */,
 				A1E4920F18FDBBF700E400F7 /* Bounty_HunterAudio.mp3 in Resources */,
 				A18D0A9518FAD1580069BF96 /* Life_StealerAudio.mp3 in Resources */,
 				A1810A4918F9F059001DD38D /* Ursa.png in Resources */,
+				A1ED43C419084CFB00748BEB /* Rattletrap_1_Battery_Assault.png in Resources */,
 				A1E4923E18FDBBF700E400F7 /* SlarkAudio.mp3 in Resources */,
+				A1ED4418190858B300748BEB /* Tusk_2_Snowball.png in Resources */,
+				A1ED44051908569900748BEB /* Tiny_1_Avalanche.png in Resources */,
 				A1A33FE91901A2C4004698C8 /* Life_Stealer_1_Rage.png in Resources */,
 				A1E4923418FDBBF700E400F7 /* Phantom_LancerAudio.mp3 in Resources */,
 				A1A12B6B18FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png in Resources */,
@@ -1657,11 +1987,13 @@
 				A1810A3518F9F059001DD38D /* Gyrocopter.png in Resources */,
 				A18109EA18F99DA7001DD38D /* Bristleback.png in Resources */,
 				A1A33FC319019B33004698C8 /* Elder_Titan_5_Earth_Splitter.png in Resources */,
+				A1ED43CD19084E5400748BEB /* Sandking_1_Burrowstrike.png in Resources */,
 				A1810A9718F9F061001DD38D /* Zeus.png in Resources */,
 				A1810A3918F9F059001DD38D /* Medusa.png in Resources */,
 				A1810A0818F99DA7001DD38D /* Wisp.png in Resources */,
 				A18109F418F99DA7001DD38D /* Legion_Commander.png in Resources */,
 				A1810A0618F99DA7001DD38D /* Tusk.png in Resources */,
+				A1ED440E190857A600748BEB /* Treant_1_Natures_Guise.png in Resources */,
 				A1A33F7419018CF9004698C8 /* Brewmaster_1_Thunder_Clap.png in Resources */,
 				A1E4923918FDBBF700E400F7 /* RubickAudio.mp3 in Resources */,
 				A1E4922D18FDBBF700E400F7 /* Naga_SirenAudio.mp3 in Resources */,
@@ -1679,11 +2011,13 @@
 				A1E4924F18FDBBF700E400F7 /* ZeusAudio.mp3 in Resources */,
 				A1E4922A18FDBBF700E400F7 /* MeepoAudio.mp3 in Resources */,
 				A1E4924E18FDBBF700E400F7 /* Witch_DoctorAudio.mp3 in Resources */,
+				A1ED4411190857A600748BEB /* Treant_4_Overgrowth.png in Resources */,
 				A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A1E4922918FDBBF700E400F7 /* MedusaAudio.mp3 in Resources */,
 				A1A33FED1901A2C4004698C8 /* Life_Stealer_5_Consume.png in Resources */,
 				A1A33FB5190199AE004698C8 /* Earthshaker_1_Fissure.png in Resources */,
 				A18D0A6918FA4E850069BF96 /* AlchemistAudio.mp3 in Resources */,
+				A1ED43CE19084E5400748BEB /* Sandking_2_Sand_Storm.png in Resources */,
 				A18109E518F99DA7001DD38D /* Abaddon.png in Resources */,
 				A1E4922718FDBBF700E400F7 /* Lone_DruidAudio.mp3 in Resources */,
 				A18D0AA418FAD1580069BF96 /* TinyAudio.mp3 in Resources */,
@@ -1691,6 +2025,8 @@
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,
 				A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */,
 				A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */,
+				A1ED43D819084F8900748BEB /* Slardar_3_Bash.png in Resources */,
+				A1ED43BC19084BBC00748BEB /* Pudge_2_Rot.png in Resources */,
 				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A1810A8618F9F061001DD38D /* Necrolyte.png in Resources */,
 				A1E4925918FDBE0A00E400F7 /* Alchemist_4_Chemical_Rage.png in Resources */,
@@ -1707,32 +2043,42 @@
 				A1E4925718FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png in Resources */,
 				A1A33FA319019719004698C8 /* Dragon_Knight_3_Dragon_Blood.png in Resources */,
 				A1810A4818F9F059001DD38D /* Troll_Warlord.png in Resources */,
+				A1ED4417190858B300748BEB /* Tusk_1_Ice_Shards.png in Resources */,
 				A1CA12F918FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png in Resources */,
 				A1810A7718F9F061001DD38D /* Crystal_Maiden.png in Resources */,
 				A1810A8818F9F061001DD38D /* Ogre_Magi.png in Resources */,
 				A1810A7D18F9F061001DD38D /* Enigma.png in Resources */,
 				A1A33FD919019F23004698C8 /* Kunkka_5_X_Marks_Return.png in Resources */,
+				A1ED43E81908525A00748BEB /* Sven_1_Storm_Bolt.png in Resources */,
 				A1A33FFE19022560004698C8 /* Magnataur_3_Skewer.png in Resources */,
 				A18D0A6E18FA4E850069BF96 /* CentaurAudio.mp3 in Resources */,
 				A1E4921618FDBBF700E400F7 /* Death_ProphetAudio.mp3 in Resources */,
 				A1810A7418F9F061001DD38D /* Bane.png in Resources */,
 				A1810A7F18F9F061001DD38D /* Invoker.png in Resources */,
+				A1ED43FD1908550200748BEB /* Timbersaw_3_Reactive_Armor.png in Resources */,
 				A1E4924B18FDBBF700E400F7 /* WarlockAudio.mp3 in Resources */,
+				A1ED43E01908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png in Resources */,
 				A18109F118F99DA7001DD38D /* Elder_Titan.png in Resources */,
 				A1A33F8919019303004698C8 /* Centaur_4_Stampede.png in Resources */,
 				A1810A3F18F9F059001DD38D /* Nyx_Assassin.png in Resources */,
 				A1A33F7D19018F1F004698C8 /* Bristleback_1_Viscous_Nasal_Goo.png in Resources */,
+				A1ED43DF1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png in Resources */,
+				A1ED43E91908525A00748BEB /* Sven_2_Great_Cleave.png in Resources */,
 				A1810A9518F9F061001DD38D /* Windrunner.png in Resources */,
+				A1ED43E11908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png in Resources */,
 				A1810A4418F9F059001DD38D /* Sniper.png in Resources */,
 				A1E4921218FDBBF700E400F7 /* ClinkzAudio.mp3 in Resources */,
 				A1810A3218F9F059001DD38D /* Drow_Ranger.png in Resources */,
 				A1E4921B18FDBBF700E400F7 /* EnigmaAudio.mp3 in Resources */,
 				A1810A9318F9F061001DD38D /* Visage.png in Resources */,
 				A1810A7C18F9F061001DD38D /* Enchantress.png in Resources */,
+				A1ED4423190859B700748BEB /* Undying_4_Flesh_Golem.png in Resources */,
+				A1ED43D019084E5400748BEB /* Sandking_4_Epicenter.png in Resources */,
 				A18D0A9818FAD1580069BF96 /* Night_StalkerAudio.mp3 in Resources */,
 				A18D0AA218FAD1580069BF96 /* SvenAudio.mp3 in Resources */,
 				A1A33FFC19022560004698C8 /* Magnataur_1_Shockwave.png in Resources */,
 				A18D0A6B18FA4E850069BF96 /* BeastmasterAudio.mp3 in Resources */,
+				A1ED43C519084CFB00748BEB /* Rattletrap_2_Power_Cogs.png in Resources */,
 				A1E4924D18FDBBF700E400F7 /* WindrunnerAudio.mp3 in Resources */,
 				A1E4922518FDBBF700E400F7 /* LinaAudio.mp3 in Resources */,
 				A18D0A5818FA48B10069BF96 /* Play.png in Resources */,
@@ -1741,6 +2087,7 @@
 				A1E4921918FDBBF700E400F7 /* Ember_SpiritAudio.mp3 in Resources */,
 				A1A33FE01901A144004698C8 /* Legion_Commander_2_Press_the_Attack.png in Resources */,
 				A1E4923018FDBBF700E400F7 /* Nyx_AssassinAudio.mp3 in Resources */,
+				A1ED43BB19084BBC00748BEB /* Pudge_1_Meat_Hook.png in Resources */,
 				A18D0A9018FAD1580069BF96 /* Earth_SpiritAudio.mp3 in Resources */,
 				A1E4921718FDBBF700E400F7 /* DisruptorAudio.mp3 in Resources */,
 				A1810A8E18F9F061001DD38D /* Shadow_Shaman.png in Resources */,
@@ -1755,16 +2102,20 @@
 				A1E4922418FDBBF700E400F7 /* LichAudio.mp3 in Resources */,
 				A1E491C118FD779F00E400F7 /* Magnus.png in Resources */,
 				A1810A8A18F9F061001DD38D /* Pugna.png in Resources */,
+				A1ED43CF19084E5400748BEB /* Sandking_3_Caustic_Finale.png in Resources */,
 				A1E4924C18FDBBF700E400F7 /* WeaverAudio.mp3 in Resources */,
 				A1A3402019022977004698C8 /* Phoenix_6_Icarus_Dive_Stop.png in Resources */,
 				A1E4921C18FDBBF700E400F7 /* Faceless_VoidAudio.mp3 in Resources */,
 				A18109FB18F99DA7001DD38D /* Pudge.png in Resources */,
 				A1810A7B18F9F061001DD38D /* Disruptor.png in Resources */,
+				A1ED43EB1908525A00748BEB /* Sven_4_Gods_Strength.png in Resources */,
 				A1E4923318FDBBF700E400F7 /* Phantom_AssassinAudio.mp3 in Resources */,
 				A18D0A9218FAD1580069BF96 /* HuskarAudio.mp3 in Resources */,
+				A1ED440F190857A600748BEB /* Treant_2_Leech_Seed.png in Resources */,
 				A1A33FC019019B33004698C8 /* Elder_Titan_2_Ancestral_Spirit.png in Resources */,
 				A1E4923A18FDBBF700E400F7 /* Shadow_DemonAudio.mp3 in Resources */,
 				A1A33F7519018CF9004698C8 /* Brewmaster_2_Drunken_Haze.png in Resources */,
+				A1ED4421190859B700748BEB /* Undying_2_Soul_Rip.png in Resources */,
 				A1810A0418F99DA7001DD38D /* Tiny.png in Resources */,
 				A1CA12FC18FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png in Resources */,
 				A1E4922218FDBBF700E400F7 /* Keeper_of_the_LightAudio.mp3 in Resources */,
@@ -1774,6 +2125,7 @@
 				A1810A3C18F9F059001DD38D /* Morphling.png in Resources */,
 				A18109E818F99DA7001DD38D /* Beastmaster.png in Resources */,
 				A18D0A9A18FAD1580069BF96 /* PhoenixAudio.mp3 in Resources */,
+				A1ED43BD19084BBC00748BEB /* Pudge_3_Flesh_Heap.png in Resources */,
 				A1E4926318FDC23700E400F7 /* Axe_4_Culling_Blade.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

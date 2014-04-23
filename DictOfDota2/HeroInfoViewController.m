@@ -60,7 +60,7 @@ AVAudioPlayer *heroAudio;
     //end of set title
     NSLog(@"end of title");
     //set the hero image
-    
+    self.HeroImage.layer.CornerRadius=30;
     [self.HeroImage setImage:[UIImage imageNamed:[heroName stringByAppendingString:@".png"]]];
     
     //set the description
@@ -405,7 +405,67 @@ AVAudioPlayer *heroAudio;
                       @"Icarus Dive Stop": [NSString stringWithFormat:@"终止凤凰冲击"],
                       @"Sun Ray Stop": [NSString stringWithFormat:@"终止烈日炙烤"],
                       @"Sun Ray Toggle Move": [NSString stringWithFormat:@"切换移动状态\ntoggle－触发"],
-                      
+                      @"Meat Hook": [NSString stringWithFormat:@"肉钩\nmeat－肉 hook－钩"],
+                      @"Rot": [NSString stringWithFormat:@"腐烂"],
+                      @"Flesh Heap": [NSString stringWithFormat:@"腐肉堆积\nflesh－血肉 heap－堆"],
+                      @"Dismember": [NSString stringWithFormat:@"肢解\ndismember－割断手足"],
+                      @"Battery Assault": [NSString stringWithFormat:@"弹幕冲击\nbattery－电池 assault－攻击"],
+                      @"Power Cogs": [NSString stringWithFormat:@"能量齿轮\npower－能量 cog－齿轮"],
+                      @"Rocket Flare": [NSString stringWithFormat:@"照明火箭\nrocket－火箭 flare－火花"],
+                      @"Hookshot": [NSString stringWithFormat:@"发射钩爪\nhook－钩 shot－发射"],
+                      @"Burrowstrike": [NSString stringWithFormat:@"掘地穿刺\nburrow－挖掘 strike－穿透"],
+                      @"Sand Storm": [NSString stringWithFormat:@"沙尘暴\nstorm－风暴"],
+                      @"Caustic Finale": [NSString stringWithFormat:@"腐尸毒\ncaustic－腐蚀性 finale－结局"],
+                      @"Epicenter": [NSString stringWithFormat:@"地震\nepicenter－地震中心"],
+                      @"Sprint": [NSString stringWithFormat:@"冲刺\nsprint－短跑冲刺"],
+                      @"Slithereen Crush": [NSString stringWithFormat:@"鱼人碎击\ncrush－压碎"],
+                      @"Bash": [NSString stringWithFormat:@"重击\nbash－猛的一击"],
+                      @"Amplify Damage": [NSString stringWithFormat:@"伤害加深\namplify－扩大 damage－伤害"],
+                      @"Charge of Darkness": [NSString stringWithFormat:@"暗影冲刺\ncharge－冲锋"],
+                      @"Empowering Haste": [NSString stringWithFormat:@"神行太保\nempower－赐予力量 haste－极速"],
+                      @"Greater Bash": [NSString stringWithFormat:@"巨力重击\ngreater－大的 bash－击打"],
+                      @"Nether Strike": [NSString stringWithFormat:@"幽冥一击\nnether－下界的"],
+                      @"Storm Bolt": [NSString stringWithFormat:@"风暴之锤\nbolt－弩箭"],
+                      @"Great Cleave": [NSString stringWithFormat:@"巨力挥舞\ncleave－砍开"],
+                      @"Warcry": [NSString stringWithFormat:@"战吼\ncry－叫喊"],
+                      @"Gods Strength": [NSString stringWithFormat:@"神之力量"],
+                      @"Gush": [NSString stringWithFormat:@"巨浪\ngush－涌出"],
+                      @"Kraken Shell": [NSString stringWithFormat:@"海妖外壳\nkraken－北海巨妖"],
+                      @"Anchor Smash": [NSString stringWithFormat:@"锚击\nanchor－锚 smash－击打"],
+                      @"Ravage": [NSString stringWithFormat:@"毁灭\nravage－蹂躏，破坏"],
+                      @"Whirling Death": [NSString stringWithFormat:@"死亡旋风\nwhirl－回旋"],
+                      @"Timber Chain": [NSString stringWithFormat:@"伐木锯链\ntimber－木材 chain－链"],
+                      @"Reactive Armor": [NSString stringWithFormat:@"活性护甲\nreactive－活性 armor－护甲"],
+                      @"Chakram": [NSString stringWithFormat:@"锯齿飞轮\nchakram－源于印度的武器环刃"],
+                      @"Return Chakram": [NSString stringWithFormat:@"收回锯齿飞轮"],
+                      @"Avalanche": [NSString stringWithFormat:@"山崩\navalanche－雪崩"],
+                      @"Toss": [NSString stringWithFormat:@"投掷\ntoss－投掷"],
+                      @"Craggy Exterior": [NSString stringWithFormat:@"崎岖外表\ncraggy－崎岖 exterior－外表"],
+                      @"Grow": [NSString stringWithFormat:@"长大\ngrow－生长"],
+                      @"Natures Guise": [NSString stringWithFormat:@"大自然的掩护\nguise－掩护"],
+                      @"Leech Seed": [NSString stringWithFormat:@"寄生种子\nleech-寄生 seed－种子"],
+                      @"Living Armor": [NSString stringWithFormat:@"活体护甲\nliving－活体的"],
+                      @"Overgrowth": [NSString stringWithFormat:@"疯狂生长\nover－过分的"],
+                      @"Ice Shards": [NSString stringWithFormat:@"寒冰碎片\nshard－碎片"],
+                      @"Snowball": [NSString stringWithFormat:@"雪球"],
+                      @"Frozen Sigil": [NSString stringWithFormat:@"冰封魔印\nsigil－魔符"],
+                      @"Walrus Punch": [NSString stringWithFormat:@"海象神拳\nwalrus－海象 punch－拳"],
+                      @"Decay": [NSString stringWithFormat:@"腐朽\ndecay－衰退，腐烂"],
+                      @"Soul Rip": [NSString stringWithFormat:@"噬魂\nsoul－灵魂 rip－撕裂"],
+                      @"Tombstone": [NSString stringWithFormat:@"墓碑"],
+                      @"Flesh Golem": [NSString stringWithFormat:@"血肉傀儡\ngolem－源于希伯来传说有生命的假人"],
+                      @"Tether": [NSString stringWithFormat:@"闪电之链\ntether－系链子"],
+                      @"Tether Break": [NSString stringWithFormat:@"断开链接"],
+                      @"Spirits": [NSString stringWithFormat:@"幽光之魂"],
+                      @"Overcharge": [NSString stringWithFormat:@"过载\ncharge－充电，负载"],
+                      @"Relocate": [NSString stringWithFormat:@"降临\nrelocate－迁移"],
+                      @"Spirits In": [NSString stringWithFormat:@"拉近幽光之魂"],
+                      @"Spirits Out": [NSString stringWithFormat:@"拉远幽光之魂"],
+                      @"Hellfire Blast": [NSString stringWithFormat:@"冥火爆击\nhellfire－地狱火 blast－爆击"],
+                      @"Vampiric Aura": [NSString stringWithFormat:@"吸血光环\nvampiric－吸血"],
+                      @"Mortal Strike": [NSString stringWithFormat:@"殊死一搏\nmortal－终有一死的"],
+                      @"Reincarnation": [NSString stringWithFormat:@"重生\nreincarnation－再生，化身"],
+
 
                       
 
