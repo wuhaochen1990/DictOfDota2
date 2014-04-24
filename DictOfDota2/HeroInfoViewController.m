@@ -291,6 +291,10 @@ AVAudioPlayer *heroAudio;
     //set the ability name array
     abilityName = [[NSMutableArray alloc]init];
     for (id s in abilityImage) {
+        if ([s  isEqual: @".DS_Store"]) {
+            NSLog(@"I have dsstore");
+            continue;
+        }
         NSArray *tmp = [[[s componentsSeparatedByString:@"."] objectAtIndex:0] componentsSeparatedByString:@"_"];
         NSString *name = @"";
         int i = 0;
@@ -465,6 +469,43 @@ AVAudioPlayer *heroAudio;
                       @"Vampiric Aura": [NSString stringWithFormat:@"吸血光环\nvampiric－吸血"],
                       @"Mortal Strike": [NSString stringWithFormat:@"殊死一搏\nmortal－终有一死的"],
                       @"Reincarnation": [NSString stringWithFormat:@"重生\nreincarnation－再生，化身"],
+                      @"Mana Break": [NSString stringWithFormat:@"法力损毁\nmana－魔法 break－破坏"],
+                      @"Blink": [NSString stringWithFormat:@"闪烁"],
+                      @"Spell Shield": [NSString stringWithFormat:@"法术护盾\nspell－咒语 shield－盾"],
+                      @"Mana Void": [NSString stringWithFormat:@"法力虚空\nvoid－虚空"],
+                      @"Bloodrage": [NSString stringWithFormat:@"血之狂暴\nrage－狂暴，暴怒"],
+                      @"Blood Bath": [NSString stringWithFormat:@"屠戮\nbath－沐浴"],
+                      @"Thirst": [NSString stringWithFormat:@"嗜血渴望\nthirst－饥渴"],
+                      @"Rupture": [NSString stringWithFormat:@"割裂\nrupture－破裂，决裂"],
+                      @"Shuriken Toss": [NSString stringWithFormat:@"投掷飞镖\nshuriken－源于日本的手里剑"],
+                      @"Jinada": [NSString stringWithFormat:@"忍术\njinada－源于朝鲜语时光的流逝"],
+                      @"Wind Walk": [NSString stringWithFormat:@"疾风步"],
+                      @"Track": [NSString stringWithFormat:@"追踪术\ntrack－追踪"],
+                      @"Spawn Spiderlings": [NSString stringWithFormat:@"孵化蜘蛛\nspawn－产卵 spiderling－幼蛛"],
+                      @"Spin Web": [NSString stringWithFormat:@"织网\nspin－吐丝 web－网"],
+                      @"Incapacitating Bite": [NSString stringWithFormat:@"麻痹之咬\nincapacitate－使人无力"],
+                      @"Insatiable Hunger": [NSString stringWithFormat:@"极度饥渴\ninsatiable－不知足的"],
+                      @"Strafe": [NSString stringWithFormat:@"扫射\nstrafe－炮轰，扫射"],
+                      @"Searing Arrows": [NSString stringWithFormat:@"灼热之箭\nsearing－灼热的"],
+                      @"Death Pact": [NSString stringWithFormat:@"死亡契约\npact－合约"],
+                      @"Frost Arrows": [NSString stringWithFormat:@"霜冻之箭\nfrost－霜"],
+                      @"Gust": [NSString stringWithFormat:@"狂风\ngust－一阵风"],
+                      @"Precision Aura": [NSString stringWithFormat:@"强击光环\nprecision－准确"],
+                      @"Marksmanship": [NSString stringWithFormat:@"射手天赋\nmarksman－神射手"],
+                      @"Searing Chains": [NSString stringWithFormat:@"炎阳索"],
+                      @"Sleight of Fist": [NSString stringWithFormat:@"无影拳\nsleight－诡计，熟练"],
+                      @"Flame Guard": [NSString stringWithFormat:@"烈火罩\nguard－守卫"],
+                      @"Activate Fire Remnant": [NSString stringWithFormat:@"激活残焰\nremnant－残余"],
+                      @"Fire Remnant": [NSString stringWithFormat:@"残焰"],
+                      @"Time Walk": [NSString stringWithFormat:@"时间漫游"],
+                      @"Backtrack": [NSString stringWithFormat:@"回到过去"],
+                      @"Time Lock": [NSString stringWithFormat:@"时间锁定"],
+                      @"Chronosphere": [NSString stringWithFormat:@"时间结界\nchrono－长期的 sphere－范围"],
+                      @"Rocket Barrage": [NSString stringWithFormat:@"火箭弹幕\nbarrage－弹幕，齐射"],
+                      @"Homing Missile": [NSString stringWithFormat:@"追踪导弹\nhoming－自动导引的 missile－导弹"],
+                      @"Flak Cannon": [NSString stringWithFormat:@"高射火炮\nflak－高射炮 cannon－大炮"],
+                      @"Call Down": [NSString stringWithFormat:@"召唤飞弹"],
+                      
 
 
                       
