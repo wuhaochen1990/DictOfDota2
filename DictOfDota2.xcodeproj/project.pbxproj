@@ -296,7 +296,134 @@
 		A1D869FC191562AA009A1F66 /* ItemNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D869FB191562AA009A1F66 /* ItemNavigationViewController.m */; };
 		A1D869FF191562D5009A1F66 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D869FE191562D5009A1F66 /* ItemCell.m */; };
 		A1D86A0219156314009A1F66 /* ItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D86A0119156314009A1F66 /* ItemCategory.m */; };
-		A1D86A051915706F009A1F66 /* clarity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A041915706F009A1F66 /* clarity.png */; };
+		A1D86A38191575E9009A1F66 /* belt of strength.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A09191575E9009A1F66 /* belt of strength.png */; };
+		A1D86A39191575E9009A1F66 /* blade of alacrity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0A191575E9009A1F66 /* blade of alacrity.png */; };
+		A1D86A3A191575E9009A1F66 /* blades of attack.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0B191575E9009A1F66 /* blades of attack.png */; };
+		A1D86A3B191575E9009A1F66 /* blink dagger.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0C191575E9009A1F66 /* blink dagger.png */; };
+		A1D86A3C191575E9009A1F66 /* boots of elves.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0D191575E9009A1F66 /* boots of elves.png */; };
+		A1D86A3D191575E9009A1F66 /* boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0E191575E9009A1F66 /* boots.png */; };
+		A1D86A3E191575E9009A1F66 /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0F191575E9009A1F66 /* bottle.png */; };
+		A1D86A3F191575E9009A1F66 /* branches.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A10191575E9009A1F66 /* branches.png */; };
+		A1D86A40191575E9009A1F66 /* broadsword.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A11191575E9009A1F66 /* broadsword.png */; };
+		A1D86A41191575E9009A1F66 /* chainmail.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A12191575E9009A1F66 /* chainmail.png */; };
+		A1D86A42191575E9009A1F66 /* circlet.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A13191575E9009A1F66 /* circlet.png */; };
+		A1D86A43191575E9009A1F66 /* clarity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A14191575E9009A1F66 /* clarity.png */; };
+		A1D86A44191575E9009A1F66 /* claymore.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A15191575E9009A1F66 /* claymore.png */; };
+		A1D86A45191575E9009A1F66 /* cloak.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A16191575E9009A1F66 /* cloak.png */; };
+		A1D86A46191575E9009A1F66 /* courier.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A17191575E9009A1F66 /* courier.png */; };
+		A1D86A47191575E9009A1F66 /* dust.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A18191575E9009A1F66 /* dust.png */; };
+		A1D86A48191575E9009A1F66 /* flask.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A19191575E9009A1F66 /* flask.png */; };
+		A1D86A49191575E9009A1F66 /* flying courier.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1A191575E9009A1F66 /* flying courier.png */; };
+		A1D86A4A191575E9009A1F66 /* gauntlets.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1B191575E9009A1F66 /* gauntlets.png */; };
+		A1D86A4B191575E9009A1F66 /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1C191575E9009A1F66 /* gem.png */; };
+		A1D86A4C191575E9009A1F66 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1D191575E9009A1F66 /* ghost.png */; };
+		A1D86A4D191575E9009A1F66 /* gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1E191575E9009A1F66 /* gloves.png */; };
+		A1D86A4E191575E9009A1F66 /* helm of iron vwill.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */; };
+		A1D86A4F191575E9009A1F66 /* javelin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A20191575E9009A1F66 /* javelin.png */; };
+		A1D86A50191575E9009A1F66 /* lifesteal.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A21191575E9009A1F66 /* lifesteal.png */; };
+		A1D86A51191575E9009A1F66 /* magic_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A22191575E9009A1F66 /* magic_stick.png */; };
+		A1D86A52191575E9009A1F66 /* mantle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A23191575E9009A1F66 /* mantle.png */; };
+		A1D86A53191575E9009A1F66 /* mithril hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A24191575E9009A1F66 /* mithril hammer.png */; };
+		A1D86A54191575E9009A1F66 /* observer ward.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A25191575E9009A1F66 /* observer ward.png */; };
+		A1D86A55191575E9009A1F66 /* ogre axe.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A26191575E9009A1F66 /* ogre axe.png */; };
+		A1D86A56191575E9009A1F66 /* platemail.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A27191575E9009A1F66 /* platemail.png */; };
+		A1D86A57191575E9009A1F66 /* quarterstaff.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A28191575E9009A1F66 /* quarterstaff.png */; };
+		A1D86A58191575E9009A1F66 /* quelling blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A29191575E9009A1F66 /* quelling blade.png */; };
+		A1D86A59191575E9009A1F66 /* ring of protection.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2A191575E9009A1F66 /* ring of protection.png */; };
+		A1D86A5A191575E9009A1F66 /* ring of regen.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2B191575E9009A1F66 /* ring of regen.png */; };
+		A1D86A5B191575E9009A1F66 /* robe.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2C191575E9009A1F66 /* robe.png */; };
+		A1D86A5C191575E9009A1F66 /* sentry ward.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2D191575E9009A1F66 /* sentry ward.png */; };
+		A1D86A5D191575E9009A1F66 /* shadow amulet.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2E191575E9009A1F66 /* shadow amulet.png */; };
+		A1D86A5E191575E9009A1F66 /* slippers.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2F191575E9009A1F66 /* slippers.png */; };
+		A1D86A5F191575E9009A1F66 /* smoke of deceit.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A30191575E9009A1F66 /* smoke of deceit.png */; };
+		A1D86A60191575E9009A1F66 /* sobi mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A31191575E9009A1F66 /* sobi mask.png */; };
+		A1D86A61191575E9009A1F66 /* staff of wizardry.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A32191575E9009A1F66 /* staff of wizardry.png */; };
+		A1D86A62191575E9009A1F66 /* stout shield.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A33191575E9009A1F66 /* stout shield.png */; };
+		A1D86A63191575E9009A1F66 /* talisman of evasion.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A34191575E9009A1F66 /* talisman of evasion.png */; };
+		A1D86A64191575E9009A1F66 /* tango.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A35191575E9009A1F66 /* tango.png */; };
+		A1D86A65191575E9009A1F66 /* tpscroll.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A36191575E9009A1F66 /* tpscroll.png */; };
+		A1D86A66191575E9009A1F66 /* ultimate orb.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A37191575E9009A1F66 /* ultimate orb.png */; };
+		A1D86A7319158181009A1F66 /* demon edge.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6719158181009A1F66 /* demon edge.png */; };
+		A1D86A7419158181009A1F66 /* eaglesong.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6819158181009A1F66 /* eaglesong.png */; };
+		A1D86A7519158181009A1F66 /* energy booster.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6919158181009A1F66 /* energy booster.png */; };
+		A1D86A7619158181009A1F66 /* hyperstone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6A19158181009A1F66 /* hyperstone.png */; };
+		A1D86A7719158181009A1F66 /* mystic staff.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6B19158181009A1F66 /* mystic staff.png */; };
+		A1D86A7819158181009A1F66 /* orb of venom.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6C19158181009A1F66 /* orb of venom.png */; };
+		A1D86A7919158181009A1F66 /* point booster.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6D19158181009A1F66 /* point booster.png */; };
+		A1D86A7A19158181009A1F66 /* reaver.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6E19158181009A1F66 /* reaver.png */; };
+		A1D86A7B19158181009A1F66 /* ring of health.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A6F19158181009A1F66 /* ring of health.png */; };
+		A1D86A7C19158181009A1F66 /* sacred relic.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A7019158181009A1F66 /* sacred relic.png */; };
+		A1D86A7D19158181009A1F66 /* vitality booster.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A7119158181009A1F66 /* vitality booster.png */; };
+		A1D86A7E19158181009A1F66 /* void stone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A7219158181009A1F66 /* void stone.png */; };
+		A1D86AC419158190009A1F66 /* abyssal blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A7F19158190009A1F66 /* abyssal blade.png */; };
+		A1D86AC519158190009A1F66 /* aghanim's scepter.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8019158190009A1F66 /* aghanim's scepter.png */; };
+		A1D86AC619158190009A1F66 /* arcane boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8119158190009A1F66 /* arcane boots.png */; };
+		A1D86AC719158190009A1F66 /* armlet of mordiggian.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8219158190009A1F66 /* armlet of mordiggian.png */; };
+		A1D86AC819158190009A1F66 /* assault cuirass.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8319158190009A1F66 /* assault cuirass.png */; };
+		A1D86AC919158190009A1F66 /* battle fury.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8419158190009A1F66 /* battle fury.png */; };
+		A1D86ACA19158190009A1F66 /* black king bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8519158190009A1F66 /* black king bar.png */; };
+		A1D86ACB19158190009A1F66 /* blade mail.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8619158190009A1F66 /* blade mail.png */; };
+		A1D86ACC19158190009A1F66 /* bloodstone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8719158190009A1F66 /* bloodstone.png */; };
+		A1D86ACD19158190009A1F66 /* bracer.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8819158190009A1F66 /* bracer.png */; };
+		A1D86ACE19158190009A1F66 /* buckler.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8919158190009A1F66 /* buckler.png */; };
+		A1D86ACF19158190009A1F66 /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8A19158190009A1F66 /* butterfly.png */; };
+		A1D86AD019158190009A1F66 /* crystalys.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8B19158190009A1F66 /* crystalys.png */; };
+		A1D86AD119158190009A1F66 /* daedalus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8C19158190009A1F66 /* daedalus.png */; };
+		A1D86AD219158190009A1F66 /* dagon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8D19158190009A1F66 /* dagon.png */; };
+		A1D86AD319158190009A1F66 /* desolator.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8E19158190009A1F66 /* desolator.png */; };
+		A1D86AD419158190009A1F66 /* diffusal blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A8F19158190009A1F66 /* diffusal blade.png */; };
+		A1D86AD519158190009A1F66 /* divine rapier.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9019158190009A1F66 /* divine rapier.png */; };
+		A1D86AD619158190009A1F66 /* drum of endurance.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9119158190009A1F66 /* drum of endurance.png */; };
+		A1D86AD719158190009A1F66 /* ethereal blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9219158190009A1F66 /* ethereal blade.png */; };
+		A1D86AD819158190009A1F66 /* eul's scepter of divinity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9319158190009A1F66 /* eul's scepter of divinity.png */; };
+		A1D86AD919158190009A1F66 /* eye of Skadi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9419158190009A1F66 /* eye of Skadi.png */; };
+		A1D86ADA19158190009A1F66 /* force staff.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9519158190009A1F66 /* force staff.png */; };
+		A1D86ADB19158190009A1F66 /* hand of midas.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9619158190009A1F66 /* hand of midas.png */; };
+		A1D86ADC19158190009A1F66 /* headdress.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9719158190009A1F66 /* headdress.png */; };
+		A1D86ADD19158190009A1F66 /* heart of Tarrasque.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9819158190009A1F66 /* heart of Tarrasque.png */; };
+		A1D86ADE19158190009A1F66 /* heaven's halberd.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9919158190009A1F66 /* heaven's halberd.png */; };
+		A1D86ADF19158190009A1F66 /* helm of the dominator.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9A19158190009A1F66 /* helm of the dominator.png */; };
+		A1D86AE019158190009A1F66 /* hood of defiance.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9B19158190009A1F66 /* hood of defiance.png */; };
+		A1D86AE119158190009A1F66 /* Linken's sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9C19158190009A1F66 /* Linken's sphere.png */; };
+		A1D86AE219158190009A1F66 /* maelstrom.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9D19158190009A1F66 /* maelstrom.png */; };
+		A1D86AE319158190009A1F66 /* magic wand.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9E19158190009A1F66 /* magic wand.png */; };
+		A1D86AE419158190009A1F66 /* manta style.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A9F19158190009A1F66 /* manta style.png */; };
+		A1D86AE519158190009A1F66 /* mask of madness.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA019158190009A1F66 /* mask of madness.png */; };
+		A1D86AE619158190009A1F66 /* medallion of courage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA119158190009A1F66 /* medallion of courage.png */; };
+		A1D86AE719158190009A1F66 /* mekansm.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA219158190009A1F66 /* mekansm.png */; };
+		A1D86AE819158190009A1F66 /* mjollnir.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA319158190009A1F66 /* mjollnir.png */; };
+		A1D86AE919158190009A1F66 /* monkey king bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA419158190009A1F66 /* monkey king bar.png */; };
+		A1D86AEA19158190009A1F66 /* necronomicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA519158190009A1F66 /* necronomicon.png */; };
+		A1D86AEB19158190009A1F66 /* null talisman.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA619158190009A1F66 /* null talisman.png */; };
+		A1D86AEC19158190009A1F66 /* oblivion staff.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA719158190009A1F66 /* oblivion staff.png */; };
+		A1D86AED19158190009A1F66 /* orchid malevolence.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA819158190009A1F66 /* orchid malevolence.png */; };
+		A1D86AEE19158190009A1F66 /* perseverance.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AA919158190009A1F66 /* perseverance.png */; };
+		A1D86AEF19158190009A1F66 /* phase boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAA19158190009A1F66 /* phase boots.png */; };
+		A1D86AF019158190009A1F66 /* pipe of insight.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAB19158190009A1F66 /* pipe of insight.png */; };
+		A1D86AF119158190009A1F66 /* poor mans shield.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAC19158190009A1F66 /* poor mans shield.png */; };
+		A1D86AF219158190009A1F66 /* power treads.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAD19158190009A1F66 /* power treads.png */; };
+		A1D86AF319158190009A1F66 /* radiance.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAE19158190009A1F66 /* radiance.png */; };
+		A1D86AF419158190009A1F66 /* refresher orb.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AAF19158190009A1F66 /* refresher orb.png */; };
+		A1D86AF519158190009A1F66 /* ring of aquila.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB019158190009A1F66 /* ring of aquila.png */; };
+		A1D86AF619158190009A1F66 /* ring of basilius.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB119158190009A1F66 /* ring of basilius.png */; };
+		A1D86AF719158190009A1F66 /* rod of atos.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB219158190009A1F66 /* rod of atos.png */; };
+		A1D86AF819158190009A1F66 /* sange and yasha.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB319158190009A1F66 /* sange and yasha.png */; };
+		A1D86AF919158190009A1F66 /* sange.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB419158190009A1F66 /* sange.png */; };
+		A1D86AFA19158190009A1F66 /* satanic.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB519158190009A1F66 /* satanic.png */; };
+		A1D86AFB19158190009A1F66 /* scythe of vyse.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB619158190009A1F66 /* scythe of vyse.png */; };
+		A1D86AFC19158190009A1F66 /* shadow blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB719158190009A1F66 /* shadow blade.png */; };
+		A1D86AFD19158190009A1F66 /* shiva's guard.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB819158190009A1F66 /* shiva's guard.png */; };
+		A1D86AFE19158190009A1F66 /* skull basher.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AB919158190009A1F66 /* skull basher.png */; };
+		A1D86AFF19158190009A1F66 /* soul booster.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABA19158190009A1F66 /* soul booster.png */; };
+		A1D86B0019158190009A1F66 /* soul ring.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABB19158190009A1F66 /* soul ring.png */; };
+		A1D86B0119158190009A1F66 /* tranquil boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABC19158190009A1F66 /* tranquil boots.png */; };
+		A1D86B0219158190009A1F66 /* travel boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABD19158190009A1F66 /* travel boots.png */; };
+		A1D86B0319158190009A1F66 /* urn of shadows.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABE19158190009A1F66 /* urn of shadows.png */; };
+		A1D86B0419158190009A1F66 /* vanguard.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86ABF19158190009A1F66 /* vanguard.png */; };
+		A1D86B0519158190009A1F66 /* veil of discord.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AC019158190009A1F66 /* veil of discord.png */; };
+		A1D86B0619158190009A1F66 /* vladmir's offering.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AC119158190009A1F66 /* vladmir's offering.png */; };
+		A1D86B0719158190009A1F66 /* wraith band.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AC219158190009A1F66 /* wraith band.png */; };
+		A1D86B0819158190009A1F66 /* yasha.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86AC319158190009A1F66 /* yasha.png */; };
 		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
 		A1E491C118FD779F00E400F7 /* Magnus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C018FD779F00E400F7 /* Magnus.png */; };
 		A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C218FD780600E400F7 /* Wraith_King.png */; };
@@ -758,7 +885,134 @@
 		A1D869FE191562D5009A1F66 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 		A1D86A0019156314009A1F66 /* ItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCategory.h; sourceTree = "<group>"; };
 		A1D86A0119156314009A1F66 /* ItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCategory.m; sourceTree = "<group>"; };
-		A1D86A041915706F009A1F66 /* clarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clarity.png; sourceTree = "<group>"; };
+		A1D86A09191575E9009A1F66 /* belt of strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt of strength.png"; sourceTree = "<group>"; };
+		A1D86A0A191575E9009A1F66 /* blade of alacrity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blade of alacrity.png"; sourceTree = "<group>"; };
+		A1D86A0B191575E9009A1F66 /* blades of attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blades of attack.png"; sourceTree = "<group>"; };
+		A1D86A0C191575E9009A1F66 /* blink dagger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink dagger.png"; sourceTree = "<group>"; };
+		A1D86A0D191575E9009A1F66 /* boots of elves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boots of elves.png"; sourceTree = "<group>"; };
+		A1D86A0E191575E9009A1F66 /* boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boots.png; sourceTree = "<group>"; };
+		A1D86A0F191575E9009A1F66 /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
+		A1D86A10191575E9009A1F66 /* branches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branches.png; sourceTree = "<group>"; };
+		A1D86A11191575E9009A1F66 /* broadsword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broadsword.png; sourceTree = "<group>"; };
+		A1D86A12191575E9009A1F66 /* chainmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chainmail.png; sourceTree = "<group>"; };
+		A1D86A13191575E9009A1F66 /* circlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlet.png; sourceTree = "<group>"; };
+		A1D86A14191575E9009A1F66 /* clarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clarity.png; sourceTree = "<group>"; };
+		A1D86A15191575E9009A1F66 /* claymore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = claymore.png; sourceTree = "<group>"; };
+		A1D86A16191575E9009A1F66 /* cloak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloak.png; sourceTree = "<group>"; };
+		A1D86A17191575E9009A1F66 /* courier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courier.png; sourceTree = "<group>"; };
+		A1D86A18191575E9009A1F66 /* dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust.png; sourceTree = "<group>"; };
+		A1D86A19191575E9009A1F66 /* flask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flask.png; sourceTree = "<group>"; };
+		A1D86A1A191575E9009A1F66 /* flying courier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flying courier.png"; sourceTree = "<group>"; };
+		A1D86A1B191575E9009A1F66 /* gauntlets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauntlets.png; sourceTree = "<group>"; };
+		A1D86A1C191575E9009A1F66 /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem.png; sourceTree = "<group>"; };
+		A1D86A1D191575E9009A1F66 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		A1D86A1E191575E9009A1F66 /* gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloves.png; sourceTree = "<group>"; };
+		A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helm of iron vwill.png"; sourceTree = "<group>"; };
+		A1D86A20191575E9009A1F66 /* javelin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javelin.png; sourceTree = "<group>"; };
+		A1D86A21191575E9009A1F66 /* lifesteal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifesteal.png; sourceTree = "<group>"; };
+		A1D86A22191575E9009A1F66 /* magic_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_stick.png; sourceTree = "<group>"; };
+		A1D86A23191575E9009A1F66 /* mantle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mantle.png; sourceTree = "<group>"; };
+		A1D86A24191575E9009A1F66 /* mithril hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mithril hammer.png"; sourceTree = "<group>"; };
+		A1D86A25191575E9009A1F66 /* observer ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "observer ward.png"; sourceTree = "<group>"; };
+		A1D86A26191575E9009A1F66 /* ogre axe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ogre axe.png"; sourceTree = "<group>"; };
+		A1D86A27191575E9009A1F66 /* platemail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platemail.png; sourceTree = "<group>"; };
+		A1D86A28191575E9009A1F66 /* quarterstaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarterstaff.png; sourceTree = "<group>"; };
+		A1D86A29191575E9009A1F66 /* quelling blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quelling blade.png"; sourceTree = "<group>"; };
+		A1D86A2A191575E9009A1F66 /* ring of protection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of protection.png"; sourceTree = "<group>"; };
+		A1D86A2B191575E9009A1F66 /* ring of regen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of regen.png"; sourceTree = "<group>"; };
+		A1D86A2C191575E9009A1F66 /* robe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robe.png; sourceTree = "<group>"; };
+		A1D86A2D191575E9009A1F66 /* sentry ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sentry ward.png"; sourceTree = "<group>"; };
+		A1D86A2E191575E9009A1F66 /* shadow amulet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow amulet.png"; sourceTree = "<group>"; };
+		A1D86A2F191575E9009A1F66 /* slippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slippers.png; sourceTree = "<group>"; };
+		A1D86A30191575E9009A1F66 /* smoke of deceit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smoke of deceit.png"; sourceTree = "<group>"; };
+		A1D86A31191575E9009A1F66 /* sobi mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sobi mask.png"; sourceTree = "<group>"; };
+		A1D86A32191575E9009A1F66 /* staff of wizardry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "staff of wizardry.png"; sourceTree = "<group>"; };
+		A1D86A33191575E9009A1F66 /* stout shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stout shield.png"; sourceTree = "<group>"; };
+		A1D86A34191575E9009A1F66 /* talisman of evasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talisman of evasion.png"; sourceTree = "<group>"; };
+		A1D86A35191575E9009A1F66 /* tango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tango.png; sourceTree = "<group>"; };
+		A1D86A36191575E9009A1F66 /* tpscroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tpscroll.png; sourceTree = "<group>"; };
+		A1D86A37191575E9009A1F66 /* ultimate orb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ultimate orb.png"; sourceTree = "<group>"; };
+		A1D86A6719158181009A1F66 /* demon edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demon edge.png"; sourceTree = "<group>"; };
+		A1D86A6819158181009A1F66 /* eaglesong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eaglesong.png; sourceTree = "<group>"; };
+		A1D86A6919158181009A1F66 /* energy booster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "energy booster.png"; sourceTree = "<group>"; };
+		A1D86A6A19158181009A1F66 /* hyperstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyperstone.png; sourceTree = "<group>"; };
+		A1D86A6B19158181009A1F66 /* mystic staff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mystic staff.png"; sourceTree = "<group>"; };
+		A1D86A6C19158181009A1F66 /* orb of venom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orb of venom.png"; sourceTree = "<group>"; };
+		A1D86A6D19158181009A1F66 /* point booster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point booster.png"; sourceTree = "<group>"; };
+		A1D86A6E19158181009A1F66 /* reaver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reaver.png; sourceTree = "<group>"; };
+		A1D86A6F19158181009A1F66 /* ring of health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of health.png"; sourceTree = "<group>"; };
+		A1D86A7019158181009A1F66 /* sacred relic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sacred relic.png"; sourceTree = "<group>"; };
+		A1D86A7119158181009A1F66 /* vitality booster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vitality booster.png"; sourceTree = "<group>"; };
+		A1D86A7219158181009A1F66 /* void stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "void stone.png"; sourceTree = "<group>"; };
+		A1D86A7F19158190009A1F66 /* abyssal blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abyssal blade.png"; sourceTree = "<group>"; };
+		A1D86A8019158190009A1F66 /* aghanim's scepter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aghanim's scepter.png"; sourceTree = "<group>"; };
+		A1D86A8119158190009A1F66 /* arcane boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arcane boots.png"; sourceTree = "<group>"; };
+		A1D86A8219158190009A1F66 /* armlet of mordiggian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "armlet of mordiggian.png"; sourceTree = "<group>"; };
+		A1D86A8319158190009A1F66 /* assault cuirass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "assault cuirass.png"; sourceTree = "<group>"; };
+		A1D86A8419158190009A1F66 /* battle fury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battle fury.png"; sourceTree = "<group>"; };
+		A1D86A8519158190009A1F66 /* black king bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black king bar.png"; sourceTree = "<group>"; };
+		A1D86A8619158190009A1F66 /* blade mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blade mail.png"; sourceTree = "<group>"; };
+		A1D86A8719158190009A1F66 /* bloodstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloodstone.png; sourceTree = "<group>"; };
+		A1D86A8819158190009A1F66 /* bracer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bracer.png; sourceTree = "<group>"; };
+		A1D86A8919158190009A1F66 /* buckler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buckler.png; sourceTree = "<group>"; };
+		A1D86A8A19158190009A1F66 /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = "<group>"; };
+		A1D86A8B19158190009A1F66 /* crystalys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystalys.png; sourceTree = "<group>"; };
+		A1D86A8C19158190009A1F66 /* daedalus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daedalus.png; sourceTree = "<group>"; };
+		A1D86A8D19158190009A1F66 /* dagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon.png; sourceTree = "<group>"; };
+		A1D86A8E19158190009A1F66 /* desolator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desolator.png; sourceTree = "<group>"; };
+		A1D86A8F19158190009A1F66 /* diffusal blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diffusal blade.png"; sourceTree = "<group>"; };
+		A1D86A9019158190009A1F66 /* divine rapier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divine rapier.png"; sourceTree = "<group>"; };
+		A1D86A9119158190009A1F66 /* drum of endurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drum of endurance.png"; sourceTree = "<group>"; };
+		A1D86A9219158190009A1F66 /* ethereal blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ethereal blade.png"; sourceTree = "<group>"; };
+		A1D86A9319158190009A1F66 /* eul's scepter of divinity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eul's scepter of divinity.png"; sourceTree = "<group>"; };
+		A1D86A9419158190009A1F66 /* eye of Skadi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye of Skadi.png"; sourceTree = "<group>"; };
+		A1D86A9519158190009A1F66 /* force staff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "force staff.png"; sourceTree = "<group>"; };
+		A1D86A9619158190009A1F66 /* hand of midas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand of midas.png"; sourceTree = "<group>"; };
+		A1D86A9719158190009A1F66 /* headdress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headdress.png; sourceTree = "<group>"; };
+		A1D86A9819158190009A1F66 /* heart of Tarrasque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart of Tarrasque.png"; sourceTree = "<group>"; };
+		A1D86A9919158190009A1F66 /* heaven's halberd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heaven's halberd.png"; sourceTree = "<group>"; };
+		A1D86A9A19158190009A1F66 /* helm of the dominator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helm of the dominator.png"; sourceTree = "<group>"; };
+		A1D86A9B19158190009A1F66 /* hood of defiance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hood of defiance.png"; sourceTree = "<group>"; };
+		A1D86A9C19158190009A1F66 /* Linken's sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Linken's sphere.png"; sourceTree = "<group>"; };
+		A1D86A9D19158190009A1F66 /* maelstrom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maelstrom.png; sourceTree = "<group>"; };
+		A1D86A9E19158190009A1F66 /* magic wand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic wand.png"; sourceTree = "<group>"; };
+		A1D86A9F19158190009A1F66 /* manta style.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manta style.png"; sourceTree = "<group>"; };
+		A1D86AA019158190009A1F66 /* mask of madness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask of madness.png"; sourceTree = "<group>"; };
+		A1D86AA119158190009A1F66 /* medallion of courage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medallion of courage.png"; sourceTree = "<group>"; };
+		A1D86AA219158190009A1F66 /* mekansm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mekansm.png; sourceTree = "<group>"; };
+		A1D86AA319158190009A1F66 /* mjollnir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjollnir.png; sourceTree = "<group>"; };
+		A1D86AA419158190009A1F66 /* monkey king bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey king bar.png"; sourceTree = "<group>"; };
+		A1D86AA519158190009A1F66 /* necronomicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = necronomicon.png; sourceTree = "<group>"; };
+		A1D86AA619158190009A1F66 /* null talisman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "null talisman.png"; sourceTree = "<group>"; };
+		A1D86AA719158190009A1F66 /* oblivion staff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oblivion staff.png"; sourceTree = "<group>"; };
+		A1D86AA819158190009A1F66 /* orchid malevolence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orchid malevolence.png"; sourceTree = "<group>"; };
+		A1D86AA919158190009A1F66 /* perseverance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perseverance.png; sourceTree = "<group>"; };
+		A1D86AAA19158190009A1F66 /* phase boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phase boots.png"; sourceTree = "<group>"; };
+		A1D86AAB19158190009A1F66 /* pipe of insight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe of insight.png"; sourceTree = "<group>"; };
+		A1D86AAC19158190009A1F66 /* poor mans shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poor mans shield.png"; sourceTree = "<group>"; };
+		A1D86AAD19158190009A1F66 /* power treads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power treads.png"; sourceTree = "<group>"; };
+		A1D86AAE19158190009A1F66 /* radiance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiance.png; sourceTree = "<group>"; };
+		A1D86AAF19158190009A1F66 /* refresher orb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresher orb.png"; sourceTree = "<group>"; };
+		A1D86AB019158190009A1F66 /* ring of aquila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of aquila.png"; sourceTree = "<group>"; };
+		A1D86AB119158190009A1F66 /* ring of basilius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of basilius.png"; sourceTree = "<group>"; };
+		A1D86AB219158190009A1F66 /* rod of atos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rod of atos.png"; sourceTree = "<group>"; };
+		A1D86AB319158190009A1F66 /* sange and yasha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sange and yasha.png"; sourceTree = "<group>"; };
+		A1D86AB419158190009A1F66 /* sange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sange.png; sourceTree = "<group>"; };
+		A1D86AB519158190009A1F66 /* satanic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satanic.png; sourceTree = "<group>"; };
+		A1D86AB619158190009A1F66 /* scythe of vyse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scythe of vyse.png"; sourceTree = "<group>"; };
+		A1D86AB719158190009A1F66 /* shadow blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow blade.png"; sourceTree = "<group>"; };
+		A1D86AB819158190009A1F66 /* shiva's guard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shiva's guard.png"; sourceTree = "<group>"; };
+		A1D86AB919158190009A1F66 /* skull basher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skull basher.png"; sourceTree = "<group>"; };
+		A1D86ABA19158190009A1F66 /* soul booster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soul booster.png"; sourceTree = "<group>"; };
+		A1D86ABB19158190009A1F66 /* soul ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soul ring.png"; sourceTree = "<group>"; };
+		A1D86ABC19158190009A1F66 /* tranquil boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tranquil boots.png"; sourceTree = "<group>"; };
+		A1D86ABD19158190009A1F66 /* travel boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travel boots.png"; sourceTree = "<group>"; };
+		A1D86ABE19158190009A1F66 /* urn of shadows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "urn of shadows.png"; sourceTree = "<group>"; };
+		A1D86ABF19158190009A1F66 /* vanguard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanguard.png; sourceTree = "<group>"; };
+		A1D86AC019158190009A1F66 /* veil of discord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "veil of discord.png"; sourceTree = "<group>"; };
+		A1D86AC119158190009A1F66 /* vladmir's offering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vladmir's offering.png"; sourceTree = "<group>"; };
+		A1D86AC219158190009A1F66 /* wraith band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wraith band.png"; sourceTree = "<group>"; };
+		A1D86AC319158190009A1F66 /* yasha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yasha.png; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
 		A1E491C218FD780600E400F7 /* Wraith_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King.png; sourceTree = "<group>"; };
@@ -1687,9 +1941,160 @@
 		A1D86A0319157064009A1F66 /* item */ = {
 			isa = PBXGroup;
 			children = (
-				A1D86A041915706F009A1F66 /* clarity.png */,
+				A1D86A08191575DE009A1F66 /* secret */,
+				A1D86A07191575D3009A1F66 /* upgrades */,
+				A1D86A06191575BF009A1F66 /* basics */,
 			);
 			name = item;
+			sourceTree = "<group>";
+		};
+		A1D86A06191575BF009A1F66 /* basics */ = {
+			isa = PBXGroup;
+			children = (
+				A1D86A09191575E9009A1F66 /* belt of strength.png */,
+				A1D86A0A191575E9009A1F66 /* blade of alacrity.png */,
+				A1D86A0B191575E9009A1F66 /* blades of attack.png */,
+				A1D86A0C191575E9009A1F66 /* blink dagger.png */,
+				A1D86A0D191575E9009A1F66 /* boots of elves.png */,
+				A1D86A0E191575E9009A1F66 /* boots.png */,
+				A1D86A0F191575E9009A1F66 /* bottle.png */,
+				A1D86A10191575E9009A1F66 /* branches.png */,
+				A1D86A11191575E9009A1F66 /* broadsword.png */,
+				A1D86A12191575E9009A1F66 /* chainmail.png */,
+				A1D86A13191575E9009A1F66 /* circlet.png */,
+				A1D86A14191575E9009A1F66 /* clarity.png */,
+				A1D86A15191575E9009A1F66 /* claymore.png */,
+				A1D86A16191575E9009A1F66 /* cloak.png */,
+				A1D86A17191575E9009A1F66 /* courier.png */,
+				A1D86A18191575E9009A1F66 /* dust.png */,
+				A1D86A19191575E9009A1F66 /* flask.png */,
+				A1D86A1A191575E9009A1F66 /* flying courier.png */,
+				A1D86A1B191575E9009A1F66 /* gauntlets.png */,
+				A1D86A1C191575E9009A1F66 /* gem.png */,
+				A1D86A1D191575E9009A1F66 /* ghost.png */,
+				A1D86A1E191575E9009A1F66 /* gloves.png */,
+				A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */,
+				A1D86A20191575E9009A1F66 /* javelin.png */,
+				A1D86A21191575E9009A1F66 /* lifesteal.png */,
+				A1D86A22191575E9009A1F66 /* magic_stick.png */,
+				A1D86A23191575E9009A1F66 /* mantle.png */,
+				A1D86A24191575E9009A1F66 /* mithril hammer.png */,
+				A1D86A25191575E9009A1F66 /* observer ward.png */,
+				A1D86A26191575E9009A1F66 /* ogre axe.png */,
+				A1D86A27191575E9009A1F66 /* platemail.png */,
+				A1D86A28191575E9009A1F66 /* quarterstaff.png */,
+				A1D86A29191575E9009A1F66 /* quelling blade.png */,
+				A1D86A2A191575E9009A1F66 /* ring of protection.png */,
+				A1D86A2B191575E9009A1F66 /* ring of regen.png */,
+				A1D86A2C191575E9009A1F66 /* robe.png */,
+				A1D86A2D191575E9009A1F66 /* sentry ward.png */,
+				A1D86A2E191575E9009A1F66 /* shadow amulet.png */,
+				A1D86A2F191575E9009A1F66 /* slippers.png */,
+				A1D86A30191575E9009A1F66 /* smoke of deceit.png */,
+				A1D86A31191575E9009A1F66 /* sobi mask.png */,
+				A1D86A32191575E9009A1F66 /* staff of wizardry.png */,
+				A1D86A33191575E9009A1F66 /* stout shield.png */,
+				A1D86A34191575E9009A1F66 /* talisman of evasion.png */,
+				A1D86A35191575E9009A1F66 /* tango.png */,
+				A1D86A36191575E9009A1F66 /* tpscroll.png */,
+				A1D86A37191575E9009A1F66 /* ultimate orb.png */,
+			);
+			name = basics;
+			sourceTree = "<group>";
+		};
+		A1D86A07191575D3009A1F66 /* upgrades */ = {
+			isa = PBXGroup;
+			children = (
+				A1D86A7F19158190009A1F66 /* abyssal blade.png */,
+				A1D86A8019158190009A1F66 /* aghanim's scepter.png */,
+				A1D86A8119158190009A1F66 /* arcane boots.png */,
+				A1D86A8219158190009A1F66 /* armlet of mordiggian.png */,
+				A1D86A8319158190009A1F66 /* assault cuirass.png */,
+				A1D86A8419158190009A1F66 /* battle fury.png */,
+				A1D86A8519158190009A1F66 /* black king bar.png */,
+				A1D86A8619158190009A1F66 /* blade mail.png */,
+				A1D86A8719158190009A1F66 /* bloodstone.png */,
+				A1D86A8819158190009A1F66 /* bracer.png */,
+				A1D86A8919158190009A1F66 /* buckler.png */,
+				A1D86A8A19158190009A1F66 /* butterfly.png */,
+				A1D86A8B19158190009A1F66 /* crystalys.png */,
+				A1D86A8C19158190009A1F66 /* daedalus.png */,
+				A1D86A8D19158190009A1F66 /* dagon.png */,
+				A1D86A8E19158190009A1F66 /* desolator.png */,
+				A1D86A8F19158190009A1F66 /* diffusal blade.png */,
+				A1D86A9019158190009A1F66 /* divine rapier.png */,
+				A1D86A9119158190009A1F66 /* drum of endurance.png */,
+				A1D86A9219158190009A1F66 /* ethereal blade.png */,
+				A1D86A9319158190009A1F66 /* eul's scepter of divinity.png */,
+				A1D86A9419158190009A1F66 /* eye of Skadi.png */,
+				A1D86A9519158190009A1F66 /* force staff.png */,
+				A1D86A9619158190009A1F66 /* hand of midas.png */,
+				A1D86A9719158190009A1F66 /* headdress.png */,
+				A1D86A9819158190009A1F66 /* heart of Tarrasque.png */,
+				A1D86A9919158190009A1F66 /* heaven's halberd.png */,
+				A1D86A9A19158190009A1F66 /* helm of the dominator.png */,
+				A1D86A9B19158190009A1F66 /* hood of defiance.png */,
+				A1D86A9C19158190009A1F66 /* Linken's sphere.png */,
+				A1D86A9D19158190009A1F66 /* maelstrom.png */,
+				A1D86A9E19158190009A1F66 /* magic wand.png */,
+				A1D86A9F19158190009A1F66 /* manta style.png */,
+				A1D86AA019158190009A1F66 /* mask of madness.png */,
+				A1D86AA119158190009A1F66 /* medallion of courage.png */,
+				A1D86AA219158190009A1F66 /* mekansm.png */,
+				A1D86AA319158190009A1F66 /* mjollnir.png */,
+				A1D86AA419158190009A1F66 /* monkey king bar.png */,
+				A1D86AA519158190009A1F66 /* necronomicon.png */,
+				A1D86AA619158190009A1F66 /* null talisman.png */,
+				A1D86AA719158190009A1F66 /* oblivion staff.png */,
+				A1D86AA819158190009A1F66 /* orchid malevolence.png */,
+				A1D86AA919158190009A1F66 /* perseverance.png */,
+				A1D86AAA19158190009A1F66 /* phase boots.png */,
+				A1D86AAB19158190009A1F66 /* pipe of insight.png */,
+				A1D86AAC19158190009A1F66 /* poor mans shield.png */,
+				A1D86AAD19158190009A1F66 /* power treads.png */,
+				A1D86AAE19158190009A1F66 /* radiance.png */,
+				A1D86AAF19158190009A1F66 /* refresher orb.png */,
+				A1D86AB019158190009A1F66 /* ring of aquila.png */,
+				A1D86AB119158190009A1F66 /* ring of basilius.png */,
+				A1D86AB219158190009A1F66 /* rod of atos.png */,
+				A1D86AB319158190009A1F66 /* sange and yasha.png */,
+				A1D86AB419158190009A1F66 /* sange.png */,
+				A1D86AB519158190009A1F66 /* satanic.png */,
+				A1D86AB619158190009A1F66 /* scythe of vyse.png */,
+				A1D86AB719158190009A1F66 /* shadow blade.png */,
+				A1D86AB819158190009A1F66 /* shiva's guard.png */,
+				A1D86AB919158190009A1F66 /* skull basher.png */,
+				A1D86ABA19158190009A1F66 /* soul booster.png */,
+				A1D86ABB19158190009A1F66 /* soul ring.png */,
+				A1D86ABC19158190009A1F66 /* tranquil boots.png */,
+				A1D86ABD19158190009A1F66 /* travel boots.png */,
+				A1D86ABE19158190009A1F66 /* urn of shadows.png */,
+				A1D86ABF19158190009A1F66 /* vanguard.png */,
+				A1D86AC019158190009A1F66 /* veil of discord.png */,
+				A1D86AC119158190009A1F66 /* vladmir's offering.png */,
+				A1D86AC219158190009A1F66 /* wraith band.png */,
+				A1D86AC319158190009A1F66 /* yasha.png */,
+			);
+			name = upgrades;
+			sourceTree = "<group>";
+		};
+		A1D86A08191575DE009A1F66 /* secret */ = {
+			isa = PBXGroup;
+			children = (
+				A1D86A6719158181009A1F66 /* demon edge.png */,
+				A1D86A6819158181009A1F66 /* eaglesong.png */,
+				A1D86A6919158181009A1F66 /* energy booster.png */,
+				A1D86A6A19158181009A1F66 /* hyperstone.png */,
+				A1D86A6B19158181009A1F66 /* mystic staff.png */,
+				A1D86A6C19158181009A1F66 /* orb of venom.png */,
+				A1D86A6D19158181009A1F66 /* point booster.png */,
+				A1D86A6E19158181009A1F66 /* reaver.png */,
+				A1D86A6F19158181009A1F66 /* ring of health.png */,
+				A1D86A7019158181009A1F66 /* sacred relic.png */,
+				A1D86A7119158181009A1F66 /* vitality booster.png */,
+				A1D86A7219158181009A1F66 /* void stone.png */,
+			);
+			name = secret;
 			sourceTree = "<group>";
 		};
 		A1E4925018FDBDF900E400F7 /* Alchemist */ = {
@@ -1964,16 +2369,20 @@
 				A1E4924818FDBBF700E400F7 /* VenomancerAudio.mp3 in Resources */,
 				A1E4926518FDC23700E400F7 /* Axe_3_Counter_Helix.png in Resources */,
 				A1810A3118F9F059001DD38D /* Clinkz.png in Resources */,
+				A1D86B0019158190009A1F66 /* soul ring.png in Resources */,
 				A19065F219095FA100C3E808 /* Bounty_Hunter_2_Jinada.png in Resources */,
 				A1ED43FB1908550200748BEB /* Timbersaw_1_Whirling_Death.png in Resources */,
 				A1A33FE11901A144004698C8 /* Legion_Commander_3_Moment_of_Courage.png in Resources */,
+				A1D86A46191575E9009A1F66 /* courier.png in Resources */,
 				A1810A0218F99DA7001DD38D /* Sven.png in Resources */,
 				A1ED441A190858B300748BEB /* Tusk_4_Walrus_Punch.png in Resources */,
 				A18D0A6C18FA4E850069BF96 /* BrewmasterAudio.mp3 in Resources */,
 				A18D0AA618FAD1580069BF96 /* TuskAudio.mp3 in Resources */,
 				A1ED43C619084CFB00748BEB /* Rattletrap_3_Rocket_Flare.png in Resources */,
 				A18109FA18F99DA7001DD38D /* Phoenix.png in Resources */,
+				A1D86A39191575E9009A1F66 /* blade of alacrity.png in Resources */,
 				A1A33FC119019B33004698C8 /* Elder_Titan_3_Natural_Order.png in Resources */,
+				A1D86AED19158190009A1F66 /* orchid malevolence.png in Resources */,
 				A1A33FB6190199AE004698C8 /* Earthshaker_2_Enchant_Totem.png in Resources */,
 				A18D0AA018FAD1580069BF96 /* SlardarAudio.mp3 in Resources */,
 				A1906604190962A100C3E808 /* Clinkz_2_Searing_Arrows.png in Resources */,
@@ -1981,6 +2390,7 @@
 				A18D0A9418FAD1580069BF96 /* Legion_CommanderAudio.mp3 in Resources */,
 				A1ED4422190859B700748BEB /* Undying_3_Tombstone.png in Resources */,
 				A1E4921018FDBBF700E400F7 /* BroodmotherAudio.mp3 in Resources */,
+				A1D86AF319158190009A1F66 /* radiance.png in Resources */,
 				A190661A1909654400C3E808 /* Ember_Spirit_5_Fire_Remnant.png in Resources */,
 				A1810A0718F99DA7001DD38D /* Undying.png in Resources */,
 				A1E4926218FDC23700E400F7 /* Axe_1_Berserker's_Call.png in Resources */,
@@ -1988,7 +2398,10 @@
 				A1E4922618FDBBF700E400F7 /* LionAudio.mp3 in Resources */,
 				A1ED43D619084F8900748BEB /* Slardar_1_Sprint.png in Resources */,
 				A1ED442F19085AF100748BEB /* Wisp_4_Overcharge.png in Resources */,
+				A1D86A4C191575E9009A1F66 /* ghost.png in Resources */,
 				A1E4923818FDBBF700E400F7 /* RazorAudio.mp3 in Resources */,
+				A1D86A5E191575E9009A1F66 /* slippers.png in Resources */,
+				A1D86A7819158181009A1F66 /* orb of venom.png in Resources */,
 				A1A3401C19022977004698C8 /* Phoenix_2_Fire_Spirits.png in Resources */,
 				A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */,
 				A1E4922818FDBBF700E400F7 /* LunaAudio.mp3 in Resources */,
@@ -1996,10 +2409,13 @@
 				A1810A8718F9F061001DD38D /* Obsidian_Destroyer.png in Resources */,
 				A1A33FC919019CBF004698C8 /* Huskar_1_Inner_Vitality.png in Resources */,
 				A1ED44431908B06A00748BEB /* Antimage_3_Spell_Shield.png in Resources */,
+				A1D86A41191575E9009A1F66 /* chainmail.png in Resources */,
 				A1ED443B19085C9C00748BEB /* Wraith_King_4_Reincarnation.png in Resources */,
 				A18109E718F99DA7001DD38D /* Axe.png in Resources */,
 				A1A34008190226CB004698C8 /* Night_Stalker_4_Darkness.png in Resources */,
+				A1D86AF919158190009A1F66 /* sange.png in Resources */,
 				A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */,
+				A1D86A48191575E9009A1F66 /* flask.png in Resources */,
 				A1810A9618F9F061001DD38D /* Witch_Doctor.png in Resources */,
 				A1A33FE21901A144004698C8 /* Legion_Commander_4_Duel.png in Resources */,
 				A1A33FEC1901A2C4004698C8 /* Life_Stealer_4_Infest.png in Resources */,
@@ -2018,11 +2434,15 @@
 				A1810A9218F9F061001DD38D /* Tinker.png in Resources */,
 				A1A33FB7190199AE004698C8 /* Earthshaker_3_Aftershock.png in Resources */,
 				A18D0A5E18FA4A3C0069BF96 /* AbaddonAudio.mp3 in Resources */,
+				A1D86A5A191575E9009A1F66 /* ring of regen.png in Resources */,
 				A1E4921418FDBBF700E400F7 /* Dark_SeerAudio.mp3 in Resources */,
+				A1D86A7619158181009A1F66 /* hyperstone.png in Resources */,
 				A19065E919095E8D00C3E808 /* Bloodseeker_2_Blood_Bath.png in Resources */,
 				A1ED443819085C9C00748BEB /* Wraith_King_1_Hellfire_Blast.png in Resources */,
 				A1810A3018F9F059001DD38D /* Broodmother.png in Resources */,
+				A1D86A65191575E9009A1F66 /* tpscroll.png in Resources */,
 				A1E4924218FDBBF700E400F7 /* Templar_AssassinAudio.mp3 in Resources */,
+				A1D86B0519158190009A1F66 /* veil of discord.png in Resources */,
 				A18109EC18F99DA7001DD38D /* Chaos_Knight.png in Resources */,
 				A1ED443919085C9C00748BEB /* Wraith_King_2_Vampiric_Aura.png in Resources */,
 				A18109B418F990AD001DD38D /* MainStoryboard.storyboard in Resources */,
@@ -2031,21 +2451,31 @@
 				A1E4923C18FDBBF700E400F7 /* SilencerAudio.mp3 in Resources */,
 				A1E4922118FDBBF700E400F7 /* JuggernautAudio.mp3 in Resources */,
 				A1ED442D19085AF100748BEB /* Wisp_2_Tether_Break.png in Resources */,
+				A1D86AD019158190009A1F66 /* crystalys.png in Resources */,
 				A1E4923218FDBBF700E400F7 /* Ogre_MagiAudio.mp3 in Resources */,
 				A1E4920C18FDBBF700E400F7 /* BaneAudio.mp3 in Resources */,
 				A1E4922B18FDBBF700E400F7 /* MiranaAudio.mp3 in Resources */,
 				A1A33FF619021E60004698C8 /* Lycan_4_Shapeshift.png in Resources */,
+				A1D86AE519158190009A1F66 /* mask of madness.png in Resources */,
 				A18109EB18F99DA7001DD38D /* Centaur.png in Resources */,
+				A1D86AF419158190009A1F66 /* refresher orb.png in Resources */,
 				A19065FD1909615300C3E808 /* Broodmother_4_Insatiable_Hunger.png in Resources */,
 				A1A3402119022977004698C8 /* Phoenix_7_Sun_Ray_Stop.png in Resources */,
+				A1D86AD619158190009A1F66 /* drum of endurance.png in Resources */,
 				A1ED43F11908538400748BEB /* Tidehunter_1_Gush.png in Resources */,
 				A1A34006190226CB004698C8 /* Night_Stalker_2_Crippling_Fear.png in Resources */,
+				A1D86A7419158181009A1F66 /* eaglesong.png in Resources */,
 				A1ED44411908B06A00748BEB /* Antimage_1_Mana_Break.png in Resources */,
+				A1D86A3F191575E9009A1F66 /* branches.png in Resources */,
+				A1D86A3D191575E9009A1F66 /* boots.png in Resources */,
+				A1D86A45191575E9009A1F66 /* cloak.png in Resources */,
 				A1A33F7619018CF9004698C8 /* Brewmaster_3_Drunken_Brawler.png in Resources */,
 				A1ED4410190857A600748BEB /* Treant_3_Living_Armor.png in Resources */,
 				A1810A8318F9F061001DD38D /* Lich.png in Resources */,
+				A1D86AE919158190009A1F66 /* monkey king bar.png in Resources */,
 				A18D0A9F18FAD1580069BF96 /* Skeleton_KingAudio.mp3 in Resources */,
 				A1ED43FE1908550200748BEB /* Timbersaw_4_Chakram.png in Resources */,
+				A1D86AE819158190009A1F66 /* mjollnir.png in Resources */,
 				A1A33F7F19018F1F004698C8 /* Bristleback_3_Bristleback.png in Resources */,
 				A1E4922018FDBBF700E400F7 /* JakiroAudio.mp3 in Resources */,
 				A1906603190962A100C3E808 /* Clinkz_1_Strafe.png in Resources */,
@@ -2060,6 +2490,7 @@
 				A1A33FFF19022560004698C8 /* Magnataur_4_Reverse_Polarity.png in Resources */,
 				A18109EF18F99DA7001DD38D /* Earth_Spirit.png in Resources */,
 				A1ED43C719084CFB00748BEB /* Rattletrap_4_Hookshot.png in Resources */,
+				A1D86A7E19158181009A1F66 /* void stone.png in Resources */,
 				A1E4924418FDBBF700E400F7 /* TinkerAudio.mp3 in Resources */,
 				A1ED43F31908538400748BEB /* Tidehunter_3_Anchor_Smash.png in Resources */,
 				A1E4926418FDC23700E400F7 /* Axe_2_Battle_Hunger.png in Resources */,
@@ -2067,14 +2498,18 @@
 				A1A33FD319019E27004698C8 /* Kunkka_1_Torrent.png in Resources */,
 				A190662A1909679000C3E808 /* Gyrocopter_2_Homing_Missile.png in Resources */,
 				A18D0A6018FA4A550069BF96 /* EarthshakerAudio.mp3 in Resources */,
+				A1D86A3A191575E9009A1F66 /* blades of attack.png in Resources */,
 				A1ED43D719084F8900748BEB /* Slardar_2_Slithereen_Crush.png in Resources */,
 				A1810A7818F9F061001DD38D /* Dark_Seer.png in Resources */,
 				A1ED442C19085AF100748BEB /* Wisp_1_Tether.png in Resources */,
 				A1E4923518FDBBF700E400F7 /* PuckAudio.mp3 in Resources */,
+				A1D86ACA19158190009A1F66 /* black king bar.png in Resources */,
 				A1E4921318FDBBF700E400F7 /* Crystal_MaidenAudio.mp3 in Resources */,
+				A1D86ACE19158190009A1F66 /* buckler.png in Resources */,
 				A1ED44071908569900748BEB /* Tiny_3_Craggy_Exterior.png in Resources */,
 				A1810A4018F9F059001DD38D /* Phantom_Assassin.png in Resources */,
 				A1A3400F190227EB004698C8 /* Omniknight_2_Repel.png in Resources */,
+				A1D86AE419158190009A1F66 /* manta style.png in Resources */,
 				A1E4923F18FDBBF700E400F7 /* SniperAudio.mp3 in Resources */,
 				A1A33FD519019E27004698C8 /* Kunkka_3_X_Marks_the_Spot.png in Resources */,
 				A1810A3E18F9F059001DD38D /* Nevermore.png in Resources */,
@@ -2086,6 +2521,7 @@
 				A18D0A6D18FA4E850069BF96 /* BristlebackAudio.mp3 in Resources */,
 				A1A33F8619019303004698C8 /* Centaur_1_Hoof_Stomp.png in Resources */,
 				A139C26319096B73000F5164 /* Drow_Ranger_1_Frost_Arrows.png in Resources */,
+				A1D86A58191575E9009A1F66 /* quelling blade.png in Resources */,
 				A1810A4B18F9F059001DD38D /* Venomancer.png in Resources */,
 				A19066161909654400C3E808 /* Ember_Spirit_1_Searing_Chains.png in Resources */,
 				A1A33FAF1901983A004698C8 /* Earth_Spirit_5_Magnetize.png in Resources */,
@@ -2099,21 +2535,32 @@
 				A1ED43FF1908550200748BEB /* Timbersaw_5_Return_Chakram.png in Resources */,
 				A1810A2D18F9F059001DD38D /* Antimage.png in Resources */,
 				A18109F018F99DA7001DD38D /* Earthshaker.png in Resources */,
+				A1D86AEE19158190009A1F66 /* perseverance.png in Resources */,
+				A1D86A54191575E9009A1F66 /* observer ward.png in Resources */,
 				A1E4923D18FDBBF700E400F7 /* Skywrath_MageAudio.mp3 in Resources */,
 				A19065FB1909615300C3E808 /* Broodmother_2_Spin_Web.png in Resources */,
+				A1D86AC619158190009A1F66 /* arcane boots.png in Resources */,
 				A1810A8418F9F061001DD38D /* Lina.png in Resources */,
+				A1D86AF519158190009A1F66 /* ring of aquila.png in Resources */,
 				A1810A4518F9F059001DD38D /* Spectre.png in Resources */,
+				A1D86AFD19158190009A1F66 /* shiva's guard.png in Resources */,
+				A1D86AD919158190009A1F66 /* eye of Skadi.png in Resources */,
 				A1E4923118FDBBF700E400F7 /* Obsidian_DestroyerAudio.mp3 in Resources */,
+				A1D86A4A191575E9009A1F66 /* gauntlets.png in Resources */,
 				A1810A9418F9F061001DD38D /* Warlock.png in Resources */,
+				A1D86AF119158190009A1F66 /* poor mans shield.png in Resources */,
+				A1D86B0219158190009A1F66 /* travel boots.png in Resources */,
 				A18D0A9E18FAD1580069BF96 /* ShredderAudio.mp3 in Resources */,
 				A18D0AA718FAD1580069BF96 /* UndyingAudio.mp3 in Resources */,
 				A1A33FA119019719004698C8 /* Dragon_Knight_1_Breathe_Fire.png in Resources */,
 				A1810A4118F9F059001DD38D /* Phantom_Lancer.png in Resources */,
+				A1D86A44191575E9009A1F66 /* claymore.png in Resources */,
 				A19066211909669900C3E808 /* Faceless_Void_2_Backtrack.png in Resources */,
 				A18109F918F99DA7001DD38D /* Omniknight.png in Resources */,
 				A1ED44061908569900748BEB /* Tiny_2_Toss.png in Resources */,
 				A19066181909654400C3E808 /* Ember_Spirit_3_Flame_Guard.png in Resources */,
 				A1A33F8719019303004698C8 /* Centaur_2_Double_Edge.png in Resources */,
+				A1D86B0419158190009A1F66 /* vanguard.png in Resources */,
 				A1810A0018F99DA7001DD38D /* Slardar.png in Resources */,
 				A1ED44081908569900748BEB /* Tiny_4_Grow.png in Resources */,
 				A1A12B7118FCA585002F5702 /* logo.png in Resources */,
@@ -2124,11 +2571,16 @@
 				A1A3400E190227EB004698C8 /* Omniknight_1_Purification.png in Resources */,
 				A1ED443019085AF100748BEB /* Wisp_5_Relocate.png in Resources */,
 				A18D0A9C18FAD1580069BF96 /* RattletrapAudio.mp3 in Resources */,
+				A1D86AC419158190009A1F66 /* abyssal blade.png in Resources */,
 				A1810A7618F9F061001DD38D /* Chen.png in Resources */,
+				A1D86AC919158190009A1F66 /* battle fury.png in Resources */,
+				A1D86AD319158190009A1F66 /* desolator.png in Resources */,
 				A1ED43F41908538400748BEB /* Tidehunter_4_Ravage.png in Resources */,
 				A1810A3A18F9F059001DD38D /* Meepo.png in Resources */,
 				A18109EE18F99DA7001DD38D /* Dragon_Knight.png in Resources */,
 				A18109F518F99DA7001DD38D /* Life_Stealer.png in Resources */,
+				A1D86AD419158190009A1F66 /* diffusal blade.png in Resources */,
+				A1D86AFC19158190009A1F66 /* shadow blade.png in Resources */,
 				A17BF71A18F4C2440006D2E7 /* InfoPlist.strings in Resources */,
 				A1ED43FC1908550200748BEB /* Timbersaw_2_Timber_Chain.png in Resources */,
 				A1A3402219022977004698C8 /* Phoenix_8_Sun_Ray_Toggle_Move.png in Resources */,
@@ -2136,11 +2588,14 @@
 				A1E4922C18FDBBF700E400F7 /* MorphlingAudio.mp3 in Resources */,
 				A1CA12FD18FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png in Resources */,
 				A1A33FD419019E27004698C8 /* Kunkka_2_Tidebringer.png in Resources */,
+				A1D86A66191575E9009A1F66 /* ultimate orb.png in Resources */,
 				A1A33F7E19018F1F004698C8 /* Bristleback_2_Quill_Spray.png in Resources */,
 				A1810A0518F99DA7001DD38D /* Treant.png in Resources */,
 				A1A3401D19022977004698C8 /* Phoenix_3_Sun_Ray.png in Resources */,
+				A1D86AF019158190009A1F66 /* pipe of insight.png in Resources */,
 				A1A12B7318FCA82A002F5702 /* logo2.png in Resources */,
 				A1E4921118FDBBF700E400F7 /* ChenAudio.mp3 in Resources */,
+				A1D86AFA19158190009A1F66 /* satanic.png in Resources */,
 				A18D0A9618FAD1580069BF96 /* LycanAudio.mp3 in Resources */,
 				A1A33FEA1901A2C4004698C8 /* Life_Stealer_2_Feast.png in Resources */,
 				A18D0AA318FAD1580069BF96 /* TidehunterAudio.mp3 in Resources */,
@@ -2148,65 +2603,89 @@
 				A1ED443A19085C9C00748BEB /* Wraith_King_3_Mortal_Strike.png in Resources */,
 				A1810A9118F9F061001DD38D /* Storm_Spirit.png in Resources */,
 				A1A33FBF19019B33004698C8 /* Elder_Titan_1_Echo_Stomp.png in Resources */,
+				A1D86ACC19158190009A1F66 /* bloodstone.png in Resources */,
 				A17BF72218F4C2440006D2E7 /* Images.xcassets in Resources */,
 				A1810A8218F9F061001DD38D /* Leshrac.png in Resources */,
+				A1D86ACD19158190009A1F66 /* bracer.png in Resources */,
 				A1ED443219085AF100748BEB /* Wisp_7_Spirits_Out.png in Resources */,
 				A18109FC18F99DA7001DD38D /* Rattletrap.png in Resources */,
+				A1D86A42191575E9009A1F66 /* circlet.png in Resources */,
 				A1ED43BE19084BBC00748BEB /* Pudge_4_Dismember.png in Resources */,
+				A1D86A7C19158181009A1F66 /* sacred relic.png in Resources */,
 				A1ED4419190858B300748BEB /* Tusk_3_Frozen_Sigil.png in Resources */,
 				A1E4921818FDBBF700E400F7 /* Drow_RangerAudio.mp3 in Resources */,
 				A18109E918F99DA7001DD38D /* Brewmaster.png in Resources */,
 				A1A33FAE1901983A004698C8 /* Earth_Spirit_4_Stone_Caller.png in Resources */,
 				A18109F618F99DA7001DD38D /* Lycan.png in Resources */,
+				A1D86A59191575E9009A1F66 /* ring of protection.png in Resources */,
 				A1E4925818FDBE0A00E400F7 /* Alchemist_3_Greevil's_Greed.png in Resources */,
 				A1810A3618F9F059001DD38D /* Juggernaut.png in Resources */,
 				A1E4921A18FDBBF700E400F7 /* EnchantressAudio.mp3 in Resources */,
 				A1810A8D18F9F061001DD38D /* Shadow_Demon.png in Resources */,
+				A1D86ACB19158190009A1F66 /* blade mail.png in Resources */,
 				A1810A3D18F9F059001DD38D /* Naga_Siren.png in Resources */,
 				A1A34011190227EB004698C8 /* Omniknight_4_Guardian_Angel.png in Resources */,
+				A1D86AC719158190009A1F66 /* armlet of mordiggian.png in Resources */,
 				A1ED43D919084F8900748BEB /* Slardar_4_Amplify_Damage.png in Resources */,
 				A1A33F9B190195F5004698C8 /* Doom_Bringer_4_Doom.png in Resources */,
 				A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */,
+				A1D86ACF19158190009A1F66 /* butterfly.png in Resources */,
 				A1E4921E18FDBBF700E400F7 /* GyrocopterAudio.mp3 in Resources */,
 				A1A33F98190195F5004698C8 /* Doom_Bringer_1_Devour.png in Resources */,
 				A1A33FC219019B33004698C8 /* Elder_Titan_4_Return_Spirit.png in Resources */,
 				A1810A7A18F9F061001DD38D /* Death_Prophet.png in Resources */,
+				A1D86A47191575E9009A1F66 /* dust.png in Resources */,
 				A18D0A9318FAD1580069BF96 /* KunkkaAudio.mp3 in Resources */,
 				A1A33F9219019468004698C8 /* Chaos_Knight_4_Phantasm.png in Resources */,
 				A1810A7E18F9F061001DD38D /* Furion.png in Resources */,
-				A1D86A051915706F009A1F66 /* clarity.png in Resources */,
 				A1E4924518FDBBF700E400F7 /* Troll_WarlordAudio.mp3 in Resources */,
 				A1ED44441908B06A00748BEB /* Antimage_4_Mana_Void.png in Resources */,
 				A1810A4218F9F059001DD38D /* Razor.png in Resources */,
 				A1A33FB8190199AE004698C8 /* Earthshaker_4_Echo_Slam.png in Resources */,
 				A18D0A9D18FAD1580069BF96 /* Sand_KingAudio.mp3 in Resources */,
 				A1810A2F18F9F059001DD38D /* Bounty_Hunter.png in Resources */,
+				A1D86B0119158190009A1F66 /* tranquil boots.png in Resources */,
 				A1810A7918F9F061001DD38D /* Dazzle.png in Resources */,
 				A1E4922F18FDBBF700E400F7 /* NevermoreAudio.mp3 in Resources */,
 				A1810A0318F99DA7001DD38D /* Tidehunter.png in Resources */,
+				A1D86AFE19158190009A1F66 /* skull basher.png in Resources */,
 				A1E4925C18FDBE6B00E400F7 /* Alchemist_5_Unstable_Concoction_Throw.png in Resources */,
 				A1E4924718FDBBF700E400F7 /* VengefulspiritAudio.mp3 in Resources */,
+				A1D86A43191575E9009A1F66 /* clarity.png in Resources */,
 				A1A33F7719018CF9004698C8 /* Brewmaster_4_Primal_Split.png in Resources */,
 				A1A33FA419019719004698C8 /* Dragon_Knight_4_Elder_Dragon_Form.png in Resources */,
 				A190662B1909679000C3E808 /* Gyrocopter_3_Flak_Cannon.png in Resources */,
 				A1810A8518F9F061001DD38D /* Lion.png in Resources */,
+				A1D86AEC19158190009A1F66 /* oblivion staff.png in Resources */,
 				A139C26519096B73000F5164 /* Drow_Ranger_3_Precision_Aura.png in Resources */,
+				A1D86AF719158190009A1F66 /* rod of atos.png in Resources */,
+				A1D86ADD19158190009A1F66 /* heart of Tarrasque.png in Resources */,
 				A1ED442E19085AF100748BEB /* Wisp_3_Spirits.png in Resources */,
+				A1D86AFB19158190009A1F66 /* scythe of vyse.png in Resources */,
 				A1A33FAD1901983A004698C8 /* Earth_Spirit_3_Geomagnetic_Grip.png in Resources */,
 				A1810A4318F9F059001DD38D /* Slark.png in Resources */,
 				A1E4924A18FDBBF700E400F7 /* VisageAudio.mp3 in Resources */,
 				A1E4920F18FDBBF700E400F7 /* Bounty_HunterAudio.mp3 in Resources */,
+				A1D86A7919158181009A1F66 /* point booster.png in Resources */,
+				A1D86A4B191575E9009A1F66 /* gem.png in Resources */,
 				A18D0A9518FAD1580069BF96 /* Life_StealerAudio.mp3 in Resources */,
 				A1810A4918F9F059001DD38D /* Ursa.png in Resources */,
 				A190662C1909679000C3E808 /* Gyrocopter_4_Call_Down.png in Resources */,
 				A1ED43C419084CFB00748BEB /* Rattletrap_1_Battery_Assault.png in Resources */,
 				A1E4923E18FDBBF700E400F7 /* SlarkAudio.mp3 in Resources */,
+				A1D86A51191575E9009A1F66 /* magic_stick.png in Resources */,
 				A1ED4418190858B300748BEB /* Tusk_2_Snowball.png in Resources */,
 				A1ED44051908569900748BEB /* Tiny_1_Avalanche.png in Resources */,
+				A1D86AC819158190009A1F66 /* assault cuirass.png in Resources */,
 				A1A33FE91901A2C4004698C8 /* Life_Stealer_1_Rage.png in Resources */,
+				A1D86A5C191575E9009A1F66 /* sentry ward.png in Resources */,
 				A1E4923418FDBBF700E400F7 /* Phantom_LancerAudio.mp3 in Resources */,
 				A1A12B6B18FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png in Resources */,
+				A1D86A52191575E9009A1F66 /* mantle.png in Resources */,
 				A1A33F99190195F5004698C8 /* Doom_Bringer_2_Scorched_Earth.png in Resources */,
+				A1D86AFF19158190009A1F66 /* soul booster.png in Resources */,
+				A1D86AD719158190009A1F66 /* ethereal blade.png in Resources */,
+				A1D86A7719158181009A1F66 /* mystic staff.png in Resources */,
 				A1E4923618FDBBF700E400F7 /* PugnaAudio.mp3 in Resources */,
 				A19065EA19095E8D00C3E808 /* Bloodseeker_3_Thirst.png in Resources */,
 				A18D0A9B18FAD1580069BF96 /* PudgeAudio.mp3 in Resources */,
@@ -2215,6 +2694,8 @@
 				A1810A3818F9F059001DD38D /* Luna.png in Resources */,
 				A1810A4D18F9F059001DD38D /* Weaver.png in Resources */,
 				A1810A3518F9F059001DD38D /* Gyrocopter.png in Resources */,
+				A1D86A62191575E9009A1F66 /* stout shield.png in Resources */,
+				A1D86A50191575E9009A1F66 /* lifesteal.png in Resources */,
 				A18109EA18F99DA7001DD38D /* Bristleback.png in Resources */,
 				A1A33FC319019B33004698C8 /* Elder_Titan_5_Earth_Splitter.png in Resources */,
 				A1ED43CD19084E5400748BEB /* Sandking_1_Burrowstrike.png in Resources */,
@@ -2223,16 +2704,25 @@
 				A1810A0818F99DA7001DD38D /* Wisp.png in Resources */,
 				A18109F418F99DA7001DD38D /* Legion_Commander.png in Resources */,
 				A1810A0618F99DA7001DD38D /* Tusk.png in Resources */,
+				A1D86AD219158190009A1F66 /* dagon.png in Resources */,
+				A1D86A4E191575E9009A1F66 /* helm of iron vwill.png in Resources */,
+				A1D86AD119158190009A1F66 /* daedalus.png in Resources */,
 				A1ED440E190857A600748BEB /* Treant_1_Natures_Guise.png in Resources */,
 				A1A33F7419018CF9004698C8 /* Brewmaster_1_Thunder_Clap.png in Resources */,
+				A1D86A57191575E9009A1F66 /* quarterstaff.png in Resources */,
+				A1D86B0819158190009A1F66 /* yasha.png in Resources */,
 				A19066231909669900C3E808 /* Faceless_Void_4_Chronosphere.png in Resources */,
+				A1D86A3C191575E9009A1F66 /* boots of elves.png in Resources */,
 				A1E4923918FDBBF700E400F7 /* RubickAudio.mp3 in Resources */,
+				A1D86AE119158190009A1F66 /* Linken's sphere.png in Resources */,
 				A1E4922D18FDBBF700E400F7 /* Naga_SirenAudio.mp3 in Resources */,
 				A1810A8918F9F061001DD38D /* Puck.png in Resources */,
 				A1A33FCC19019CBF004698C8 /* Huskar_4_Life_Break.png in Resources */,
 				A1E4923718FDBBF700E400F7 /* Queen_of_PainAudio.mp3 in Resources */,
 				A18D0A9718FAD1580069BF96 /* MagnataurAudio.mp3 in Resources */,
+				A1D86AF219158190009A1F66 /* power treads.png in Resources */,
 				A1A33FCA19019CBF004698C8 /* Huskar_2_Burning_Spear.png in Resources */,
+				A1D86ADC19158190009A1F66 /* headdress.png in Resources */,
 				A18109F818F99DA7001DD38D /* Night_Stalker.png in Resources */,
 				A1E4921518FDBBF700E400F7 /* DazzleAudio.mp3 in Resources */,
 				A1A33FCB19019CBF004698C8 /* Huskar_3_Berserkers_Blood.png in Resources */,
@@ -2242,10 +2732,15 @@
 				A1E4924F18FDBBF700E400F7 /* ZeusAudio.mp3 in Resources */,
 				A1E4922A18FDBBF700E400F7 /* MeepoAudio.mp3 in Resources */,
 				A1E4924E18FDBBF700E400F7 /* Witch_DoctorAudio.mp3 in Resources */,
+				A1D86A61191575E9009A1F66 /* staff of wizardry.png in Resources */,
 				A1ED4411190857A600748BEB /* Treant_4_Overgrowth.png in Resources */,
 				A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A1E4922918FDBBF700E400F7 /* MedusaAudio.mp3 in Resources */,
+				A1D86A60191575E9009A1F66 /* sobi mask.png in Resources */,
+				A1D86A55191575E9009A1F66 /* ogre axe.png in Resources */,
 				A1A33FED1901A2C4004698C8 /* Life_Stealer_5_Consume.png in Resources */,
+				A1D86B0619158190009A1F66 /* vladmir's offering.png in Resources */,
+				A1D86AE219158190009A1F66 /* maelstrom.png in Resources */,
 				A1A33FB5190199AE004698C8 /* Earthshaker_1_Fissure.png in Resources */,
 				A19066221909669900C3E808 /* Faceless_Void_3_Time_Lock.png in Resources */,
 				A18D0A6918FA4E850069BF96 /* AlchemistAudio.mp3 in Resources */,
@@ -2256,8 +2751,13 @@
 				A1E4921F18FDBBF700E400F7 /* InvokerAudio.mp3 in Resources */,
 				A1810A3318F9F059001DD38D /* Ember_Spirit.png in Resources */,
 				A1A12B8418FCC3E8002F5702 /* Skywrath_Mage.png in Resources */,
+				A1D86A7B19158181009A1F66 /* ring of health.png in Resources */,
 				A1A12B6C18FC5CB0002F5702 /* Abaddon_2_Aphotic_Shield.png in Resources */,
+				A1D86AEF19158190009A1F66 /* phase boots.png in Resources */,
 				A1ED43D819084F8900748BEB /* Slardar_3_Bash.png in Resources */,
+				A1D86A49191575E9009A1F66 /* flying courier.png in Resources */,
+				A1D86AE719158190009A1F66 /* mekansm.png in Resources */,
+				A1D86A5D191575E9009A1F66 /* shadow amulet.png in Resources */,
 				A1ED43BC19084BBC00748BEB /* Pudge_2_Rot.png in Resources */,
 				A1A12B6D18FC5CB0002F5702 /* Abaddon_3_Frostmourne.png in Resources */,
 				A19065E819095E8D00C3E808 /* Bloodseeker_1_Bloodrage.png in Resources */,
@@ -2268,7 +2768,10 @@
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A19065F119095FA100C3E808 /* Bounty_Hunter_1_Shuriken_Toss.png in Resources */,
 				A1E4920B18FDBBF700E400F7 /* AntimageAudio.mp3 in Resources */,
+				A1D86A4D191575E9009A1F66 /* gloves.png in Resources */,
+				A1D86A7A19158181009A1F66 /* reaver.png in Resources */,
 				A1CA12FB18FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png in Resources */,
+				A1D86A5F191575E9009A1F66 /* smoke of deceit.png in Resources */,
 				A1A33FEB1901A2C4004698C8 /* Life_Stealer_3_Open_Wounds.png in Resources */,
 				A1810A4718F9F059001DD38D /* Terrorblade.png in Resources */,
 				A139C26419096B73000F5164 /* Drow_Ranger_2_Gust.png in Resources */,
@@ -2277,22 +2780,28 @@
 				A1A12B8318FCC3E8002F5702 /* Queen_of_Pain.png in Resources */,
 				A1A33F8019018F1F004698C8 /* Bristleback_4_Warpath.png in Resources */,
 				A1E4925718FDBE0A00E400F7 /* Alchemist_2_Unstable_Concoction.png in Resources */,
+				A1D86A38191575E9009A1F66 /* belt of strength.png in Resources */,
 				A1A33FA319019719004698C8 /* Dragon_Knight_3_Dragon_Blood.png in Resources */,
 				A1810A4818F9F059001DD38D /* Troll_Warlord.png in Resources */,
 				A1ED4417190858B300748BEB /* Tusk_1_Ice_Shards.png in Resources */,
 				A1CA12F918FDD1A400120EC0 /* Beastmaster_1_Wild_Axes.png in Resources */,
 				A1810A7718F9F061001DD38D /* Crystal_Maiden.png in Resources */,
+				A1D86AEA19158190009A1F66 /* necronomicon.png in Resources */,
 				A1810A8818F9F061001DD38D /* Ogre_Magi.png in Resources */,
+				A1D86ADA19158190009A1F66 /* force staff.png in Resources */,
 				A1810A7D18F9F061001DD38D /* Enigma.png in Resources */,
 				A1A33FD919019F23004698C8 /* Kunkka_5_X_Marks_Return.png in Resources */,
+				A1D86B0319158190009A1F66 /* urn of shadows.png in Resources */,
 				A1ED43E81908525A00748BEB /* Sven_1_Storm_Bolt.png in Resources */,
 				A1A33FFE19022560004698C8 /* Magnataur_3_Skewer.png in Resources */,
 				A18D0A6E18FA4E850069BF96 /* CentaurAudio.mp3 in Resources */,
 				A1E4921618FDBBF700E400F7 /* Death_ProphetAudio.mp3 in Resources */,
 				A1810A7418F9F061001DD38D /* Bane.png in Resources */,
+				A1D86A3B191575E9009A1F66 /* blink dagger.png in Resources */,
 				A1810A7F18F9F061001DD38D /* Invoker.png in Resources */,
 				A1ED43FD1908550200748BEB /* Timbersaw_3_Reactive_Armor.png in Resources */,
 				A1E4924B18FDBBF700E400F7 /* WarlockAudio.mp3 in Resources */,
+				A1D86B0719158190009A1F66 /* wraith band.png in Resources */,
 				A1ED43E01908512D00748BEB /* Spirit_Breaker_2_Empowering_Haste.png in Resources */,
 				A18109F118F99DA7001DD38D /* Elder_Titan.png in Resources */,
 				A19066171909654400C3E808 /* Ember_Spirit_2_Sleight_of_Fist.png in Resources */,
@@ -2301,11 +2810,14 @@
 				A19065EB19095E8D00C3E808 /* Bloodseeker_4_Rupture.png in Resources */,
 				A1A33F7D19018F1F004698C8 /* Bristleback_1_Viscous_Nasal_Goo.png in Resources */,
 				A1ED43DF1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png in Resources */,
+				A1D86AC519158190009A1F66 /* aghanim's scepter.png in Resources */,
+				A1D86A5B191575E9009A1F66 /* robe.png in Resources */,
 				A1ED43E91908525A00748BEB /* Sven_2_Great_Cleave.png in Resources */,
 				A1810A9518F9F061001DD38D /* Windrunner.png in Resources */,
 				A1ED43E11908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png in Resources */,
 				A1810A4418F9F059001DD38D /* Sniper.png in Resources */,
 				A19066191909654400C3E808 /* Ember_Spirit_4_Activate_Fire_Remnant.png in Resources */,
+				A1D86AE319158190009A1F66 /* magic wand.png in Resources */,
 				A1E4921218FDBBF700E400F7 /* ClinkzAudio.mp3 in Resources */,
 				A1810A3218F9F059001DD38D /* Drow_Ranger.png in Resources */,
 				A1E4921B18FDBBF700E400F7 /* EnigmaAudio.mp3 in Resources */,
@@ -2313,13 +2825,16 @@
 				A1810A7C18F9F061001DD38D /* Enchantress.png in Resources */,
 				A139C26619096B73000F5164 /* Drow_Ranger_4_Marksmanship.png in Resources */,
 				A1ED4423190859B700748BEB /* Undying_4_Flesh_Golem.png in Resources */,
+				A1D86A63191575E9009A1F66 /* talisman of evasion.png in Resources */,
 				A1ED43D019084E5400748BEB /* Sandking_4_Epicenter.png in Resources */,
+				A1D86AD819158190009A1F66 /* eul's scepter of divinity.png in Resources */,
 				A18D0A9818FAD1580069BF96 /* Night_StalkerAudio.mp3 in Resources */,
 				A18D0AA218FAD1580069BF96 /* SvenAudio.mp3 in Resources */,
 				A1906606190962A100C3E808 /* Clinkz_4_Death_Pact.png in Resources */,
 				A1A33FFC19022560004698C8 /* Magnataur_1_Shockwave.png in Resources */,
 				A19066291909679000C3E808 /* Gyrocopter_1_Rocket_Barrage.png in Resources */,
 				A19066201909669900C3E808 /* Faceless_Void_1_Time_Walk.png in Resources */,
+				A1D86AE619158190009A1F66 /* medallion of courage.png in Resources */,
 				A18D0A6B18FA4E850069BF96 /* BeastmasterAudio.mp3 in Resources */,
 				A1ED43C519084CFB00748BEB /* Rattletrap_2_Power_Cogs.png in Resources */,
 				A1E4924D18FDBBF700E400F7 /* WindrunnerAudio.mp3 in Resources */,
@@ -2330,11 +2845,14 @@
 				A1E4921918FDBBF700E400F7 /* Ember_SpiritAudio.mp3 in Resources */,
 				A1A33FE01901A144004698C8 /* Legion_Commander_2_Press_the_Attack.png in Resources */,
 				A1E4923018FDBBF700E400F7 /* Nyx_AssassinAudio.mp3 in Resources */,
+				A1D86A7D19158181009A1F66 /* vitality booster.png in Resources */,
+				A1D86A3E191575E9009A1F66 /* bottle.png in Resources */,
 				A1ED43BB19084BBC00748BEB /* Pudge_1_Meat_Hook.png in Resources */,
 				A18D0A9018FAD1580069BF96 /* Earth_SpiritAudio.mp3 in Resources */,
 				A1E4921718FDBBF700E400F7 /* DisruptorAudio.mp3 in Resources */,
 				A1810A8E18F9F061001DD38D /* Shadow_Shaman.png in Resources */,
 				A18D0AA118FAD1580069BF96 /* Spirit_BreakerAudio.mp3 in Resources */,
+				A1D86A7319158181009A1F66 /* demon edge.png in Resources */,
 				A1A33FF519021E60004698C8 /* Lycan_3_Feral_Impulse.png in Resources */,
 				A1E4922E18FDBBF700E400F7 /* NecrolyteAudio.mp3 in Resources */,
 				A1ED44421908B06A00748BEB /* Antimage_2_Blink.png in Resources */,
@@ -2343,6 +2861,8 @@
 				A1E4924118FDBBF700E400F7 /* Storm_SpiritAudio.mp3 in Resources */,
 				A1810A2E18F9F059001DD38D /* Bloodseeker.png in Resources */,
 				A1E4920D18FDBBF700E400F7 /* BatriderAudio.mp3 in Resources */,
+				A1D86A40191575E9009A1F66 /* broadsword.png in Resources */,
+				A1D86AEB19158190009A1F66 /* null talisman.png in Resources */,
 				A1E4922418FDBBF700E400F7 /* LichAudio.mp3 in Resources */,
 				A1E491C118FD779F00E400F7 /* Magnus.png in Resources */,
 				A1810A8A18F9F061001DD38D /* Pugna.png in Resources */,
@@ -2351,23 +2871,35 @@
 				A1A3402019022977004698C8 /* Phoenix_6_Icarus_Dive_Stop.png in Resources */,
 				A1E4921C18FDBBF700E400F7 /* Faceless_VoidAudio.mp3 in Resources */,
 				A18109FB18F99DA7001DD38D /* Pudge.png in Resources */,
+				A1D86ADB19158190009A1F66 /* hand of midas.png in Resources */,
 				A1810A7B18F9F061001DD38D /* Disruptor.png in Resources */,
 				A1ED43EB1908525A00748BEB /* Sven_4_Gods_Strength.png in Resources */,
 				A1E4923318FDBBF700E400F7 /* Phantom_AssassinAudio.mp3 in Resources */,
 				A18D0A9218FAD1580069BF96 /* HuskarAudio.mp3 in Resources */,
 				A19065FA1909615300C3E808 /* Broodmother_1_Spawn_Spiderlings.png in Resources */,
+				A1D86A4F191575E9009A1F66 /* javelin.png in Resources */,
 				A1ED440F190857A600748BEB /* Treant_2_Leech_Seed.png in Resources */,
+				A1D86AD519158190009A1F66 /* divine rapier.png in Resources */,
 				A1A33FC019019B33004698C8 /* Elder_Titan_2_Ancestral_Spirit.png in Resources */,
+				A1D86A64191575E9009A1F66 /* tango.png in Resources */,
+				A1D86A7519158181009A1F66 /* energy booster.png in Resources */,
 				A1E4923A18FDBBF700E400F7 /* Shadow_DemonAudio.mp3 in Resources */,
+				A1D86A53191575E9009A1F66 /* mithril hammer.png in Resources */,
+				A1D86AF619158190009A1F66 /* ring of basilius.png in Resources */,
 				A1A33F7519018CF9004698C8 /* Brewmaster_2_Drunken_Haze.png in Resources */,
 				A19065F419095FA100C3E808 /* Bounty_Hunter_4_Track.png in Resources */,
 				A1ED4421190859B700748BEB /* Undying_2_Soul_Rip.png in Resources */,
+				A1D86AF819158190009A1F66 /* sange and yasha.png in Resources */,
+				A1D86ADE19158190009A1F66 /* heaven's halberd.png in Resources */,
 				A1810A0418F99DA7001DD38D /* Tiny.png in Resources */,
 				A1CA12FC18FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png in Resources */,
 				A1E4922218FDBBF700E400F7 /* Keeper_of_the_LightAudio.mp3 in Resources */,
+				A1D86A56191575E9009A1F66 /* platemail.png in Resources */,
 				A1810A4C18F9F059001DD38D /* Viper.png in Resources */,
 				A1810A7318F9F061001DD38D /* Ancient_Apparition.png in Resources */,
+				A1D86AE019158190009A1F66 /* hood of defiance.png in Resources */,
 				A1906605190962A100C3E808 /* Clinkz_3_Wind_Walk.png in Resources */,
+				A1D86ADF19158190009A1F66 /* helm of the dominator.png in Resources */,
 				A18109ED18F99DA7001DD38D /* Doom_Bringer.png in Resources */,
 				A1810A3C18F9F059001DD38D /* Morphling.png in Resources */,
 				A18109E818F99DA7001DD38D /* Beastmaster.png in Resources */,
