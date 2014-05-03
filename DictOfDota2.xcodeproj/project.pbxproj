@@ -293,6 +293,10 @@
 		A1CA12FB18FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F618FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png */; };
 		A1CA12FC18FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F718FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png */; };
 		A1CA12FD18FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA12F818FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png */; };
+		A1D869FC191562AA009A1F66 /* ItemNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D869FB191562AA009A1F66 /* ItemNavigationViewController.m */; };
+		A1D869FF191562D5009A1F66 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D869FE191562D5009A1F66 /* ItemCell.m */; };
+		A1D86A0219156314009A1F66 /* ItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D86A0119156314009A1F66 /* ItemCategory.m */; };
+		A1D86A051915706F009A1F66 /* clarity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A041915706F009A1F66 /* clarity.png */; };
 		A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491BE18FD772200E400F7 /* Timbersaw.png */; };
 		A1E491C118FD779F00E400F7 /* Magnus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C018FD779F00E400F7 /* Magnus.png */; };
 		A1E491C318FD780600E400F7 /* Wraith_King.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E491C218FD780600E400F7 /* Wraith_King.png */; };
@@ -748,6 +752,13 @@
 		A1CA12F618FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_3_Call_of_the_Wild_Boar.png; sourceTree = "<group>"; };
 		A1CA12F718FDD1A400120EC0 /* Beastmaster_4_Inner_Beast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_4_Inner_Beast.png; sourceTree = "<group>"; };
 		A1CA12F818FDD1A400120EC0 /* Beastmaster_5_Primal_Roar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beastmaster_5_Primal_Roar.png; sourceTree = "<group>"; };
+		A1D869FA191562AA009A1F66 /* ItemNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNavigationViewController.h; sourceTree = "<group>"; };
+		A1D869FB191562AA009A1F66 /* ItemNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNavigationViewController.m; sourceTree = "<group>"; };
+		A1D869FD191562D5009A1F66 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		A1D869FE191562D5009A1F66 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		A1D86A0019156314009A1F66 /* ItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCategory.h; sourceTree = "<group>"; };
+		A1D86A0119156314009A1F66 /* ItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCategory.m; sourceTree = "<group>"; };
+		A1D86A041915706F009A1F66 /* clarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clarity.png; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
 		A1E491C218FD780600E400F7 /* Wraith_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King.png; sourceTree = "<group>"; };
@@ -974,8 +985,14 @@
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
 				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
 				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
+				A1D869FA191562AA009A1F66 /* ItemNavigationViewController.h */,
+				A1D869FB191562AA009A1F66 /* ItemNavigationViewController.m */,
+				A1D869FD191562D5009A1F66 /* ItemCell.h */,
+				A1D869FE191562D5009A1F66 /* ItemCell.m */,
 				A1A12B7A18FCADDC002F5702 /* MainNavigationViewController.h */,
 				A1A12B7B18FCADDC002F5702 /* MainNavigationViewController.m */,
+				A1D86A0019156314009A1F66 /* ItemCategory.h */,
+				A1D86A0119156314009A1F66 /* ItemCategory.m */,
 				A18109BB18F9986A001DD38D /* HeroCategory.h */,
 				A1810A9818F9F71F001DD38D /* HeroInfoViewController.h */,
 				A1810A9918F9F71F001DD38D /* HeroInfoViewController.m */,
@@ -1023,6 +1040,7 @@
 		A18109BE18F99D89001DD38D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A1D86A0319157064009A1F66 /* item */,
 				A1A12B6F18FCA54F002F5702 /* icon */,
 				A1A12B6518FC5C9B002F5702 /* ability */,
 				A18D0A5618FA48940069BF96 /* utility */,
@@ -1666,6 +1684,14 @@
 			name = Beastmaster;
 			sourceTree = "<group>";
 		};
+		A1D86A0319157064009A1F66 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				A1D86A041915706F009A1F66 /* clarity.png */,
+			);
+			name = item;
+			sourceTree = "<group>";
+		};
 		A1E4925018FDBDF900E400F7 /* Alchemist */ = {
 			isa = PBXGroup;
 			children = (
@@ -2148,6 +2174,7 @@
 				A18D0A9318FAD1580069BF96 /* KunkkaAudio.mp3 in Resources */,
 				A1A33F9219019468004698C8 /* Chaos_Knight_4_Phantasm.png in Resources */,
 				A1810A7E18F9F061001DD38D /* Furion.png in Resources */,
+				A1D86A051915706F009A1F66 /* clarity.png in Resources */,
 				A1E4924518FDBBF700E400F7 /* Troll_WarlordAudio.mp3 in Resources */,
 				A1ED44441908B06A00748BEB /* Antimage_4_Mana_Void.png in Resources */,
 				A1810A4218F9F059001DD38D /* Razor.png in Resources */,
@@ -2365,7 +2392,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D869FF191562D5009A1F66 /* ItemCell.m in Sources */,
+				A1D86A0219156314009A1F66 /* ItemCategory.m in Sources */,
 				A1810A9A18F9F71F001DD38D /* HeroInfoViewController.m in Sources */,
+				A1D869FC191562AA009A1F66 /* ItemNavigationViewController.m in Sources */,
 				A17BF72018F4C2440006D2E7 /* AppDelegate.m in Sources */,
 				A17BF71C18F4C2440006D2E7 /* main.m in Sources */,
 				A18109B718F9930F001DD38D /* HeroNavigationViewController.m in Sources */,
