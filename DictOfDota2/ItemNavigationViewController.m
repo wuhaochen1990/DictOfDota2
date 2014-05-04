@@ -15,6 +15,12 @@
     NSArray *basicsItem;
     NSArray *upgradesItem;
     NSArray *secretItem;
+    NSDictionary *basicsItemChinese;
+    NSDictionary *upgradesItemChinese;
+    NSDictionary *secretItemChinese;
+    
+    
+    
 }
 
 @end
@@ -61,7 +67,7 @@
                   @"helm of iron vwill",
                   @"javelin",
                   @"lifesteal",
-                  @"magic_stick",
+                  @"magic stick",
                   @"mantle",
                   @"mithril hammer",
                   @"observer ward",
@@ -166,8 +172,142 @@
                   @"sacred relic",
                   @"vitality booster",
                   @"void stone",nil];
+    //set the chinese name of the items
+    basicsItemChinese = @{
+        @"belt of strength": [NSString stringWithFormat:@"力量腰带"],
+        @"blade of alacrity": [NSString stringWithFormat:@"欢欣之刃"],
+        @"blades of attack": [NSString stringWithFormat:@""],
+        @"blink dagger": [NSString stringWithFormat:@""],
+        @"boots of elves": [NSString stringWithFormat:@"闪烁匕首"],
+        @"boots": [NSString stringWithFormat:@"速度之靴"],
+        @"bottle": [NSString stringWithFormat:@"魔瓶"],
+        @"branches": [NSString stringWithFormat:@"铁树枝干"],
+        @"broadsword": [NSString stringWithFormat:@"阔剑"],
+        @"chainmail": [NSString stringWithFormat:@"锁子甲"],
+        @"circlet": [NSString stringWithFormat:@"圆环"],
+        @"clarity": [NSString stringWithFormat:@"净化药水"],
+        @"claymore": [NSString stringWithFormat:@""],
+        @"cloak": [NSString stringWithFormat:@"抗魔斗篷"],
+        @"courier": [NSString stringWithFormat:@"动物信使"],
+        @"dust": [NSString stringWithFormat:@"显影之尘"],
+        @"flask": [NSString stringWithFormat:@""],
+        @"flying courier": [NSString stringWithFormat:@"飞行信使"],
+        @"gauntlets": [NSString stringWithFormat:@""],
+        @"gem": [NSString stringWithFormat:@"真视宝石"],
+        @"ghost": [NSString stringWithFormat:@"幽魂权杖"],
+        @"gloves": [NSString stringWithFormat:@"加速手套"],
+        @"helm of iron vwill": [NSString stringWithFormat:@"铁意头盔"],
+        @"javelin": [NSString stringWithFormat:@""],
+        @"lifesteal": [NSString stringWithFormat:@"吸血面具"],
+        @"magic stick": [NSString stringWithFormat:@"魔棒"],
+        @"mantle": [NSString stringWithFormat:@""],
+        @"mithril hammer": [NSString stringWithFormat:@"秘银锤"],
+        @"observer ward": [NSString stringWithFormat:@"侦查守卫"],
+        @"ogre axe": [NSString stringWithFormat:@"食人魔之斧"],
+        @"platemail": [NSString stringWithFormat:@"板甲"],
+        @"quarterstaff": [NSString stringWithFormat:@""],
+        @"quelling blade": [NSString stringWithFormat:@"压制之刃"],
+        @"ring of protection": [NSString stringWithFormat:@"守护指环"],
+        @"ring of regen": [NSString stringWithFormat:@""],
+        @"robe": [NSString stringWithFormat:@""],
+        @"sentry ward": [NSString stringWithFormat:@""],
+        @"shadow amulet": [NSString stringWithFormat:@""],
+        @"slippers": [NSString stringWithFormat:@""],
+        @"smoke of deceit": [NSString stringWithFormat:@""],
+        @"sobi mask": [NSString stringWithFormat:@""],
+        @"staff of wizardry": [NSString stringWithFormat:@""],
+        @"stout shield": [NSString stringWithFormat:@""],
+        @"talisman of evasion": [NSString stringWithFormat:@""],
+        @"tango": [NSString stringWithFormat:@"树之祭祀"],
+        @"tpscroll": [NSString stringWithFormat:@""],
+        @"ultimate orb": [NSString stringWithFormat:@""],
 
-
+    };
+    upgradesItemChinese = @{
+        @"abyssal blade": [NSString stringWithFormat:@""],
+        @"aghanim's scepter": [NSString stringWithFormat:@""],
+        @"arcane boots": [NSString stringWithFormat:@""],
+        @"armlet of mordiggian": [NSString stringWithFormat:@""],
+        @"assault cuirass": [NSString stringWithFormat:@""],
+        @"battle fury": [NSString stringWithFormat:@""],
+        @"black king bar": [NSString stringWithFormat:@""],
+        @"blade mail": [NSString stringWithFormat:@""],
+        @"bloodstone": [NSString stringWithFormat:@""],
+        @"bracer": [NSString stringWithFormat:@""],
+        @"buckler": [NSString stringWithFormat:@""],
+        @"butterfly": [NSString stringWithFormat:@""],
+        @"crystalys": [NSString stringWithFormat:@""],
+        @"daedalus": [NSString stringWithFormat:@""],
+        @"dagon": [NSString stringWithFormat:@""],
+        @"desolator": [NSString stringWithFormat:@""],
+        @"diffusal blade": [NSString stringWithFormat:@""],
+        @"divine rapier": [NSString stringWithFormat:@""],
+        @"drum of endurance": [NSString stringWithFormat:@""],
+        @"ethereal blade": [NSString stringWithFormat:@""],
+        @"eul's scepter of divinity": [NSString stringWithFormat:@""],
+        @"eye of Skadi": [NSString stringWithFormat:@""],
+        @"force staff": [NSString stringWithFormat:@""],
+        @"hand of midas": [NSString stringWithFormat:@""],
+        @"headdress": [NSString stringWithFormat:@""],
+        @"heart of Tarrasque": [NSString stringWithFormat:@""],
+        @"heaven's halberd": [NSString stringWithFormat:@""],
+        @"helm of the dominator": [NSString stringWithFormat:@""],
+        @"hood of defiance": [NSString stringWithFormat:@""],
+        @"Linken's sphere": [NSString stringWithFormat:@""],
+        @"maelstrom": [NSString stringWithFormat:@""],
+        @"magic wand": [NSString stringWithFormat:@""],
+        @"manta style": [NSString stringWithFormat:@""],
+        @"mask of madness": [NSString stringWithFormat:@""],
+        @"medallion of courage": [NSString stringWithFormat:@""],
+        @"mekansm": [NSString stringWithFormat:@""],
+        @"mjollnir": [NSString stringWithFormat:@""],
+        @"monkey king bar": [NSString stringWithFormat:@""],
+        @"necronomicon": [NSString stringWithFormat:@""],
+        @"null talisman": [NSString stringWithFormat:@""],
+        @"oblivion staff": [NSString stringWithFormat:@""],
+        @"orchid malevolence": [NSString stringWithFormat:@""],
+        @"perseverance": [NSString stringWithFormat:@""],
+        @"phase boots": [NSString stringWithFormat:@""],
+        @"pipe of insight": [NSString stringWithFormat:@""],
+        @"poor mans shield": [NSString stringWithFormat:@""],
+        @"power treads": [NSString stringWithFormat:@""],
+        @"radiance": [NSString stringWithFormat:@""],
+        @"refresher orb": [NSString stringWithFormat:@""],
+        @"ring of aquila": [NSString stringWithFormat:@""],
+        @"ring of basilius": [NSString stringWithFormat:@""],
+        @"rod of atos": [NSString stringWithFormat:@""],
+        @"sange and yasha": [NSString stringWithFormat:@""],
+        @"sange": [NSString stringWithFormat:@""],
+        @"satanic": [NSString stringWithFormat:@""],
+        @"scythe of vyse": [NSString stringWithFormat:@""],
+        @"shadow blade": [NSString stringWithFormat:@""],
+        @"shiva's guard": [NSString stringWithFormat:@""],
+        @"skull basher": [NSString stringWithFormat:@""],
+        @"soul booster": [NSString stringWithFormat:@""],
+        @"soul ring": [NSString stringWithFormat:@""],
+        @"tranquil boots": [NSString stringWithFormat:@""],
+        @"travel boots": [NSString stringWithFormat:@""],
+        @"urn of shadows": [NSString stringWithFormat:@""],
+        @"vanguard": [NSString stringWithFormat:@""],
+        @"veil of discord": [NSString stringWithFormat:@""],
+        @"vladmir's offering": [NSString stringWithFormat:@""],
+        @"wraith band": [NSString stringWithFormat:@""],
+        @"yasha": [NSString stringWithFormat:@""],
+    };
+    secretItemChinese = @{
+        @"demon edge": [NSString stringWithFormat:@""],
+        @"eaglesong": [NSString stringWithFormat:@""],
+        @"energy booster": [NSString stringWithFormat:@""],
+        @"hyperstone": [NSString stringWithFormat:@""],
+        @"mystic staff": [NSString stringWithFormat:@""],
+        @"orb of venom": [NSString stringWithFormat:@""],
+        @"point booster": [NSString stringWithFormat:@""],
+        @"reaver": [NSString stringWithFormat:@""],
+        @"ring of health": [NSString stringWithFormat:@""],
+        @"sacred relic": [NSString stringWithFormat:@""],
+        @"vitality booster": [NSString stringWithFormat:@""],
+        @"void stone": [NSString stringWithFormat:@""],
+    };
     
 }
 
@@ -231,6 +371,28 @@
     [item.layer setCornerRadius:4.0f];
     return item;
 }
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIAlertView *itemDescription;
+    switch (indexPath.section) {
+        case 0:
+            itemDescription = [[UIAlertView alloc]initWithTitle:@"hello" message:@"hello" delegate:nil cancelButtonTitle:@"Back" otherButtonTitles:nil, nil];
+            break;
+        case 1:
+            
+            break;
+        case 2:
+            
+            break;
+        default:
+            break;
+    }
+    [itemDescription show];
+}
+
+
+
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     ItemCategory *itemHeader = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"ItemHeader" forIndexPath:indexPath];

@@ -321,7 +321,7 @@
 		A1D86A4E191575E9009A1F66 /* helm of iron vwill.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */; };
 		A1D86A4F191575E9009A1F66 /* javelin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A20191575E9009A1F66 /* javelin.png */; };
 		A1D86A50191575E9009A1F66 /* lifesteal.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A21191575E9009A1F66 /* lifesteal.png */; };
-		A1D86A51191575E9009A1F66 /* magic_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A22191575E9009A1F66 /* magic_stick.png */; };
+		A1D86A51191575E9009A1F66 /* magic stick.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A22191575E9009A1F66 /* magic stick.png */; };
 		A1D86A52191575E9009A1F66 /* mantle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A23191575E9009A1F66 /* mantle.png */; };
 		A1D86A53191575E9009A1F66 /* mithril hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A24191575E9009A1F66 /* mithril hammer.png */; };
 		A1D86A54191575E9009A1F66 /* observer ward.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A25191575E9009A1F66 /* observer ward.png */; };
@@ -910,7 +910,7 @@
 		A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helm of iron vwill.png"; sourceTree = "<group>"; };
 		A1D86A20191575E9009A1F66 /* javelin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javelin.png; sourceTree = "<group>"; };
 		A1D86A21191575E9009A1F66 /* lifesteal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifesteal.png; sourceTree = "<group>"; };
-		A1D86A22191575E9009A1F66 /* magic_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_stick.png; sourceTree = "<group>"; };
+		A1D86A22191575E9009A1F66 /* magic stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic stick.png"; sourceTree = "<group>"; };
 		A1D86A23191575E9009A1F66 /* mantle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mantle.png; sourceTree = "<group>"; };
 		A1D86A24191575E9009A1F66 /* mithril hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mithril hammer.png"; sourceTree = "<group>"; };
 		A1D86A25191575E9009A1F66 /* observer ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "observer ward.png"; sourceTree = "<group>"; };
@@ -1976,7 +1976,7 @@
 				A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */,
 				A1D86A20191575E9009A1F66 /* javelin.png */,
 				A1D86A21191575E9009A1F66 /* lifesteal.png */,
-				A1D86A22191575E9009A1F66 /* magic_stick.png */,
+				A1D86A22191575E9009A1F66 /* magic stick.png */,
 				A1D86A23191575E9009A1F66 /* mantle.png */,
 				A1D86A24191575E9009A1F66 /* mithril hammer.png */,
 				A1D86A25191575E9009A1F66 /* observer ward.png */,
@@ -2673,7 +2673,7 @@
 				A190662C1909679000C3E808 /* Gyrocopter_4_Call_Down.png in Resources */,
 				A1ED43C419084CFB00748BEB /* Rattletrap_1_Battery_Assault.png in Resources */,
 				A1E4923E18FDBBF700E400F7 /* SlarkAudio.mp3 in Resources */,
-				A1D86A51191575E9009A1F66 /* magic_stick.png in Resources */,
+				A1D86A51191575E9009A1F66 /* magic stick.png in Resources */,
 				A1ED4418190858B300748BEB /* Tusk_2_Snowball.png in Resources */,
 				A1ED44051908569900748BEB /* Tiny_1_Avalanche.png in Resources */,
 				A1D86AC819158190009A1F66 /* assault cuirass.png in Resources */,
