@@ -300,8 +300,8 @@
 		A1D86A39191575E9009A1F66 /* blade of alacrity.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0A191575E9009A1F66 /* blade of alacrity.png */; };
 		A1D86A3A191575E9009A1F66 /* blades of attack.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0B191575E9009A1F66 /* blades of attack.png */; };
 		A1D86A3B191575E9009A1F66 /* blink dagger.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0C191575E9009A1F66 /* blink dagger.png */; };
-		A1D86A3C191575E9009A1F66 /* boots of elves.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0D191575E9009A1F66 /* boots of elves.png */; };
-		A1D86A3D191575E9009A1F66 /* boots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0E191575E9009A1F66 /* boots.png */; };
+		A1D86A3C191575E9009A1F66 /* band of elvenskin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0D191575E9009A1F66 /* band of elvenskin.png */; };
+		A1D86A3D191575E9009A1F66 /* boots of speed.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0E191575E9009A1F66 /* boots of speed.png */; };
 		A1D86A3E191575E9009A1F66 /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A0F191575E9009A1F66 /* bottle.png */; };
 		A1D86A3F191575E9009A1F66 /* branches.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A10191575E9009A1F66 /* branches.png */; };
 		A1D86A40191575E9009A1F66 /* broadsword.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A11191575E9009A1F66 /* broadsword.png */; };
@@ -312,17 +312,17 @@
 		A1D86A45191575E9009A1F66 /* cloak.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A16191575E9009A1F66 /* cloak.png */; };
 		A1D86A46191575E9009A1F66 /* courier.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A17191575E9009A1F66 /* courier.png */; };
 		A1D86A47191575E9009A1F66 /* dust.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A18191575E9009A1F66 /* dust.png */; };
-		A1D86A48191575E9009A1F66 /* flask.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A19191575E9009A1F66 /* flask.png */; };
+		A1D86A48191575E9009A1F66 /* healing salve.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A19191575E9009A1F66 /* healing salve.png */; };
 		A1D86A49191575E9009A1F66 /* flying courier.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1A191575E9009A1F66 /* flying courier.png */; };
-		A1D86A4A191575E9009A1F66 /* gauntlets.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1B191575E9009A1F66 /* gauntlets.png */; };
+		A1D86A4A191575E9009A1F66 /* gauntlets of strength.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1B191575E9009A1F66 /* gauntlets of strength.png */; };
 		A1D86A4B191575E9009A1F66 /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1C191575E9009A1F66 /* gem.png */; };
 		A1D86A4C191575E9009A1F66 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1D191575E9009A1F66 /* ghost.png */; };
-		A1D86A4D191575E9009A1F66 /* gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1E191575E9009A1F66 /* gloves.png */; };
+		A1D86A4D191575E9009A1F66 /* gloves of haste.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1E191575E9009A1F66 /* gloves of haste.png */; };
 		A1D86A4E191575E9009A1F66 /* helm of iron vwill.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */; };
 		A1D86A4F191575E9009A1F66 /* javelin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A20191575E9009A1F66 /* javelin.png */; };
 		A1D86A50191575E9009A1F66 /* lifesteal.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A21191575E9009A1F66 /* lifesteal.png */; };
 		A1D86A51191575E9009A1F66 /* magic stick.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A22191575E9009A1F66 /* magic stick.png */; };
-		A1D86A52191575E9009A1F66 /* mantle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A23191575E9009A1F66 /* mantle.png */; };
+		A1D86A52191575E9009A1F66 /* mantle of intelligence.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A23191575E9009A1F66 /* mantle of intelligence.png */; };
 		A1D86A53191575E9009A1F66 /* mithril hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A24191575E9009A1F66 /* mithril hammer.png */; };
 		A1D86A54191575E9009A1F66 /* observer ward.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A25191575E9009A1F66 /* observer ward.png */; };
 		A1D86A55191575E9009A1F66 /* ogre axe.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A26191575E9009A1F66 /* ogre axe.png */; };
@@ -331,12 +331,12 @@
 		A1D86A58191575E9009A1F66 /* quelling blade.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A29191575E9009A1F66 /* quelling blade.png */; };
 		A1D86A59191575E9009A1F66 /* ring of protection.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2A191575E9009A1F66 /* ring of protection.png */; };
 		A1D86A5A191575E9009A1F66 /* ring of regen.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2B191575E9009A1F66 /* ring of regen.png */; };
-		A1D86A5B191575E9009A1F66 /* robe.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2C191575E9009A1F66 /* robe.png */; };
+		A1D86A5B191575E9009A1F66 /* robe of magi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2C191575E9009A1F66 /* robe of magi.png */; };
 		A1D86A5C191575E9009A1F66 /* sentry ward.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2D191575E9009A1F66 /* sentry ward.png */; };
 		A1D86A5D191575E9009A1F66 /* shadow amulet.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2E191575E9009A1F66 /* shadow amulet.png */; };
-		A1D86A5E191575E9009A1F66 /* slippers.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2F191575E9009A1F66 /* slippers.png */; };
+		A1D86A5E191575E9009A1F66 /* slippers of agility.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A2F191575E9009A1F66 /* slippers of agility.png */; };
 		A1D86A5F191575E9009A1F66 /* smoke of deceit.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A30191575E9009A1F66 /* smoke of deceit.png */; };
-		A1D86A60191575E9009A1F66 /* sobi mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A31191575E9009A1F66 /* sobi mask.png */; };
+		A1D86A60191575E9009A1F66 /* sage's mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A31191575E9009A1F66 /* sage's mask.png */; };
 		A1D86A61191575E9009A1F66 /* staff of wizardry.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A32191575E9009A1F66 /* staff of wizardry.png */; };
 		A1D86A62191575E9009A1F66 /* stout shield.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A33191575E9009A1F66 /* stout shield.png */; };
 		A1D86A63191575E9009A1F66 /* talisman of evasion.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D86A34191575E9009A1F66 /* talisman of evasion.png */; };
@@ -889,8 +889,8 @@
 		A1D86A0A191575E9009A1F66 /* blade of alacrity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blade of alacrity.png"; sourceTree = "<group>"; };
 		A1D86A0B191575E9009A1F66 /* blades of attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blades of attack.png"; sourceTree = "<group>"; };
 		A1D86A0C191575E9009A1F66 /* blink dagger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink dagger.png"; sourceTree = "<group>"; };
-		A1D86A0D191575E9009A1F66 /* boots of elves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boots of elves.png"; sourceTree = "<group>"; };
-		A1D86A0E191575E9009A1F66 /* boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boots.png; sourceTree = "<group>"; };
+		A1D86A0D191575E9009A1F66 /* band of elvenskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "band of elvenskin.png"; sourceTree = "<group>"; };
+		A1D86A0E191575E9009A1F66 /* boots of speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boots of speed.png"; sourceTree = "<group>"; };
 		A1D86A0F191575E9009A1F66 /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
 		A1D86A10191575E9009A1F66 /* branches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branches.png; sourceTree = "<group>"; };
 		A1D86A11191575E9009A1F66 /* broadsword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broadsword.png; sourceTree = "<group>"; };
@@ -901,17 +901,17 @@
 		A1D86A16191575E9009A1F66 /* cloak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloak.png; sourceTree = "<group>"; };
 		A1D86A17191575E9009A1F66 /* courier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courier.png; sourceTree = "<group>"; };
 		A1D86A18191575E9009A1F66 /* dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust.png; sourceTree = "<group>"; };
-		A1D86A19191575E9009A1F66 /* flask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flask.png; sourceTree = "<group>"; };
+		A1D86A19191575E9009A1F66 /* healing salve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "healing salve.png"; sourceTree = "<group>"; };
 		A1D86A1A191575E9009A1F66 /* flying courier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flying courier.png"; sourceTree = "<group>"; };
-		A1D86A1B191575E9009A1F66 /* gauntlets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauntlets.png; sourceTree = "<group>"; };
+		A1D86A1B191575E9009A1F66 /* gauntlets of strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gauntlets of strength.png"; sourceTree = "<group>"; };
 		A1D86A1C191575E9009A1F66 /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem.png; sourceTree = "<group>"; };
 		A1D86A1D191575E9009A1F66 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
-		A1D86A1E191575E9009A1F66 /* gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloves.png; sourceTree = "<group>"; };
+		A1D86A1E191575E9009A1F66 /* gloves of haste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gloves of haste.png"; sourceTree = "<group>"; };
 		A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helm of iron vwill.png"; sourceTree = "<group>"; };
 		A1D86A20191575E9009A1F66 /* javelin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javelin.png; sourceTree = "<group>"; };
 		A1D86A21191575E9009A1F66 /* lifesteal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifesteal.png; sourceTree = "<group>"; };
 		A1D86A22191575E9009A1F66 /* magic stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic stick.png"; sourceTree = "<group>"; };
-		A1D86A23191575E9009A1F66 /* mantle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mantle.png; sourceTree = "<group>"; };
+		A1D86A23191575E9009A1F66 /* mantle of intelligence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mantle of intelligence.png"; sourceTree = "<group>"; };
 		A1D86A24191575E9009A1F66 /* mithril hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mithril hammer.png"; sourceTree = "<group>"; };
 		A1D86A25191575E9009A1F66 /* observer ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "observer ward.png"; sourceTree = "<group>"; };
 		A1D86A26191575E9009A1F66 /* ogre axe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ogre axe.png"; sourceTree = "<group>"; };
@@ -920,12 +920,12 @@
 		A1D86A29191575E9009A1F66 /* quelling blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quelling blade.png"; sourceTree = "<group>"; };
 		A1D86A2A191575E9009A1F66 /* ring of protection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of protection.png"; sourceTree = "<group>"; };
 		A1D86A2B191575E9009A1F66 /* ring of regen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring of regen.png"; sourceTree = "<group>"; };
-		A1D86A2C191575E9009A1F66 /* robe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robe.png; sourceTree = "<group>"; };
+		A1D86A2C191575E9009A1F66 /* robe of magi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robe of magi.png"; sourceTree = "<group>"; };
 		A1D86A2D191575E9009A1F66 /* sentry ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sentry ward.png"; sourceTree = "<group>"; };
 		A1D86A2E191575E9009A1F66 /* shadow amulet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow amulet.png"; sourceTree = "<group>"; };
-		A1D86A2F191575E9009A1F66 /* slippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slippers.png; sourceTree = "<group>"; };
+		A1D86A2F191575E9009A1F66 /* slippers of agility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slippers of agility.png"; sourceTree = "<group>"; };
 		A1D86A30191575E9009A1F66 /* smoke of deceit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smoke of deceit.png"; sourceTree = "<group>"; };
-		A1D86A31191575E9009A1F66 /* sobi mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sobi mask.png"; sourceTree = "<group>"; };
+		A1D86A31191575E9009A1F66 /* sage's mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sage's mask.png"; sourceTree = "<group>"; };
 		A1D86A32191575E9009A1F66 /* staff of wizardry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "staff of wizardry.png"; sourceTree = "<group>"; };
 		A1D86A33191575E9009A1F66 /* stout shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stout shield.png"; sourceTree = "<group>"; };
 		A1D86A34191575E9009A1F66 /* talisman of evasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talisman of evasion.png"; sourceTree = "<group>"; };
@@ -1955,8 +1955,8 @@
 				A1D86A0A191575E9009A1F66 /* blade of alacrity.png */,
 				A1D86A0B191575E9009A1F66 /* blades of attack.png */,
 				A1D86A0C191575E9009A1F66 /* blink dagger.png */,
-				A1D86A0D191575E9009A1F66 /* boots of elves.png */,
-				A1D86A0E191575E9009A1F66 /* boots.png */,
+				A1D86A0D191575E9009A1F66 /* band of elvenskin.png */,
+				A1D86A0E191575E9009A1F66 /* boots of speed.png */,
 				A1D86A0F191575E9009A1F66 /* bottle.png */,
 				A1D86A10191575E9009A1F66 /* branches.png */,
 				A1D86A11191575E9009A1F66 /* broadsword.png */,
@@ -1967,17 +1967,17 @@
 				A1D86A16191575E9009A1F66 /* cloak.png */,
 				A1D86A17191575E9009A1F66 /* courier.png */,
 				A1D86A18191575E9009A1F66 /* dust.png */,
-				A1D86A19191575E9009A1F66 /* flask.png */,
+				A1D86A19191575E9009A1F66 /* healing salve.png */,
 				A1D86A1A191575E9009A1F66 /* flying courier.png */,
-				A1D86A1B191575E9009A1F66 /* gauntlets.png */,
+				A1D86A1B191575E9009A1F66 /* gauntlets of strength.png */,
 				A1D86A1C191575E9009A1F66 /* gem.png */,
 				A1D86A1D191575E9009A1F66 /* ghost.png */,
-				A1D86A1E191575E9009A1F66 /* gloves.png */,
+				A1D86A1E191575E9009A1F66 /* gloves of haste.png */,
 				A1D86A1F191575E9009A1F66 /* helm of iron vwill.png */,
 				A1D86A20191575E9009A1F66 /* javelin.png */,
 				A1D86A21191575E9009A1F66 /* lifesteal.png */,
 				A1D86A22191575E9009A1F66 /* magic stick.png */,
-				A1D86A23191575E9009A1F66 /* mantle.png */,
+				A1D86A23191575E9009A1F66 /* mantle of intelligence.png */,
 				A1D86A24191575E9009A1F66 /* mithril hammer.png */,
 				A1D86A25191575E9009A1F66 /* observer ward.png */,
 				A1D86A26191575E9009A1F66 /* ogre axe.png */,
@@ -1986,12 +1986,12 @@
 				A1D86A29191575E9009A1F66 /* quelling blade.png */,
 				A1D86A2A191575E9009A1F66 /* ring of protection.png */,
 				A1D86A2B191575E9009A1F66 /* ring of regen.png */,
-				A1D86A2C191575E9009A1F66 /* robe.png */,
+				A1D86A2C191575E9009A1F66 /* robe of magi.png */,
 				A1D86A2D191575E9009A1F66 /* sentry ward.png */,
 				A1D86A2E191575E9009A1F66 /* shadow amulet.png */,
-				A1D86A2F191575E9009A1F66 /* slippers.png */,
+				A1D86A2F191575E9009A1F66 /* slippers of agility.png */,
 				A1D86A30191575E9009A1F66 /* smoke of deceit.png */,
-				A1D86A31191575E9009A1F66 /* sobi mask.png */,
+				A1D86A31191575E9009A1F66 /* sage's mask.png */,
 				A1D86A32191575E9009A1F66 /* staff of wizardry.png */,
 				A1D86A33191575E9009A1F66 /* stout shield.png */,
 				A1D86A34191575E9009A1F66 /* talisman of evasion.png */,
@@ -2400,7 +2400,7 @@
 				A1ED442F19085AF100748BEB /* Wisp_4_Overcharge.png in Resources */,
 				A1D86A4C191575E9009A1F66 /* ghost.png in Resources */,
 				A1E4923818FDBBF700E400F7 /* RazorAudio.mp3 in Resources */,
-				A1D86A5E191575E9009A1F66 /* slippers.png in Resources */,
+				A1D86A5E191575E9009A1F66 /* slippers of agility.png in Resources */,
 				A1D86A7819158181009A1F66 /* orb of venom.png in Resources */,
 				A1A3401C19022977004698C8 /* Phoenix_2_Fire_Spirits.png in Resources */,
 				A1E491BF18FD772200E400F7 /* Timbersaw.png in Resources */,
@@ -2415,7 +2415,7 @@
 				A1A34008190226CB004698C8 /* Night_Stalker_4_Darkness.png in Resources */,
 				A1D86AF919158190009A1F66 /* sange.png in Resources */,
 				A18D0AA818FAD1580069BF96 /* WispAudio.mp3 in Resources */,
-				A1D86A48191575E9009A1F66 /* flask.png in Resources */,
+				A1D86A48191575E9009A1F66 /* healing salve.png in Resources */,
 				A1810A9618F9F061001DD38D /* Witch_Doctor.png in Resources */,
 				A1A33FE21901A144004698C8 /* Legion_Commander_4_Duel.png in Resources */,
 				A1A33FEC1901A2C4004698C8 /* Life_Stealer_4_Infest.png in Resources */,
@@ -2467,7 +2467,7 @@
 				A1D86A7419158181009A1F66 /* eaglesong.png in Resources */,
 				A1ED44411908B06A00748BEB /* Antimage_1_Mana_Break.png in Resources */,
 				A1D86A3F191575E9009A1F66 /* branches.png in Resources */,
-				A1D86A3D191575E9009A1F66 /* boots.png in Resources */,
+				A1D86A3D191575E9009A1F66 /* boots of speed.png in Resources */,
 				A1D86A45191575E9009A1F66 /* cloak.png in Resources */,
 				A1A33F7619018CF9004698C8 /* Brewmaster_3_Drunken_Brawler.png in Resources */,
 				A1ED4410190857A600748BEB /* Treant_3_Living_Armor.png in Resources */,
@@ -2546,7 +2546,7 @@
 				A1D86AFD19158190009A1F66 /* shiva's guard.png in Resources */,
 				A1D86AD919158190009A1F66 /* eye of Skadi.png in Resources */,
 				A1E4923118FDBBF700E400F7 /* Obsidian_DestroyerAudio.mp3 in Resources */,
-				A1D86A4A191575E9009A1F66 /* gauntlets.png in Resources */,
+				A1D86A4A191575E9009A1F66 /* gauntlets of strength.png in Resources */,
 				A1810A9418F9F061001DD38D /* Warlock.png in Resources */,
 				A1D86AF119158190009A1F66 /* poor mans shield.png in Resources */,
 				A1D86B0219158190009A1F66 /* travel boots.png in Resources */,
@@ -2681,7 +2681,7 @@
 				A1D86A5C191575E9009A1F66 /* sentry ward.png in Resources */,
 				A1E4923418FDBBF700E400F7 /* Phantom_LancerAudio.mp3 in Resources */,
 				A1A12B6B18FC5CB0002F5702 /* Abaddon_1_Mist_Coil.png in Resources */,
-				A1D86A52191575E9009A1F66 /* mantle.png in Resources */,
+				A1D86A52191575E9009A1F66 /* mantle of intelligence.png in Resources */,
 				A1A33F99190195F5004698C8 /* Doom_Bringer_2_Scorched_Earth.png in Resources */,
 				A1D86AFF19158190009A1F66 /* soul booster.png in Resources */,
 				A1D86AD719158190009A1F66 /* ethereal blade.png in Resources */,
@@ -2712,7 +2712,7 @@
 				A1D86A57191575E9009A1F66 /* quarterstaff.png in Resources */,
 				A1D86B0819158190009A1F66 /* yasha.png in Resources */,
 				A19066231909669900C3E808 /* Faceless_Void_4_Chronosphere.png in Resources */,
-				A1D86A3C191575E9009A1F66 /* boots of elves.png in Resources */,
+				A1D86A3C191575E9009A1F66 /* band of elvenskin.png in Resources */,
 				A1E4923918FDBBF700E400F7 /* RubickAudio.mp3 in Resources */,
 				A1D86AE119158190009A1F66 /* Linken's sphere.png in Resources */,
 				A1E4922D18FDBBF700E400F7 /* Naga_SirenAudio.mp3 in Resources */,
@@ -2736,7 +2736,7 @@
 				A1ED4411190857A600748BEB /* Treant_4_Overgrowth.png in Resources */,
 				A18D0A8E18FAD1580069BF96 /* Doom_BringerAudio.mp3 in Resources */,
 				A1E4922918FDBBF700E400F7 /* MedusaAudio.mp3 in Resources */,
-				A1D86A60191575E9009A1F66 /* sobi mask.png in Resources */,
+				A1D86A60191575E9009A1F66 /* sage's mask.png in Resources */,
 				A1D86A55191575E9009A1F66 /* ogre axe.png in Resources */,
 				A1A33FED1901A2C4004698C8 /* Life_Stealer_5_Consume.png in Resources */,
 				A1D86B0619158190009A1F66 /* vladmir's offering.png in Resources */,
@@ -2768,7 +2768,7 @@
 				A18D0A9118FAD1580069BF96 /* Elder_TitanAudio.mp3 in Resources */,
 				A19065F119095FA100C3E808 /* Bounty_Hunter_1_Shuriken_Toss.png in Resources */,
 				A1E4920B18FDBBF700E400F7 /* AntimageAudio.mp3 in Resources */,
-				A1D86A4D191575E9009A1F66 /* gloves.png in Resources */,
+				A1D86A4D191575E9009A1F66 /* gloves of haste.png in Resources */,
 				A1D86A7A19158181009A1F66 /* reaver.png in Resources */,
 				A1CA12FB18FDD1A400120EC0 /* Beastmaster_3_Call_of_the_Wild_Boar.png in Resources */,
 				A1D86A5F191575E9009A1F66 /* smoke of deceit.png in Resources */,
@@ -2811,7 +2811,7 @@
 				A1A33F7D19018F1F004698C8 /* Bristleback_1_Viscous_Nasal_Goo.png in Resources */,
 				A1ED43DF1908512D00748BEB /* Spirit_Breaker_1_Charge_of_Darkness.png in Resources */,
 				A1D86AC519158190009A1F66 /* aghanim's scepter.png in Resources */,
-				A1D86A5B191575E9009A1F66 /* robe.png in Resources */,
+				A1D86A5B191575E9009A1F66 /* robe of magi.png in Resources */,
 				A1ED43E91908525A00748BEB /* Sven_2_Great_Cleave.png in Resources */,
 				A1810A9518F9F061001DD38D /* Windrunner.png in Resources */,
 				A1ED43E11908512D00748BEB /* Spirit_Breaker_3_Greater_Bash.png in Resources */,
