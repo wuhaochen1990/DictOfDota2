@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <iAd/iAd.h>
+
 
 @interface MainNavigationViewController : UIViewController
+- (IBAction)ProducerInfo:(id)sender;
 
 @end
