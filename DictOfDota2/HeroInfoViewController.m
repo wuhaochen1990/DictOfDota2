@@ -15,9 +15,11 @@
     NSString *audioname;
     NSDictionary *descriptionDict;
     NSDictionary *detailDict;
-    NSArray *abilityImage;
-    NSMutableArray *abilityName;
+    NSMutableArray *abilityImage;
+    NSArray *abilityName;
     NSDictionary *abilityDetail;
+    
+    NSDictionary *NameToAbilities;
     
 }
 
@@ -284,11 +286,13 @@ AVAudioPlayer *heroAudio;
                         };
     [[self HeroDetail]setText:detailDict[self.heroName]];
     //set the ability image
+    /*
     NSFileManager *fileManager;
     fileManager = [NSFileManager defaultManager];
     NSString *abilityPath = @"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/ability/";
     abilityImage = [fileManager contentsOfDirectoryAtPath:[abilityPath stringByAppendingString:self.heroName] error:nil];
     //set the ability name array
+    
     abilityName = [[NSMutableArray alloc]init];
     for (id s in abilityImage) {
         if ([s  isEqual: @".DS_Store"]) {
@@ -309,12 +313,34 @@ AVAudioPlayer *heroAudio;
         }
         [abilityName addObject:name];
     }
+    */
+    NameToAbilities = @{
+                        @"Abaddon": [[NSArray alloc]initWithObjects:@"Mist Coil",@"Aphotic Shield",@"Frostmourne",@"Borrowed Time", nil],
+                        @"Alchemist": [[NSArray alloc]initWithObjects:@"Acid Spray",@"Unstable Concoction",@"Greevil's Greed",@"Chemical Rage",@"Concoction Throw", nil],
+                        @"Axe": [[NSArray alloc]initWithObjects:@"Berserker's Call",@"Battle Hunger",@"Counter Helix",@"Culling Blade", nil],
+                        @"Beastmaster": [[NSArray alloc]initWithObjects:@"Wild Axes",@"Call of the Wild Hawk",@"Call of the Wild Boar",@"Inner Beast",@"Primal Roar", nil],
+                        @"Brewmaster": [[NSArray alloc]initWithObjects:@"Thunder Clap",@"Drunken Haze",@"Drunken Brawler",@"Primal Split", nil],
+                        @"Bristleback": [[NSArray alloc]initWithObjects:@"Viscous Nasal Goo",@"Quill Spray",@"Bristle Back",@"Warpath", nil],
+                        @"Centaur": [[NSArray alloc]initWithObjects:@"Hoof Edge",@"Double Edge",@"Return",@"Stampede", nil],
+                        @"Chaos_Knight": [[NSArray alloc]initWithObjects:@"Chaos Bolt",@"Reality Rift",@"Chaos Strike",@"Phantasm", nil],
+                        @"Doom_Bringer": [[NSArray alloc]initWithObjects:@"Devour",@"Scorched Earth",@"Lvl Death",@"Doom", nil],
+                        @"Dragon_Knight": [[NSArray alloc]initWithObjects:@"Breathe Fire",@"Dragon Tail",@"Dragon Blood",@"Elder Dragon", nil],
+                        
+                        
+                        
+                        };
+    abilityName = NameToAbilities[self.heroName];
+    abilityImage = [[NSMutableArray alloc]init];
+    for (id s in abilityName) {
+        [abilityImage addObject:[s stringByAppendingString:@".png"]];
+    }
+    
     //set the detail of ability
     abilityDetail = @{
                       @"Mist Coil": [NSString stringWithFormat:@"迷雾缠绕\nMist－薄雾 coil－盘绕"],
                       @"Aphotic Shield":[NSString stringWithFormat:@"无光之盾\naphotic－无光的 shield－盾"],
                       @"Frostmourne": [NSString stringWithFormat:@"魔霭诅咒\n没错，这就是霜之哀伤"],
-                      @"Borrowed time":[NSString stringWithFormat:@"回光返照\n借来的时间表示即将死亡了"],
+                      @"Borrowed Time":[NSString stringWithFormat:@"回光返照\n借来的时间表示即将死亡了"],
                       @"Acid Spray": [NSString stringWithFormat:@"酸性喷雾\nacid－酸 spray－喷射"],
                       @"Unstable Concoction": [NSString stringWithFormat:@"不稳定化合物\nunstable－不稳定 concoction－混合物"],
                       @"Greevil's Greed": [NSString stringWithFormat:@"贪魔的贪婪\ngreevil－贪魔 greed－贪婪"],

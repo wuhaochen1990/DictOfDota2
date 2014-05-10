@@ -13,6 +13,7 @@
 @interface HeroNavigationViewController ()
 {
     NSArray *strHeroImage;
+    NSArray *strHeroNameTemp;
     NSArray *agiHeroImage;
     NSArray *intHeroImage;
     
@@ -36,11 +37,120 @@
     [super viewDidLoad];
     //import hero image
     
-    NSFileManager *fileManager;
-    fileManager = [NSFileManager defaultManager];
-    strHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/strength" error:nil];
-    agiHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/agility" error:nil];
-    intHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/intelligence" error:nil];
+    //NSFileManager *fileManager;
+    //fileManager = [NSFileManager defaultManager];
+    //strHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/strength" error:nil];
+    strHeroImage = [[NSArray alloc]initWithObjects:
+                    @"Abaddon.png",
+                    @"Alchemist.png",
+                    @"Axe.png",
+                    @"Beastmaster.png",
+                    @"Brewmaster.png",
+                    @"Bristleback.png",
+                    @"Centaur.png",
+                    @"Chaos_Knight.png",
+                    @"Doom_Bringer.png",
+                    @"Dragon_Knight.png",
+                    @"Earth_Spirit.png",
+                    @"Earthshaker.png",
+                    @"Elder_Titan.png",
+                    @"Huskar.png",
+                    @"Kunkka.png",
+                    @"Legion_Commander.png",
+                    @"Life_Stealer.png",
+                    @"Lycan.png",
+                    @"Magnus.png",
+                    @"Night_Stalker.png",
+                    @"Omniknight.png",
+                    @"Phoenix.png",
+                    @"Pudge.png",
+                    @"Rattletrap.png",
+                    @"Sand_King.png",
+                    @"Slardar.png",
+                    @"Spirit_Breaker.png",
+                    @"Sven.png",
+                    @"Tidehunter.png",
+                    @"Timbersaw.png",
+                    @"Tiny.png",
+                    @"Treant.png",
+                    @"Tusk.png",
+                    @"Undying.png",
+                    @"Wisp.png",
+                    @"Wraith_King.png", nil];
+    //agiHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/agility" error:nil];
+    //intHeroImage = [fileManager contentsOfDirectoryAtPath:@"/Users/haochenwu/Dropbox/gwu 2nd semester/dota2/images/hero/intelligence" error:nil];
+    agiHeroImage = [[NSArray alloc]initWithObjects:
+                    @"Antimage.png",
+                    @"Bloodseeker.png",
+                    @"Bounty_Hunter.png",
+                    @"Broodmother.png",
+                    @"Clinkz.png",
+                    @"Drow_Ranger.png",
+                    @"Ember_Spirit.png",
+                    @"Faceless_Void.png",
+                    @"Gyrocopter.png",
+                    @"Juggernaut.png",
+                    @"Lone_Druid.png",
+                    @"Luna.png",
+                    @"Medusa.png",
+                    @"Meepo.png",
+                    @"Mirana.png",
+                    @"Morphling.png",
+                    @"Naga_Siren.png",
+                    @"Nevermore.png",
+                    @"Nyx_Assassin.png",
+                    @"Phantom_Assassin.png",
+                    @"Phantom_Lancer.png",
+                    @"Razor.png",
+                    @"Slark.png",
+                    @"Sniper.png",
+                    @"Spectre.png",
+                    @"Templar_Assassin.png",
+                    @"Terrorblade.png",
+                    @"Troll_Warlord.png",
+                    @"Ursa.png",
+                    @"Vengefulspirit.png",
+                    @"Venomancer.png",
+                    @"Viper.png",
+                    @"Weaver.png", nil];
+    intHeroImage = [[NSArray alloc]initWithObjects:
+                    @"Ancient_Apparition.png",
+                    @"Bane.png",
+                    @"Batrider.png",
+                    @"Chen.png",
+                    @"Crystal_Maiden.png",
+                    @"Dark_Seer.png",
+                    @"Dazzle.png",
+                    @"Death_Prophet.png",
+                    @"Disruptor.png",
+                    @"Enchantress.png",
+                    @"Enigma.png",
+                    @"Furion.png",
+                    @"Invoker.png",
+                    @"Jakiro.png",
+                    @"Keeper_of_the_Light.png",
+                    @"Leshrac.png",
+                    @"Lich.png",
+                    @"Lina.png",
+                    @"Lion.png",
+                    @"Necrolyte.png",
+                    @"Obsidian_Destroyer.png",
+                    @"Ogre_Magi.png",
+                    @"Puck.png",
+                    @"Pugna.png",
+                    @"Queen_of_Pain.png",
+                    @"Rubick.png",
+                    @"Shadow_Demon.png",
+                    @"Shadow_Shaman.png",
+                    @"Silencer.png",
+                    @"Skywrath_Mage.png",
+                    @"Storm_Spirit.png",
+                    @"Tinker.png",
+                    @"Visage.png",
+                    @"Warlock.png",
+                    @"Windrunner.png",
+                    @"Witch_Doctor.png",
+                    @"Zeus.png", nil];
 }
 //collection data set
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
