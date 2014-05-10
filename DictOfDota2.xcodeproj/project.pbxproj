@@ -1013,6 +1013,7 @@
 		A1D86AC119158190009A1F66 /* vladmir's offering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vladmir's offering.png"; sourceTree = "<group>"; };
 		A1D86AC219158190009A1F66 /* wraith band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wraith band.png"; sourceTree = "<group>"; };
 		A1D86AC319158190009A1F66 /* yasha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yasha.png; sourceTree = "<group>"; };
+		A1D86B0C191EB334009A1F66 /* ResponseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseTableViewController.h; sourceTree = "<group>"; };
 		A1E491BE18FD772200E400F7 /* Timbersaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timbersaw.png; sourceTree = "<group>"; };
 		A1E491C018FD779F00E400F7 /* Magnus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnus.png; sourceTree = "<group>"; };
 		A1E491C218FD780600E400F7 /* Wraith_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wraith_King.png; sourceTree = "<group>"; };
@@ -1239,6 +1240,7 @@
 				A17BF71F18F4C2440006D2E7 /* AppDelegate.m */,
 				A18109B518F9930F001DD38D /* HeroNavigationViewController.h */,
 				A18109B618F9930F001DD38D /* HeroNavigationViewController.m */,
+				A1D86B0C191EB334009A1F66 /* ResponseTableViewController.h */,
 				A1D869FA191562AA009A1F66 /* ItemNavigationViewController.h */,
 				A1D869FB191562AA009A1F66 /* ItemNavigationViewController.m */,
 				A1D869FD191562D5009A1F66 /* ItemCell.h */,

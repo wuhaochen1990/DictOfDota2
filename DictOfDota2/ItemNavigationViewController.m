@@ -17,10 +17,7 @@
     NSArray *secretItem;
     NSDictionary *basicsItemChinese;
     NSDictionary *upgradesItemChinese;
-    NSDictionary *secretItemChinese;
-    
-    
-    
+    NSDictionary *secretItemChinese;  
 }
 
 @end
